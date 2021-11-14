@@ -1,0 +1,367 @@
+﻿#include "il2cpp-config.h"
+
+#ifndef _MSC_VER
+# include <alloca.h>
+#else
+# include <malloc.h>
+#endif
+
+
+
+#include "codegen/il2cpp-codegen-metadata.h"
+
+
+
+
+
+IL2CPP_EXTERN_C_BEGIN
+IL2CPP_EXTERN_C_END
+
+
+
+
+// 0x00000001 Tilia.Locomotors.Teleporter.TeleporterFacade Tilia.Locomotors.Teleporter.TeleporterConfigurator::get_Facade()
+extern void TeleporterConfigurator_get_Facade_m5D1CBD57566282247016D85347CFC853658E94AF (void);
+// 0x00000002 System.Void Tilia.Locomotors.Teleporter.TeleporterConfigurator::set_Facade(Tilia.Locomotors.Teleporter.TeleporterFacade)
+extern void TeleporterConfigurator_set_Facade_mE613698972D328EFDE8135CCD1704FB07D0B795D (void);
+// 0x00000003 Zinnia.Tracking.SurfaceLocator Tilia.Locomotors.Teleporter.TeleporterConfigurator::get_SurfaceTeleporter()
+extern void TeleporterConfigurator_get_SurfaceTeleporter_m34EBC90A7304ACC069AD97B27C82265DF40706FE (void);
+// 0x00000004 System.Void Tilia.Locomotors.Teleporter.TeleporterConfigurator::set_SurfaceTeleporter(Zinnia.Tracking.SurfaceLocator)
+extern void TeleporterConfigurator_set_SurfaceTeleporter_mF3BE36E4ADF8560145D63184854394748D4DEFFF (void);
+// 0x00000005 Zinnia.Tracking.Modification.TransformPropertyApplier Tilia.Locomotors.Teleporter.TeleporterConfigurator::get_ModifyTeleporter()
+extern void TeleporterConfigurator_get_ModifyTeleporter_m0C2D3AD07F27D5BF9B7E78FF4587044A8A0E2FA2 (void);
+// 0x00000006 System.Void Tilia.Locomotors.Teleporter.TeleporterConfigurator::set_ModifyTeleporter(Zinnia.Tracking.Modification.TransformPropertyApplier)
+extern void TeleporterConfigurator_set_ModifyTeleporter_m64F2633E1F0A6127614D5838363840A98BF93413 (void);
+// 0x00000007 System.Collections.Generic.List`1<Zinnia.Tracking.SurfaceLocator> Tilia.Locomotors.Teleporter.TeleporterConfigurator::get_SurfaceLocatorAliases()
+extern void TeleporterConfigurator_get_SurfaceLocatorAliases_m586B6594EE2598B4CDF4336A236E7BD6ADA63B6C (void);
+// 0x00000008 System.Void Tilia.Locomotors.Teleporter.TeleporterConfigurator::set_SurfaceLocatorAliases(System.Collections.Generic.List`1<Zinnia.Tracking.SurfaceLocator>)
+extern void TeleporterConfigurator_set_SurfaceLocatorAliases_m44ECCDB39967BF45A83F5D78032106EB32509298 (void);
+// 0x00000009 System.Collections.Generic.List`1<Zinnia.Tracking.SurfaceLocator> Tilia.Locomotors.Teleporter.TeleporterConfigurator::get_SurfaceLocatorRules()
+extern void TeleporterConfigurator_get_SurfaceLocatorRules_m60335E069BAB1429F629C1FAF82272602373F310 (void);
+// 0x0000000A System.Void Tilia.Locomotors.Teleporter.TeleporterConfigurator::set_SurfaceLocatorRules(System.Collections.Generic.List`1<Zinnia.Tracking.SurfaceLocator>)
+extern void TeleporterConfigurator_set_SurfaceLocatorRules_mD1E1AD3FA0CDF13972605D9A81C1E606B3078D78 (void);
+// 0x0000000B System.Collections.Generic.List`1<Zinnia.Tracking.Modification.TransformPropertyApplier> Tilia.Locomotors.Teleporter.TeleporterConfigurator::get_TransformPropertyApplierAliases()
+extern void TeleporterConfigurator_get_TransformPropertyApplierAliases_mCC6E3A3ACA2543F798A4FDFFEACB0DA7AFDC75E1 (void);
+// 0x0000000C System.Void Tilia.Locomotors.Teleporter.TeleporterConfigurator::set_TransformPropertyApplierAliases(System.Collections.Generic.List`1<Zinnia.Tracking.Modification.TransformPropertyApplier>)
+extern void TeleporterConfigurator_set_TransformPropertyApplierAliases_m4F1B64133D319839FA1C963878C79AC5120F63B5 (void);
+// 0x0000000D System.Collections.Generic.List`1<Zinnia.Tracking.Modification.TransformPropertyApplier> Tilia.Locomotors.Teleporter.TeleporterConfigurator::get_TransformPropertyApplierIgnoreOffsetAliases()
+extern void TeleporterConfigurator_get_TransformPropertyApplierIgnoreOffsetAliases_m4D66BDA77DC02E82A4A46DDD3F5229EBE1A290E1 (void);
+// 0x0000000E System.Void Tilia.Locomotors.Teleporter.TeleporterConfigurator::set_TransformPropertyApplierIgnoreOffsetAliases(System.Collections.Generic.List`1<Zinnia.Tracking.Modification.TransformPropertyApplier>)
+extern void TeleporterConfigurator_set_TransformPropertyApplierIgnoreOffsetAliases_mD35695F4EEC0F5835D48EFAB16A52F6167D9E3BE (void);
+// 0x0000000F System.Collections.Generic.List`1<Zinnia.Visual.CameraColorOverlay> Tilia.Locomotors.Teleporter.TeleporterConfigurator::get_CameraColorOverlays()
+extern void TeleporterConfigurator_get_CameraColorOverlays_mE920FDF192ECC5E1F7174E0A90CF6D275BCE61A0 (void);
+// 0x00000010 System.Void Tilia.Locomotors.Teleporter.TeleporterConfigurator::set_CameraColorOverlays(System.Collections.Generic.List`1<Zinnia.Visual.CameraColorOverlay>)
+extern void TeleporterConfigurator_set_CameraColorOverlays_mDED5BEE2A53D4121EE777CE5A079872BA9B3632A (void);
+// 0x00000011 Zinnia.Action.SurfaceChangeAction Tilia.Locomotors.Teleporter.TeleporterConfigurator::get_SnapToFloorThresholdController()
+extern void TeleporterConfigurator_get_SnapToFloorThresholdController_m04352AAF07B25D56860A0837C52CFC44A7D747D8 (void);
+// 0x00000012 System.Void Tilia.Locomotors.Teleporter.TeleporterConfigurator::set_SnapToFloorThresholdController(Zinnia.Action.SurfaceChangeAction)
+extern void TeleporterConfigurator_set_SnapToFloorThresholdController_m2542317B6F18629D750E3D5E6353F3A26D2D3931 (void);
+// 0x00000013 Zinnia.Action.SurfaceChangeAction Tilia.Locomotors.Teleporter.TeleporterConfigurator::get_SnapToFloorBlinkThresholdController()
+extern void TeleporterConfigurator_get_SnapToFloorBlinkThresholdController_m608FB388267407A73A1FE4267D0540ED01F6998F (void);
+// 0x00000014 System.Void Tilia.Locomotors.Teleporter.TeleporterConfigurator::set_SnapToFloorBlinkThresholdController(Zinnia.Action.SurfaceChangeAction)
+extern void TeleporterConfigurator_set_SnapToFloorBlinkThresholdController_m877FC29C4DF6D57F22831F86E7A19C2C7ED4701E (void);
+// 0x00000015 System.Void Tilia.Locomotors.Teleporter.TeleporterConfigurator::Teleport(Zinnia.Data.Type.TransformData)
+extern void TeleporterConfigurator_Teleport_m58F7375D12E093CAD9581EDE03515AA9B2CE4134 (void);
+// 0x00000016 System.Void Tilia.Locomotors.Teleporter.TeleporterConfigurator::NotifyTeleporting(Zinnia.Tracking.Modification.TransformPropertyApplier_EventData)
+extern void TeleporterConfigurator_NotifyTeleporting_mCFB98C83589C3FE5F435B3BBC65002B6F054F8BF (void);
+// 0x00000017 System.Void Tilia.Locomotors.Teleporter.TeleporterConfigurator::NotifyTeleported(Zinnia.Tracking.Modification.TransformPropertyApplier_EventData)
+extern void TeleporterConfigurator_NotifyTeleported_m9A3AFA302149E10A5A9A9AF973254A31019C5A81 (void);
+// 0x00000018 System.Void Tilia.Locomotors.Teleporter.TeleporterConfigurator::ConfigureSurfaceLocatorAliases()
+extern void TeleporterConfigurator_ConfigureSurfaceLocatorAliases_m49458B2C27808969F5AF9350639EBCDD1E96883A (void);
+// 0x00000019 System.Void Tilia.Locomotors.Teleporter.TeleporterConfigurator::ConfigureSurfaceLocatorRules()
+extern void TeleporterConfigurator_ConfigureSurfaceLocatorRules_m66F90E0AA9D1710CA1D46F75FB442A6676FE674C (void);
+// 0x0000001A System.Void Tilia.Locomotors.Teleporter.TeleporterConfigurator::ConfigureSurfaceLocatorOffsets()
+extern void TeleporterConfigurator_ConfigureSurfaceLocatorOffsets_mCCD5BCB5850BEF4241D9EC8DAEFCB58E2B43130F (void);
+// 0x0000001B System.Void Tilia.Locomotors.Teleporter.TeleporterConfigurator::ConfigureTransformPropertyAppliers()
+extern void TeleporterConfigurator_ConfigureTransformPropertyAppliers_mD33D10894490E510E8947586AB072D0A1CFA6A8E (void);
+// 0x0000001C System.Void Tilia.Locomotors.Teleporter.TeleporterConfigurator::ConfigureCameraColorOverlays()
+extern void TeleporterConfigurator_ConfigureCameraColorOverlays_m7E8EB4F682FC7C7CDEFF6FA4CFE0A62E379F7F6B (void);
+// 0x0000001D System.Void Tilia.Locomotors.Teleporter.TeleporterConfigurator::ConfigureRotationAbility(System.Boolean)
+extern void TeleporterConfigurator_ConfigureRotationAbility_m6551D5E5BEC1B533308AEABFD911D60C036A0B7C (void);
+// 0x0000001E System.Void Tilia.Locomotors.Teleporter.TeleporterConfigurator::ConfigureSurfaceChangeActions(System.Single,System.Single)
+extern void TeleporterConfigurator_ConfigureSurfaceChangeActions_m89FFB87E424AE2582E1F82815644C77B3E4954DC (void);
+// 0x0000001F System.Void Tilia.Locomotors.Teleporter.TeleporterConfigurator::OnEnable()
+extern void TeleporterConfigurator_OnEnable_m3B714B426344543FFBEA9C8CCD72D72061305A06 (void);
+// 0x00000020 System.Void Tilia.Locomotors.Teleporter.TeleporterConfigurator::DisableRotations()
+extern void TeleporterConfigurator_DisableRotations_mFAD31244A93A5DC7112F409BE78A05675247F581 (void);
+// 0x00000021 System.Void Tilia.Locomotors.Teleporter.TeleporterConfigurator::EnableRotations()
+extern void TeleporterConfigurator_EnableRotations_m2AFB23B629CBB05CE51BE0EFD65A4B8A6E8CBAA7 (void);
+// 0x00000022 System.Collections.IEnumerator Tilia.Locomotors.Teleporter.TeleporterConfigurator::ResetOffsetAtEndOfFrame()
+extern void TeleporterConfigurator_ResetOffsetAtEndOfFrame_m0B15C5878E97FAC9A3DA072467EC3CB0D545DD5A (void);
+// 0x00000023 System.Void Tilia.Locomotors.Teleporter.TeleporterConfigurator::.ctor()
+extern void TeleporterConfigurator__ctor_mB4C37138591351427D526C2100E403313D976BCA (void);
+// 0x00000024 System.Void Tilia.Locomotors.Teleporter.TeleporterConfigurator_<ResetOffsetAtEndOfFrame>d__56::.ctor(System.Int32)
+extern void U3CResetOffsetAtEndOfFrameU3Ed__56__ctor_m557A92E4558D945BF3CAA427D12B5DAE7ACE819F (void);
+// 0x00000025 System.Void Tilia.Locomotors.Teleporter.TeleporterConfigurator_<ResetOffsetAtEndOfFrame>d__56::System.IDisposable.Dispose()
+extern void U3CResetOffsetAtEndOfFrameU3Ed__56_System_IDisposable_Dispose_mE9CB1943D19EF56BEE9B6CD0186E32F29ABE3113 (void);
+// 0x00000026 System.Boolean Tilia.Locomotors.Teleporter.TeleporterConfigurator_<ResetOffsetAtEndOfFrame>d__56::MoveNext()
+extern void U3CResetOffsetAtEndOfFrameU3Ed__56_MoveNext_mE11CFD6FE3BEE5E12843CDD440335EED42B7FAB0 (void);
+// 0x00000027 System.Object Tilia.Locomotors.Teleporter.TeleporterConfigurator_<ResetOffsetAtEndOfFrame>d__56::System.Collections.Generic.IEnumerator<System.Object>.get_Current()
+extern void U3CResetOffsetAtEndOfFrameU3Ed__56_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_mCF07024D694499E064FC86DE0E3AD95F682BE09A (void);
+// 0x00000028 System.Void Tilia.Locomotors.Teleporter.TeleporterConfigurator_<ResetOffsetAtEndOfFrame>d__56::System.Collections.IEnumerator.Reset()
+extern void U3CResetOffsetAtEndOfFrameU3Ed__56_System_Collections_IEnumerator_Reset_m3CB0872B97C83A94242608F065B0E148CE5AB13F (void);
+// 0x00000029 System.Object Tilia.Locomotors.Teleporter.TeleporterConfigurator_<ResetOffsetAtEndOfFrame>d__56::System.Collections.IEnumerator.get_Current()
+extern void U3CResetOffsetAtEndOfFrameU3Ed__56_System_Collections_IEnumerator_get_Current_mC8DF37C5884050A78EF5AC1FDE61269D15E91760 (void);
+// 0x0000002A UnityEngine.GameObject Tilia.Locomotors.Teleporter.TeleporterFacade::get_Target()
+extern void TeleporterFacade_get_Target_m284918472ADE645F51D6DDC2F0743962DBE7BAAE (void);
+// 0x0000002B System.Void Tilia.Locomotors.Teleporter.TeleporterFacade::set_Target(UnityEngine.GameObject)
+extern void TeleporterFacade_set_Target_m9374B976422A172DC03498B962E5126B2A4F2055 (void);
+// 0x0000002C UnityEngine.GameObject Tilia.Locomotors.Teleporter.TeleporterFacade::get_Offset()
+extern void TeleporterFacade_get_Offset_mAA397B9FD86A9B31635EAE7FCA8B1F9B434EA21A (void);
+// 0x0000002D System.Void Tilia.Locomotors.Teleporter.TeleporterFacade::set_Offset(UnityEngine.GameObject)
+extern void TeleporterFacade_set_Offset_m9429BEA13FBCE8ADD7056C3A33382A2D9660AE02 (void);
+// 0x0000002E Tilia.Locomotors.Teleporter.TeleporterFacade_OffsetType Tilia.Locomotors.Teleporter.TeleporterFacade::get_OffsetUsage()
+extern void TeleporterFacade_get_OffsetUsage_m7D4F45F3291D5A370872FBB85DFE9536DB9B7025 (void);
+// 0x0000002F System.Void Tilia.Locomotors.Teleporter.TeleporterFacade::set_OffsetUsage(Tilia.Locomotors.Teleporter.TeleporterFacade_OffsetType)
+extern void TeleporterFacade_set_OffsetUsage_m50A467C614217004066040E4F79A54A3E3F8506E (void);
+// 0x00000030 System.Boolean Tilia.Locomotors.Teleporter.TeleporterFacade::get_ApplyDestinationRotation()
+extern void TeleporterFacade_get_ApplyDestinationRotation_m0436A561D61A284D664CD24C2782C7E7D2F3156B (void);
+// 0x00000031 System.Void Tilia.Locomotors.Teleporter.TeleporterFacade::set_ApplyDestinationRotation(System.Boolean)
+extern void TeleporterFacade_set_ApplyDestinationRotation_m035E555F8BE551FF5275C4141B4C10BB3EAB2E7B (void);
+// 0x00000032 Zinnia.Rule.RuleContainer Tilia.Locomotors.Teleporter.TeleporterFacade::get_CameraValidity()
+extern void TeleporterFacade_get_CameraValidity_m8D8E852E56712F1A47654CC7E31E4102CBC06068 (void);
+// 0x00000033 System.Void Tilia.Locomotors.Teleporter.TeleporterFacade::set_CameraValidity(Zinnia.Rule.RuleContainer)
+extern void TeleporterFacade_set_CameraValidity_m13E251B55CC76DA40E6F7F20B0FA3FAE1E8A85FB (void);
+// 0x00000034 Zinnia.Rule.RuleContainer Tilia.Locomotors.Teleporter.TeleporterFacade::get_TargetValidity()
+extern void TeleporterFacade_get_TargetValidity_m54671F25AB1E17F14073375A590E93CD26B92821 (void);
+// 0x00000035 System.Void Tilia.Locomotors.Teleporter.TeleporterFacade::set_TargetValidity(Zinnia.Rule.RuleContainer)
+extern void TeleporterFacade_set_TargetValidity_mDFC0E8FDD5D0A008B5F74E4B226576E2EE9028B4 (void);
+// 0x00000036 System.Single Tilia.Locomotors.Teleporter.TeleporterFacade::get_SnapToFloorThreshold()
+extern void TeleporterFacade_get_SnapToFloorThreshold_m48C44401C72B628A4567742A47AD4D3E8D47F43A (void);
+// 0x00000037 System.Void Tilia.Locomotors.Teleporter.TeleporterFacade::set_SnapToFloorThreshold(System.Single)
+extern void TeleporterFacade_set_SnapToFloorThreshold_m209DE325447331F3224DD3D9D10535C11A36E317 (void);
+// 0x00000038 System.Single Tilia.Locomotors.Teleporter.TeleporterFacade::get_SnapToFloorBlinkThreshold()
+extern void TeleporterFacade_get_SnapToFloorBlinkThreshold_mE7005BAFD2411A6DB372A50BEDDC3D6CC16F31A4 (void);
+// 0x00000039 System.Void Tilia.Locomotors.Teleporter.TeleporterFacade::set_SnapToFloorBlinkThreshold(System.Single)
+extern void TeleporterFacade_set_SnapToFloorBlinkThreshold_m8A5634BFE11A62681BE3E6D3F76B9EC50E66F158 (void);
+// 0x0000003A UnityEngine.Vector3 Tilia.Locomotors.Teleporter.TeleporterFacade::get_DestinationOffset()
+extern void TeleporterFacade_get_DestinationOffset_m852AA1390419F931651055121E1A3FCD0DC531EE (void);
+// 0x0000003B System.Void Tilia.Locomotors.Teleporter.TeleporterFacade::set_DestinationOffset(UnityEngine.Vector3)
+extern void TeleporterFacade_set_DestinationOffset_m2137DD811208A0945AE9494142EF9EE6EBED922E (void);
+// 0x0000003C Tilia.Locomotors.Teleporter.TeleporterConfigurator Tilia.Locomotors.Teleporter.TeleporterFacade::get_Configuration()
+extern void TeleporterFacade_get_Configuration_m8B1EB1021C99C276FD2E546A9E89D58E889A00A5 (void);
+// 0x0000003D System.Void Tilia.Locomotors.Teleporter.TeleporterFacade::set_Configuration(Tilia.Locomotors.Teleporter.TeleporterConfigurator)
+extern void TeleporterFacade_set_Configuration_mB2B3C2529F6EEBFDF6A04950128D593EC9736026 (void);
+// 0x0000003E System.Void Tilia.Locomotors.Teleporter.TeleporterFacade::Teleport(UnityEngine.Transform)
+extern void TeleporterFacade_Teleport_m54382154FB70F7BF65BE5A0CF42F2825761AAAFF (void);
+// 0x0000003F System.Void Tilia.Locomotors.Teleporter.TeleporterFacade::Teleport(UnityEngine.GameObject)
+extern void TeleporterFacade_Teleport_m3D7AE156DCCC602E9C277626B4C669F67CAF378F (void);
+// 0x00000040 System.Void Tilia.Locomotors.Teleporter.TeleporterFacade::Teleport(Zinnia.Data.Type.TransformData)
+extern void TeleporterFacade_Teleport_mD87A797F222A7F3E60903D06DC8725F692EAF2D6 (void);
+// 0x00000041 System.Void Tilia.Locomotors.Teleporter.TeleporterFacade::Teleport(UnityEngine.Vector3)
+extern void TeleporterFacade_Teleport_m4E0C1739D34955C6DFBD5C353834744BFBA0C554 (void);
+// 0x00000042 System.Void Tilia.Locomotors.Teleporter.TeleporterFacade::SetOffsetUsage(System.Int32)
+extern void TeleporterFacade_SetOffsetUsage_m895A11519FB16C12B00C50D56583E0F35599B818 (void);
+// 0x00000043 System.Void Tilia.Locomotors.Teleporter.TeleporterFacade::OnAfterTargetChange()
+extern void TeleporterFacade_OnAfterTargetChange_m05C5B5D695062F6A0EB4A596DF851570415F69BB (void);
+// 0x00000044 System.Void Tilia.Locomotors.Teleporter.TeleporterFacade::OnAfterOffsetChange()
+extern void TeleporterFacade_OnAfterOffsetChange_mA4A57F3A03BD345287F6B1BC516FF33E58A00813 (void);
+// 0x00000045 System.Void Tilia.Locomotors.Teleporter.TeleporterFacade::OnAfterOffsetUsageChange()
+extern void TeleporterFacade_OnAfterOffsetUsageChange_m6D3ABE4955CA928DA2B55D51E2EEB58A15994C8C (void);
+// 0x00000046 System.Void Tilia.Locomotors.Teleporter.TeleporterFacade::OnAfterApplyDestinationRotationChange()
+extern void TeleporterFacade_OnAfterApplyDestinationRotationChange_m50527761285E919EF0672E1C31EB7F69D0C6C5F6 (void);
+// 0x00000047 System.Void Tilia.Locomotors.Teleporter.TeleporterFacade::OnAfterCameraValidityChange()
+extern void TeleporterFacade_OnAfterCameraValidityChange_mB8F85DA33F2117C3CB7DA0A32C6AEC0ADBC5B490 (void);
+// 0x00000048 System.Void Tilia.Locomotors.Teleporter.TeleporterFacade::OnAfterTargetValidityChange()
+extern void TeleporterFacade_OnAfterTargetValidityChange_mFBE11C15051B21C86777D91B49E1BEE74E4798A6 (void);
+// 0x00000049 System.Void Tilia.Locomotors.Teleporter.TeleporterFacade::OnAfterSnapToFloorThresholdChange()
+extern void TeleporterFacade_OnAfterSnapToFloorThresholdChange_m9502C585B682675B95EC297FBF81E4329EB59288 (void);
+// 0x0000004A System.Void Tilia.Locomotors.Teleporter.TeleporterFacade::OnAfterSnapToFloorBlinkThresholdChange()
+extern void TeleporterFacade_OnAfterSnapToFloorBlinkThresholdChange_m5F6AA60B57BE1F48379686CC36BBFCE9FC1965ED (void);
+// 0x0000004B System.Void Tilia.Locomotors.Teleporter.TeleporterFacade::OnAfterDestinationOffsetChange()
+extern void TeleporterFacade_OnAfterDestinationOffsetChange_m9887977B1B655F526068CD20AD56C2C1DE8E3A33 (void);
+// 0x0000004C System.Void Tilia.Locomotors.Teleporter.TeleporterFacade::.ctor()
+extern void TeleporterFacade__ctor_m9DFAD611A03BD51D6F2F9F00F080658FE61E94F8 (void);
+// 0x0000004D System.Void Tilia.Locomotors.Teleporter.TeleporterFacade::ClearTarget()
+extern void TeleporterFacade_ClearTarget_m5EE3A167D4CC69C2223CDC7F81C4153C1AA5FD39 (void);
+// 0x0000004E System.Void Tilia.Locomotors.Teleporter.TeleporterFacade::ClearOffset()
+extern void TeleporterFacade_ClearOffset_m99A9D72F92115E1E70456106A1BC5353BEE57ADC (void);
+// 0x0000004F System.Void Tilia.Locomotors.Teleporter.TeleporterFacade::ClearCameraValidity()
+extern void TeleporterFacade_ClearCameraValidity_m78AABEAF1EE7D8A10FC95919A89BD2B22BE3182D (void);
+// 0x00000050 System.Void Tilia.Locomotors.Teleporter.TeleporterFacade::ClearTargetValidity()
+extern void TeleporterFacade_ClearTargetValidity_mA0155E85C608ED563701E4F302BBAA9AF276920C (void);
+// 0x00000051 System.Void Tilia.Locomotors.Teleporter.TeleporterFacade::ClearConfiguration()
+extern void TeleporterFacade_ClearConfiguration_mBBCDABF04624B7F12CEAA6EDCE9464B12E41D535 (void);
+static Il2CppMethodPointer s_methodPointers[81] = 
+{
+	TeleporterConfigurator_get_Facade_m5D1CBD57566282247016D85347CFC853658E94AF,
+	TeleporterConfigurator_set_Facade_mE613698972D328EFDE8135CCD1704FB07D0B795D,
+	TeleporterConfigurator_get_SurfaceTeleporter_m34EBC90A7304ACC069AD97B27C82265DF40706FE,
+	TeleporterConfigurator_set_SurfaceTeleporter_mF3BE36E4ADF8560145D63184854394748D4DEFFF,
+	TeleporterConfigurator_get_ModifyTeleporter_m0C2D3AD07F27D5BF9B7E78FF4587044A8A0E2FA2,
+	TeleporterConfigurator_set_ModifyTeleporter_m64F2633E1F0A6127614D5838363840A98BF93413,
+	TeleporterConfigurator_get_SurfaceLocatorAliases_m586B6594EE2598B4CDF4336A236E7BD6ADA63B6C,
+	TeleporterConfigurator_set_SurfaceLocatorAliases_m44ECCDB39967BF45A83F5D78032106EB32509298,
+	TeleporterConfigurator_get_SurfaceLocatorRules_m60335E069BAB1429F629C1FAF82272602373F310,
+	TeleporterConfigurator_set_SurfaceLocatorRules_mD1E1AD3FA0CDF13972605D9A81C1E606B3078D78,
+	TeleporterConfigurator_get_TransformPropertyApplierAliases_mCC6E3A3ACA2543F798A4FDFFEACB0DA7AFDC75E1,
+	TeleporterConfigurator_set_TransformPropertyApplierAliases_m4F1B64133D319839FA1C963878C79AC5120F63B5,
+	TeleporterConfigurator_get_TransformPropertyApplierIgnoreOffsetAliases_m4D66BDA77DC02E82A4A46DDD3F5229EBE1A290E1,
+	TeleporterConfigurator_set_TransformPropertyApplierIgnoreOffsetAliases_mD35695F4EEC0F5835D48EFAB16A52F6167D9E3BE,
+	TeleporterConfigurator_get_CameraColorOverlays_mE920FDF192ECC5E1F7174E0A90CF6D275BCE61A0,
+	TeleporterConfigurator_set_CameraColorOverlays_mDED5BEE2A53D4121EE777CE5A079872BA9B3632A,
+	TeleporterConfigurator_get_SnapToFloorThresholdController_m04352AAF07B25D56860A0837C52CFC44A7D747D8,
+	TeleporterConfigurator_set_SnapToFloorThresholdController_m2542317B6F18629D750E3D5E6353F3A26D2D3931,
+	TeleporterConfigurator_get_SnapToFloorBlinkThresholdController_m608FB388267407A73A1FE4267D0540ED01F6998F,
+	TeleporterConfigurator_set_SnapToFloorBlinkThresholdController_m877FC29C4DF6D57F22831F86E7A19C2C7ED4701E,
+	TeleporterConfigurator_Teleport_m58F7375D12E093CAD9581EDE03515AA9B2CE4134,
+	TeleporterConfigurator_NotifyTeleporting_mCFB98C83589C3FE5F435B3BBC65002B6F054F8BF,
+	TeleporterConfigurator_NotifyTeleported_m9A3AFA302149E10A5A9A9AF973254A31019C5A81,
+	TeleporterConfigurator_ConfigureSurfaceLocatorAliases_m49458B2C27808969F5AF9350639EBCDD1E96883A,
+	TeleporterConfigurator_ConfigureSurfaceLocatorRules_m66F90E0AA9D1710CA1D46F75FB442A6676FE674C,
+	TeleporterConfigurator_ConfigureSurfaceLocatorOffsets_mCCD5BCB5850BEF4241D9EC8DAEFCB58E2B43130F,
+	TeleporterConfigurator_ConfigureTransformPropertyAppliers_mD33D10894490E510E8947586AB072D0A1CFA6A8E,
+	TeleporterConfigurator_ConfigureCameraColorOverlays_m7E8EB4F682FC7C7CDEFF6FA4CFE0A62E379F7F6B,
+	TeleporterConfigurator_ConfigureRotationAbility_m6551D5E5BEC1B533308AEABFD911D60C036A0B7C,
+	TeleporterConfigurator_ConfigureSurfaceChangeActions_m89FFB87E424AE2582E1F82815644C77B3E4954DC,
+	TeleporterConfigurator_OnEnable_m3B714B426344543FFBEA9C8CCD72D72061305A06,
+	TeleporterConfigurator_DisableRotations_mFAD31244A93A5DC7112F409BE78A05675247F581,
+	TeleporterConfigurator_EnableRotations_m2AFB23B629CBB05CE51BE0EFD65A4B8A6E8CBAA7,
+	TeleporterConfigurator_ResetOffsetAtEndOfFrame_m0B15C5878E97FAC9A3DA072467EC3CB0D545DD5A,
+	TeleporterConfigurator__ctor_mB4C37138591351427D526C2100E403313D976BCA,
+	U3CResetOffsetAtEndOfFrameU3Ed__56__ctor_m557A92E4558D945BF3CAA427D12B5DAE7ACE819F,
+	U3CResetOffsetAtEndOfFrameU3Ed__56_System_IDisposable_Dispose_mE9CB1943D19EF56BEE9B6CD0186E32F29ABE3113,
+	U3CResetOffsetAtEndOfFrameU3Ed__56_MoveNext_mE11CFD6FE3BEE5E12843CDD440335EED42B7FAB0,
+	U3CResetOffsetAtEndOfFrameU3Ed__56_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_mCF07024D694499E064FC86DE0E3AD95F682BE09A,
+	U3CResetOffsetAtEndOfFrameU3Ed__56_System_Collections_IEnumerator_Reset_m3CB0872B97C83A94242608F065B0E148CE5AB13F,
+	U3CResetOffsetAtEndOfFrameU3Ed__56_System_Collections_IEnumerator_get_Current_mC8DF37C5884050A78EF5AC1FDE61269D15E91760,
+	TeleporterFacade_get_Target_m284918472ADE645F51D6DDC2F0743962DBE7BAAE,
+	TeleporterFacade_set_Target_m9374B976422A172DC03498B962E5126B2A4F2055,
+	TeleporterFacade_get_Offset_mAA397B9FD86A9B31635EAE7FCA8B1F9B434EA21A,
+	TeleporterFacade_set_Offset_m9429BEA13FBCE8ADD7056C3A33382A2D9660AE02,
+	TeleporterFacade_get_OffsetUsage_m7D4F45F3291D5A370872FBB85DFE9536DB9B7025,
+	TeleporterFacade_set_OffsetUsage_m50A467C614217004066040E4F79A54A3E3F8506E,
+	TeleporterFacade_get_ApplyDestinationRotation_m0436A561D61A284D664CD24C2782C7E7D2F3156B,
+	TeleporterFacade_set_ApplyDestinationRotation_m035E555F8BE551FF5275C4141B4C10BB3EAB2E7B,
+	TeleporterFacade_get_CameraValidity_m8D8E852E56712F1A47654CC7E31E4102CBC06068,
+	TeleporterFacade_set_CameraValidity_m13E251B55CC76DA40E6F7F20B0FA3FAE1E8A85FB,
+	TeleporterFacade_get_TargetValidity_m54671F25AB1E17F14073375A590E93CD26B92821,
+	TeleporterFacade_set_TargetValidity_mDFC0E8FDD5D0A008B5F74E4B226576E2EE9028B4,
+	TeleporterFacade_get_SnapToFloorThreshold_m48C44401C72B628A4567742A47AD4D3E8D47F43A,
+	TeleporterFacade_set_SnapToFloorThreshold_m209DE325447331F3224DD3D9D10535C11A36E317,
+	TeleporterFacade_get_SnapToFloorBlinkThreshold_mE7005BAFD2411A6DB372A50BEDDC3D6CC16F31A4,
+	TeleporterFacade_set_SnapToFloorBlinkThreshold_m8A5634BFE11A62681BE3E6D3F76B9EC50E66F158,
+	TeleporterFacade_get_DestinationOffset_m852AA1390419F931651055121E1A3FCD0DC531EE,
+	TeleporterFacade_set_DestinationOffset_m2137DD811208A0945AE9494142EF9EE6EBED922E,
+	TeleporterFacade_get_Configuration_m8B1EB1021C99C276FD2E546A9E89D58E889A00A5,
+	TeleporterFacade_set_Configuration_mB2B3C2529F6EEBFDF6A04950128D593EC9736026,
+	TeleporterFacade_Teleport_m54382154FB70F7BF65BE5A0CF42F2825761AAAFF,
+	TeleporterFacade_Teleport_m3D7AE156DCCC602E9C277626B4C669F67CAF378F,
+	TeleporterFacade_Teleport_mD87A797F222A7F3E60903D06DC8725F692EAF2D6,
+	TeleporterFacade_Teleport_m4E0C1739D34955C6DFBD5C353834744BFBA0C554,
+	TeleporterFacade_SetOffsetUsage_m895A11519FB16C12B00C50D56583E0F35599B818,
+	TeleporterFacade_OnAfterTargetChange_m05C5B5D695062F6A0EB4A596DF851570415F69BB,
+	TeleporterFacade_OnAfterOffsetChange_mA4A57F3A03BD345287F6B1BC516FF33E58A00813,
+	TeleporterFacade_OnAfterOffsetUsageChange_m6D3ABE4955CA928DA2B55D51E2EEB58A15994C8C,
+	TeleporterFacade_OnAfterApplyDestinationRotationChange_m50527761285E919EF0672E1C31EB7F69D0C6C5F6,
+	TeleporterFacade_OnAfterCameraValidityChange_mB8F85DA33F2117C3CB7DA0A32C6AEC0ADBC5B490,
+	TeleporterFacade_OnAfterTargetValidityChange_mFBE11C15051B21C86777D91B49E1BEE74E4798A6,
+	TeleporterFacade_OnAfterSnapToFloorThresholdChange_m9502C585B682675B95EC297FBF81E4329EB59288,
+	TeleporterFacade_OnAfterSnapToFloorBlinkThresholdChange_m5F6AA60B57BE1F48379686CC36BBFCE9FC1965ED,
+	TeleporterFacade_OnAfterDestinationOffsetChange_m9887977B1B655F526068CD20AD56C2C1DE8E3A33,
+	TeleporterFacade__ctor_m9DFAD611A03BD51D6F2F9F00F080658FE61E94F8,
+	TeleporterFacade_ClearTarget_m5EE3A167D4CC69C2223CDC7F81C4153C1AA5FD39,
+	TeleporterFacade_ClearOffset_m99A9D72F92115E1E70456106A1BC5353BEE57ADC,
+	TeleporterFacade_ClearCameraValidity_m78AABEAF1EE7D8A10FC95919A89BD2B22BE3182D,
+	TeleporterFacade_ClearTargetValidity_mA0155E85C608ED563701E4F302BBAA9AF276920C,
+	TeleporterFacade_ClearConfiguration_mBBCDABF04624B7F12CEAA6EDCE9464B12E41D535,
+};
+static const int32_t s_InvokerIndices[81] = 
+{
+	14,
+	26,
+	14,
+	26,
+	14,
+	26,
+	14,
+	26,
+	14,
+	26,
+	14,
+	26,
+	14,
+	26,
+	14,
+	26,
+	14,
+	26,
+	14,
+	26,
+	26,
+	26,
+	26,
+	23,
+	23,
+	23,
+	23,
+	23,
+	31,
+	1053,
+	23,
+	23,
+	23,
+	14,
+	23,
+	32,
+	23,
+	102,
+	14,
+	23,
+	14,
+	14,
+	26,
+	14,
+	26,
+	10,
+	32,
+	102,
+	31,
+	14,
+	26,
+	14,
+	26,
+	667,
+	279,
+	667,
+	279,
+	1083,
+	1084,
+	14,
+	26,
+	26,
+	26,
+	26,
+	1084,
+	32,
+	23,
+	23,
+	23,
+	23,
+	23,
+	23,
+	23,
+	23,
+	23,
+	23,
+	23,
+	23,
+	23,
+	23,
+	23,
+};
+extern const Il2CppCodeGenModule g_Tilia_Locomotors_Teleporter_Unity_RuntimeCodeGenModule;
+const Il2CppCodeGenModule g_Tilia_Locomotors_Teleporter_Unity_RuntimeCodeGenModule = 
+{
+	"Tilia.Locomotors.Teleporter.Unity.Runtime.dll",
+	81,
+	s_methodPointers,
+	s_InvokerIndices,
+	0,
+	NULL,
+	0,
+	NULL,
+	0,
+	NULL,
+	NULL,
+};

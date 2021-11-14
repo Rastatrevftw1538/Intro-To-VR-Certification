@@ -1,26 +1,19 @@
 ScriptsOnlyBuild:
   usedScripts:
     Assembly-CSharp.dll:
-    - PCPlayerController
-    - PlatformDecider
     - VRTK.VRTK_Logger
-    Mirror.dll:
-    - Mirror.NetworkIdentity
-    - Mirror.NetworkManager
-    - Mirror.NetworkManagerHUD
-    - kcp2k.KcpTransport
     Oculus.Spatializer.dll:
     - ONSPSettings
     Oculus.VR.Editor.dll:
     - Assets.Oculus.VR.Editor.OVRPlatformToolSettings
     - OVRConfig
-    Unity.InteractiveTutorials.Core.dll:
-    - Unity.InteractiveTutorials.AnalyticsHelper
-    - Unity.InteractiveTutorials.TutorialContainer
-    - Unity.InteractiveTutorials.TutorialProjectSettings
-    - Unity.InteractiveTutorials.TutorialStyles
-    - Unity.InteractiveTutorials.TutorialWelcomePage
-    - Unity.InteractiveTutorials.TutorialWindow
+    Oculus.VR.dll:
+    - OVRCameraRig
+    - OVRHeadsetEmulator
+    - OVRManager
+    Tilia.CameraRigs.TrackedAlias.Unity.Runtime.dll:
+    - Tilia.CameraRigs.TrackedAlias.TrackedAliasConfigurator
+    - Tilia.CameraRigs.TrackedAlias.TrackedAliasFacade
     Unity.Rider.Editor.dll:
     - Packages.Rider.Editor.UnitTesting.CallbackData
     Unity.XR.Management.Editor.dll:
@@ -28,8 +21,6 @@ ScriptsOnlyBuild:
     Unity.XR.Management.dll:
     - UnityEngine.XR.Management.XRGeneralSettings
     - UnityEngine.XR.Management.XRManagerSettings
-    Unity.XR.Oculus.Editor.dll:
-    - Unity.XR.Oculus.Editor.OculusSettingsEditor
     Unity.XR.Oculus.dll:
     - Unity.XR.Oculus.OculusLoader
     - Unity.XR.Oculus.OculusSettings
@@ -49,12 +40,26 @@ ScriptsOnlyBuild:
     - UnityEditor.TestTools.TestRunner.TestRun.TestJobDataHolder
     UnityEngine.SpatialTracking.dll:
     - UnityEngine.SpatialTracking.TrackedPoseDriver
-    UnityEngine.XR.LegacyInputHelpers.dll:
-    - UnityEditor.XR.LegacyInputHelpers.CameraOffset
-    com.unity.multiplayer-hlapi.Runtime.dll:
-    - UnityEngine.Networking.NetworkCallbacks
+    Zinnia.Runtime.dll:
+    - Zinnia.Data.Collection.List.GameObjectObservableList
+    - Zinnia.Data.Collection.List.UnityObjectObservableList
+    - Zinnia.Process.Moment.Collection.MomentProcessObservableList
+    - Zinnia.Process.Moment.MomentProcess
+    - Zinnia.Process.Moment.MomentProcessor
+    - Zinnia.Rule.ActiveInHierarchyRule
+    - Zinnia.Rule.ListContainsRule
+    - Zinnia.Tracking.CameraRig.Collection.LinkedAliasAssociationCollectionObservableList
+    - Zinnia.Tracking.CameraRig.LinkedAliasAssociationCollection
+    - Zinnia.Tracking.Follow.Modifier.FollowModifier
+    - Zinnia.Tracking.Follow.Modifier.Property.Position.TransformPosition
+    - Zinnia.Tracking.Follow.Modifier.Property.Rotation.TransformRotation
+    - Zinnia.Tracking.Follow.Modifier.Property.Scale.TransformScale
+    - Zinnia.Tracking.Follow.ObjectDistanceComparator
+    - Zinnia.Tracking.Follow.ObjectFollower
+    - Zinnia.Tracking.Velocity.Collection.VelocityTrackerObservableList
+    - Zinnia.Tracking.Velocity.VelocityTrackerProcessor
   sceneClasses:
-    Assets/Scenes/SampleScene.unity:
+    Assets/Scenes/VR Project 1.unity:
     - Class: 1
       Script: {instanceID: 0}
     - Class: 4
@@ -73,8 +78,6 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 48
       Script: {instanceID: 0}
-    - Class: 54
-      Script: {instanceID: 0}
     - Class: 64
       Script: {instanceID: 0}
     - Class: 65
@@ -90,31 +93,61 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 11464}
+      Script: {instanceID: 11528}
     - Class: 114
-      Script: {instanceID: 12742}
+      Script: {instanceID: 11616}
     - Class: 114
-      Script: {instanceID: 13546}
+      Script: {instanceID: 11744}
     - Class: 114
-      Script: {instanceID: 14804}
+      Script: {instanceID: 11972}
     - Class: 114
-      Script: {instanceID: 15054}
+      Script: {instanceID: 12082}
     - Class: 114
-      Script: {instanceID: 15162}
+      Script: {instanceID: 12494}
     - Class: 114
-      Script: {instanceID: 15614}
+      Script: {instanceID: 12574}
     - Class: 114
-      Script: {instanceID: 23918}
+      Script: {instanceID: 12732}
     - Class: 114
-      Script: {instanceID: 23962}
+      Script: {instanceID: 12834}
     - Class: 114
-      Script: {instanceID: 24338}
+      Script: {instanceID: 13178}
     - Class: 114
-      Script: {instanceID: 24464}
+      Script: {instanceID: 13518}
     - Class: 114
-      Script: {instanceID: 28540}
+      Script: {instanceID: 13620}
     - Class: 114
-      Script: {instanceID: 35662}
+      Script: {instanceID: 13664}
+    - Class: 114
+      Script: {instanceID: 14170}
+    - Class: 114
+      Script: {instanceID: 14202}
+    - Class: 114
+      Script: {instanceID: 14280}
+    - Class: 114
+      Script: {instanceID: 14500}
+    - Class: 114
+      Script: {instanceID: 15082}
+    - Class: 114
+      Script: {instanceID: 15850}
+    - Class: 114
+      Script: {instanceID: 15872}
+    - Class: 114
+      Script: {instanceID: 15958}
+    - Class: 114
+      Script: {instanceID: 16230}
+    - Class: 114
+      Script: {instanceID: 16366}
+    - Class: 114
+      Script: {instanceID: 16400}
+    - Class: 114
+      Script: {instanceID: 16458}
+    - Class: 114
+      Script: {instanceID: 16980}
+    - Class: 114
+      Script: {instanceID: 17192}
+    - Class: 114
+      Script: {instanceID: 17308}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 135
@@ -178,6 +211,18 @@ ScriptsOnlyBuild:
     className: LayoutElement
   - hash:
       serializedVersion: 2
+      Hash: a47bdbd0b4b3640a320989f5348c7550
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Tracking.Velocity
+    className: RigidbodyVelocityTracker
+  - hash:
+      serializedVersion: 2
+      Hash: 789481b478bb2932fe5c549c4ce10e1a
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Cast
+    className: ParabolicLineCast
+  - hash:
+      serializedVersion: 2
       Hash: 27fb4366520d54a89b0a509371bcf6cb
     assemblyName: Assembly-CSharp.dll
     namespaceName: VRTK.UnityEventHelper
@@ -202,6 +247,18 @@ ScriptsOnlyBuild:
     className: SelectivePassthroughExperience
   - hash:
       serializedVersion: 2
+      Hash: cbe17849cceffb0624b53b6a57b66899
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Tracking
+    className: SurfaceLocator
+  - hash:
+      serializedVersion: 2
+      Hash: fd9d8c3d1dcf8750af74bbebb446d75f
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Event.Proxy
+    className: GameObjectEventProxyEmitter
+  - hash:
+      serializedVersion: 2
       Hash: bf5cb87c773ea378a3f5ac036aab367b
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
@@ -220,10 +277,28 @@ ScriptsOnlyBuild:
     className: RC_Car
   - hash:
       serializedVersion: 2
+      Hash: 19ccc650b620eadcaf9203a84b63c82f
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Data.Type.Observer
+    className: Vector3ObservableProperty
+  - hash:
+      serializedVersion: 2
+      Hash: 0a664454aa53d59e6a58fe3696f957c0
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Tracking.Follow.Modifier.Property.Scale
+    className: TransformScale
+  - hash:
+      serializedVersion: 2
       Hash: 32f7b451f08dbedc0cb29b7d550e5664
     assemblyName: Assembly-CSharp.dll
     namespaceName: VRTK
     className: VRTK_InteractHaptics
+  - hash:
+      serializedVersion: 2
+      Hash: 22240e791dbd5a561cf4e7c6652c9d39
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Data.Type.Transformation
+    className: Vector3MagnitudeSetter
   - hash:
       serializedVersion: 2
       Hash: c42672c997f8be6b1aa86a927ebea785
@@ -238,10 +313,28 @@ ScriptsOnlyBuild:
     className: PanelMenuUIGrid
   - hash:
       serializedVersion: 2
+      Hash: 45e062a934bc93460b34896c9d171e5b
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Rule
+    className: IntInRangeRule
+  - hash:
+      serializedVersion: 2
+      Hash: a9ca0909b260232af152a6062939015d
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Data.Type.Transformation.Conversion
+    className: StringToFloat
+  - hash:
+      serializedVersion: 2
       Hash: 329a4358a2c40fe3c40f44951200bd91
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: OvrAvatarBody
+  - hash:
+      serializedVersion: 2
+      Hash: fb09925c9366b167c2839016d8625e31
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Data.Type.Transformation.Conversion
+    className: TimeSpanToString
   - hash:
       serializedVersion: 2
       Hash: aa9b10011f4c9cad242c482fa2eeb065
@@ -250,10 +343,22 @@ ScriptsOnlyBuild:
     className: VRTK_ControllerReference_Setup
   - hash:
       serializedVersion: 2
+      Hash: 0cf3f17c57fb784e5d72e68b204f49cd
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Data.Type.Observer
+    className: IntObservableProperty
+  - hash:
+      serializedVersion: 2
       Hash: 701017254f3f54b47005c57e66e0675a
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: SceneSampler
+  - hash:
+      serializedVersion: 2
+      Hash: 8174055f34e2e5213c6c56e3f8a47d6f
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Data.Type.Transformation.Conversion
+    className: FloatToInteger
   - hash:
       serializedVersion: 2
       Hash: 95c8456adadbbb84b0a4d960e1e55274
@@ -286,6 +391,18 @@ ScriptsOnlyBuild:
     className: ButtonDownListener
   - hash:
       serializedVersion: 2
+      Hash: 7df54f0f69e4b490b39970043c1b540f
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Data.Operation.Mutation
+    className: TransformScaleMutator
+  - hash:
+      serializedVersion: 2
+      Hash: a78dae04482ec84aa7d3a9a555a2d50b
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Data.Collection.Counter
+    className: GameObjectObservableCounter
+  - hash:
+      serializedVersion: 2
       Hash: 0c2ecdae097ba779e0a9e100ed96bb10
     assemblyName: Oculus.VR.dll
     namespaceName: 
@@ -304,6 +421,18 @@ ScriptsOnlyBuild:
     className: VRTK_InteractObjectHighlighter_UnityEvents
   - hash:
       serializedVersion: 2
+      Hash: 1785978723cf3c4fc574f107315bc077
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Data.Collection.List
+    className: SerializableTypeComponentObservableList
+  - hash:
+      serializedVersion: 2
+      Hash: 1b1ce80840f43d6f8ddb9651f904c6d3
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Data.Type.Transformation.Conversion
+    className: NormalizedFloatToFloat
+  - hash:
+      serializedVersion: 2
       Hash: d0d292693a1a531afe3ed8bf74412e35
     assemblyName: Assembly-CSharp.dll
     namespaceName: VRTK
@@ -320,6 +449,12 @@ ScriptsOnlyBuild:
     assemblyName: Assembly-CSharp.dll
     namespaceName: VRTK.UnityEventHelper
     className: VRTK_InteractHaptics_UnityEvents
+  - hash:
+      serializedVersion: 2
+      Hash: 52a26a1c9a624473f8f886df7d8d91f6
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Event.Yield
+    className: WaitForSecondsRealtimeYieldEmitter
   - hash:
       serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
@@ -394,10 +529,28 @@ ScriptsOnlyBuild:
     className: SDK_SteamVRSystem
   - hash:
       serializedVersion: 2
+      Hash: 9a83bd141a7bf939e9ab01da7f0be8ce
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Data.Type.Transformation.Conversion
+    className: FloatToVector2
+  - hash:
+      serializedVersion: 2
+      Hash: 0031596f60c026f182dcc976632358c0
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Data.Type.Transformation
+    className: FloatRangeValueRemapper
+  - hash:
+      serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
     assemblyName: Assembly-CSharp.dll
     namespaceName: VRTK
     className: SDK_OculusSystem
+  - hash:
+      serializedVersion: 2
+      Hash: 52a26a1c9a624473f8f886df7d8d91f6
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Event.Yield
+    className: WaitForSecondsYieldEmitter
   - hash:
       serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
@@ -410,6 +563,12 @@ ScriptsOnlyBuild:
     assemblyName: Assembly-CSharp.dll
     namespaceName: VRTK.Controllables.ArtificialBased
     className: VRTK_ArtificialPusher
+  - hash:
+      serializedVersion: 2
+      Hash: 5bd9a19c7b5f76c563418e28f48a561b
+    assemblyName: com.unity.multiplayer-hlapi.Runtime.dll
+    namespaceName: UnityEngine.Networking
+    className: NetworkLobbyPlayer
   - hash:
       serializedVersion: 2
       Hash: e7a73f5f78ba6445195ec23b74a1ce2d
@@ -442,10 +601,22 @@ ScriptsOnlyBuild:
     className: Openable_Door
   - hash:
       serializedVersion: 2
+      Hash: 9517d0bf39002f9b9a065ac34bcbcfb5
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Rule
+    className: ListContainsRule
+  - hash:
+      serializedVersion: 2
       Hash: f1ce079704f5dae60dbfc5afaf6cc699
     assemblyName: Assembly-CSharp.dll
     namespaceName: VRTK
     className: VRTK_HeadsetCollisionFade
+  - hash:
+      serializedVersion: 2
+      Hash: 0d6c5571432ec96cb56a8afa859f89a7
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Data.Operation.Cache
+    className: Vector3Cache
   - hash:
       serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
@@ -514,6 +685,12 @@ ScriptsOnlyBuild:
     className: OvrAvatarTextureCopyManager
   - hash:
       serializedVersion: 2
+      Hash: 5a3a8a7e3d16099b79eb04f2de19fd8e
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Data.Collection.List
+    className: Vector2ObservableList
+  - hash:
+      serializedVersion: 2
       Hash: 15f6b91aa3a2fabb72bb768daf136ff5
     assemblyName: Assembly-CSharp.dll
     namespaceName: VRTK
@@ -550,6 +727,18 @@ ScriptsOnlyBuild:
     className: OvrAvatarRenderComponent
   - hash:
       serializedVersion: 2
+      Hash: 92f5760ced24c8b3de0a8563626eabfb
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Data.Type.Transformation.Aggregation
+    className: FloatMeanFinder
+  - hash:
+      serializedVersion: 2
+      Hash: f84435a9189dad952ab27aef271adfd3
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Cast.Operation.Conversion
+    className: ToCapsuleCastConverter
+  - hash:
+      serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
     assemblyName: Unity.InteractiveTutorials.Core.Scripts.dll
     namespaceName: Unity.InteractiveTutorials
@@ -562,10 +751,22 @@ ScriptsOnlyBuild:
     className: SoundEmitter
   - hash:
       serializedVersion: 2
+      Hash: cd6d03f9fdf66c9c022a09e86769b638
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Event.Proxy
+    className: EmptyEventProxyEmitter
+  - hash:
+      serializedVersion: 2
       Hash: 499fd23433e68e265d153aa6b95d0047
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UI
     className: Scrollbar
+  - hash:
+      serializedVersion: 2
+      Hash: eafb77726b67b7571818a7210a3ce11e
+    assemblyName: com.unity.multiplayer-hlapi.Runtime.dll
+    namespaceName: UnityEngine.Networking
+    className: NetworkIdentity
   - hash:
       serializedVersion: 2
       Hash: a2869f4febb8c245318403779e7b7014
@@ -622,10 +823,22 @@ ScriptsOnlyBuild:
     className: SDK_XimmerseBoundaries
   - hash:
       serializedVersion: 2
+      Hash: f8986357ffa16cff6d1643d8d8a95c3c
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Tracking.Collision
+    className: CollisionNotifier
+  - hash:
+      serializedVersion: 2
       Hash: 98aa0a0c8ff2910eb12af89c7e0eb661
     assemblyName: Unity.XR.Management.dll
     namespaceName: UnityEngine.XR.Management
     className: XRGeneralSettings
+  - hash:
+      serializedVersion: 2
+      Hash: ef31e481b44f16c05e602c719103ab56
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Event.Yield
+    className: WaitForEndOfFrameYieldEmitter
   - hash:
       serializedVersion: 2
       Hash: fc9fbe84dfc8979993a99d11baf2a29b
@@ -652,6 +865,12 @@ ScriptsOnlyBuild:
     className: TrainButtonVisualController
   - hash:
       serializedVersion: 2
+      Hash: bfff67bff4bd5310b0b005cbb863c92c
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Rule
+    className: AnyTagRule
+  - hash:
+      serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
     assemblyName: UnityEngine.TestRunner.dll
     namespaceName: UnityEngine.TestTools.TestRunner.Callbacks
@@ -668,6 +887,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.XR.Oculus.dll
     namespaceName: Unity.XR.Oculus
     className: OculusSettings
+  - hash:
+      serializedVersion: 2
+      Hash: d33e1763ba5b47a41778987ccc82eecd
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Tracking.Follow.Operation.Extraction
+    className: ObjectFollowerEventDataTargetExtractor
   - hash:
       serializedVersion: 2
       Hash: b3bb7c40cede9849e7814d6093dcfcea
@@ -688,6 +913,12 @@ ScriptsOnlyBuild:
     className: VRTK_SDKManager
   - hash:
       serializedVersion: 2
+      Hash: 1abfd1cd953a909f8d7edb031f425657
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Data.Operation.Cache
+    className: StringCache
+  - hash:
+      serializedVersion: 2
       Hash: d414e52c15bf6d71e00beda3bf535f01
     assemblyName: Assembly-CSharp.dll
     namespaceName: VRTK.UnityEventHelper
@@ -700,6 +931,12 @@ ScriptsOnlyBuild:
     className: TMP_InputField
   - hash:
       serializedVersion: 2
+      Hash: 15fe56d9a9d9b9e33795ce264de6fdf3
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: OVRInputAxis1DAction
+  - hash:
+      serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
     assemblyName: Assembly-CSharp.dll
     namespaceName: VRTK
@@ -710,6 +947,12 @@ ScriptsOnlyBuild:
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: CharacterCameraConstraint
+  - hash:
+      serializedVersion: 2
+      Hash: ad9173d3a69d99153f38ed4b62226129
+    assemblyName: com.unity.multiplayer-hlapi.Runtime.dll
+    namespaceName: UnityEngine.Networking
+    className: NetworkTransform
   - hash:
       serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
@@ -736,6 +979,12 @@ ScriptsOnlyBuild:
     className: UICircle
   - hash:
       serializedVersion: 2
+      Hash: d33e1763ba5b47a41778987ccc82eecd
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Tracking.Follow.Operation.Extraction
+    className: ObjectFollowerEventDataSourceExtractor
+  - hash:
+      serializedVersion: 2
       Hash: fe636f2afd9192f3b447639e2930803f
     assemblyName: Assembly-CSharp.dll
     namespaceName: VRTK.Examples
@@ -752,6 +1001,18 @@ ScriptsOnlyBuild:
     assemblyName: Assembly-CSharp.dll
     namespaceName: VRTK.Examples
     className: Sword
+  - hash:
+      serializedVersion: 2
+      Hash: a9ca0909b260232af152a6062939015d
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Data.Type.Transformation.Conversion
+    className: BooleanToFloat
+  - hash:
+      serializedVersion: 2
+      Hash: 3417a96be8ec051fe12eebb392711fec
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Data.Operation.Extraction
+    className: ComponentGameObjectExtractor
   - hash:
       serializedVersion: 2
       Hash: 9684b730c1ca8a3c2e3fa1652f09faa1
@@ -784,6 +1045,12 @@ ScriptsOnlyBuild:
     className: OVRMixedRealityCaptureTest
   - hash:
       serializedVersion: 2
+      Hash: f9654ab2b14c99684549e5ea6fd4992e
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Tracking.Modification
+    className: ComponentEnabledStateModifier
+  - hash:
+      serializedVersion: 2
       Hash: 955fdf0c37f422fc98b048ba32c74efd
     assemblyName: Assembly-CSharp.dll
     namespaceName: VRTK
@@ -802,10 +1069,22 @@ ScriptsOnlyBuild:
     className: Lamp
   - hash:
       serializedVersion: 2
+      Hash: 7e394d578dea8ffa781cf49e6f9214b9
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Process.Moment
+    className: MomentProcess
+  - hash:
+      serializedVersion: 2
       Hash: 612e2da284b720631edc4a7d63f2fef7
     assemblyName: Assembly-CSharp.dll
     namespaceName: VRTK
     className: VRTK_RadialMenuController
+  - hash:
+      serializedVersion: 2
+      Hash: fa4210cee7091576ce4ed7258b598b35
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Data.Collection
+    className: GameObjectRelations
   - hash:
       serializedVersion: 2
       Hash: 8aa3d6ccbcb54ee8db6c1229854adaaa
@@ -832,16 +1111,40 @@ ScriptsOnlyBuild:
     className: OVRAudioSourceTest
   - hash:
       serializedVersion: 2
+      Hash: dc9bf1185f30949328531fde0be64b20
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Rule
+    className: StringMatchesRule
+  - hash:
+      serializedVersion: 2
       Hash: 4f03875303977b0819d112d67f667f11
     assemblyName: Assembly-CSharp.dll
     namespaceName: VRTK
     className: VRTK_VRInputModule
   - hash:
       serializedVersion: 2
+      Hash: e61542d1e4185b80b21d735c7c1e8fc2
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Tracking.Collision.Active.Event.Proxy
+    className: ActiveCollisionRegisteredConsumerContainerEventProxyEmitter
+  - hash:
+      serializedVersion: 2
       Hash: 8bc89c7c1cb1fbcb5c629857f0cd369d
     assemblyName: Assembly-CSharp.dll
     namespaceName: VRTK
     className: VRTK_InteractControllerAppearance
+  - hash:
+      serializedVersion: 2
+      Hash: d3347f9198abfcce3d8e607fd865ecb0
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Event.Proxy
+    className: Vector2EventProxyEmitter
+  - hash:
+      serializedVersion: 2
+      Hash: ce60e619d62786025f5e50a1353c5adb
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Data.Collection.List
+    className: BehaviourObservableList
   - hash:
       serializedVersion: 2
       Hash: 7301b469dd79cdc3168cf4a96878791b
@@ -866,6 +1169,12 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.EventSystems
     className: PhysicsRaycaster
+  - hash:
+      serializedVersion: 2
+      Hash: 0a664454aa53d59e6a58fe3696f957c0
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Tracking.Follow.Modifier.Property.Position
+    className: TransformPosition
   - hash:
       serializedVersion: 2
       Hash: d29554da4f32756eaad6ec0d568c5648
@@ -910,10 +1219,22 @@ ScriptsOnlyBuild:
     className: VRTK_SDKObjectAlias
   - hash:
       serializedVersion: 2
+      Hash: 0316629bc6bc64decdeb100d20c9ac0d
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Action
+    className: SurfaceChangeAction
+  - hash:
+      serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
     assemblyName: Assembly-CSharp.dll
     namespaceName: VRTK
     className: SDK_HyperealVRSystem
+  - hash:
+      serializedVersion: 2
+      Hash: c7cd304ccd604db7a85ae93adf0f2e02
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: NumpadLogic
   - hash:
       serializedVersion: 2
       Hash: facc35fa902babb4621827dbdf4d2077
@@ -922,10 +1243,22 @@ ScriptsOnlyBuild:
     className: Controller_Menu
   - hash:
       serializedVersion: 2
+      Hash: e7632b80f5c664c1ac297d08d2fac77d
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Data.Operation.Extraction
+    className: SurfaceDataCollisionDataExtractor
+  - hash:
+      serializedVersion: 2
       Hash: 4c535cd2d1518505902f96d9b156cb1a
     assemblyName: Assembly-CSharp.dll
     namespaceName: VRTK
     className: VRTK_Lever
+  - hash:
+      serializedVersion: 2
+      Hash: f2aef6b6f2b5e4496aa71a0dccdcb638
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Cast.Operation.Conversion
+    className: ToBoxCastConverter
   - hash:
       serializedVersion: 2
       Hash: e7dac3c9100823d6e750582bb7d6b5f8
@@ -946,10 +1279,22 @@ ScriptsOnlyBuild:
     className: VRTK_PositionRewind
   - hash:
       serializedVersion: 2
+      Hash: daa5bc3897e17251d0b346afa2fb3735
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Data.Type.Transformation.Conversion
+    className: AngleToVector2Direction
+  - hash:
+      serializedVersion: 2
       Hash: 1ecdb7d3007e8ff142ab403073d240c2
     assemblyName: Assembly-CSharp.dll
     namespaceName: VRTK
     className: VRTK_PlayerObject
+  - hash:
+      serializedVersion: 2
+      Hash: 5220022999cf625f93a2b46af1c17173
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Tracking.Modification
+    className: DirectionModifier
   - hash:
       serializedVersion: 2
       Hash: 2d6c48bcbb0c5879a658aca82ca624a7
@@ -976,10 +1321,28 @@ ScriptsOnlyBuild:
     className: VRTK_HeadsetCollision
   - hash:
       serializedVersion: 2
+      Hash: 6bd4154497432cc15d34cf9e3f11dd31
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Event.Proxy
+    className: StringEventProxyEmitter
+  - hash:
+      serializedVersion: 2
       Hash: 329a4358a2c40fe3c40f44951200bd91
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: OvrAvatarBase
+  - hash:
+      serializedVersion: 2
+      Hash: ffe642add16635217f1d4e6c9827be75
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Process.Moment
+    className: MomentProcessor
+  - hash:
+      serializedVersion: 2
+      Hash: 046d095ff8696299536de2574c882733
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Rule
+    className: StringInListRule
   - hash:
       serializedVersion: 2
       Hash: bd3cf68c8964d3c66d1c43f4f98508c9
@@ -994,6 +1357,12 @@ ScriptsOnlyBuild:
     className: OVRSpectatorModeDomeTest
   - hash:
       serializedVersion: 2
+      Hash: 3f0b469d844365c00a63de0437c9b29e
+    assemblyName: com.unity.multiplayer-hlapi.Runtime.dll
+    namespaceName: UnityEngine.Networking
+    className: NetworkProximityChecker
+  - hash:
+      serializedVersion: 2
       Hash: 0c82046177957abcd363bdf69efe2ff5
     assemblyName: Assembly-CSharp.dll
     namespaceName: VRTK.SecondaryControllerGrabActions
@@ -1004,6 +1373,18 @@ ScriptsOnlyBuild:
     assemblyName: Assembly-CSharp.dll
     namespaceName: VRTK
     className: SDK_SimSystem
+  - hash:
+      serializedVersion: 2
+      Hash: c540563fc876ff99ff5c86ff63d48441
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Data.Operation.Extraction
+    className: GameObjectChildByNameExtractor
+  - hash:
+      serializedVersion: 2
+      Hash: 761c863b9b2051bc0f44bebfe348a5ac
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Data.Collection.List
+    className: GameObjectMultiRelationObservableList
   - hash:
       serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
@@ -1066,10 +1447,40 @@ ScriptsOnlyBuild:
     className: UI_Keyboard
   - hash:
       serializedVersion: 2
+      Hash: 31b4948315d6062a93c135b20d01206f
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Rule
+    className: Vector2EqualsRule
+  - hash:
+      serializedVersion: 2
       Hash: 5ae3084f11cce4001680c05deed3fe9d
     assemblyName: Assembly-CSharp.dll
     namespaceName: VRTK.Examples
     className: Controller_Hand
+  - hash:
+      serializedVersion: 2
+      Hash: c9504feca5b8ec1fca186f63d7e92820
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Data.Collection.List
+    className: Vector3ObservableList
+  - hash:
+      serializedVersion: 2
+      Hash: efc7262760d35ea312d874bce27be9c4
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Haptics
+    className: AudioClipHapticPulser
+  - hash:
+      serializedVersion: 2
+      Hash: f303e4d9ca0c0da1788d0a7d385d5e31
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Tracking.Velocity.Collection
+    className: VelocityTrackerObservableList
+  - hash:
+      serializedVersion: 2
+      Hash: 97754f2053651386be971ec65c9109a9
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Tracking.Velocity
+    className: ArtificialVelocityApplier
   - hash:
       serializedVersion: 2
       Hash: 4e3722bd3ca0e64446125030adbbf15b
@@ -1114,10 +1525,28 @@ ScriptsOnlyBuild:
     className: TransitionArmModel
   - hash:
       serializedVersion: 2
+      Hash: 8521cbd9412d451660dea9aa8c82895b
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Data.Collection.List
+    className: StringObservableList
+  - hash:
+      serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
     assemblyName: Assembly-CSharp.dll
     namespaceName: VRTK
     className: VRTK_ScreenFade
+  - hash:
+      serializedVersion: 2
+      Hash: 87b68cca2d0c3c7df61670f269596e5d
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Data.Operation.Extraction
+    className: RaycastHitRigidbodyExtractor
+  - hash:
+      serializedVersion: 2
+      Hash: 5c9db84e75793292a8a3684736c896db
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Rule
+    className: AnyComponentTypeRule
   - hash:
       serializedVersion: 2
       Hash: fef6830ed12cb3b5561e4851ec569f37
@@ -1150,6 +1579,18 @@ ScriptsOnlyBuild:
     className: PanelMenuSaucerGrid
   - hash:
       serializedVersion: 2
+      Hash: a9e24db043d86204bbbe9e1caa6378a3
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Data.Type.Transformation.Aggregation
+    className: Vector3Subtractor
+  - hash:
+      serializedVersion: 2
+      Hash: c7a446581b7673aa421382573d6d42c6
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Rule
+    className: AnyRule
+  - hash:
+      serializedVersion: 2
       Hash: 08620780b69fc9e76cd687022de1f5b6
     assemblyName: Assembly-CSharp.dll
     namespaceName: OculusSampleFramework
@@ -1162,10 +1603,22 @@ ScriptsOnlyBuild:
     className: FireExtinguisher_Sprayer
   - hash:
       serializedVersion: 2
+      Hash: bbce3376a3af9a8ac34e3606988d9d22
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Tracking.Collision.Event.Proxy
+    className: CollisionNotifierEventProxyEmitter
+  - hash:
+      serializedVersion: 2
       Hash: a3d1f52d83f058b4557b96b9ac692b76
     assemblyName: Assembly-CSharp.dll
     namespaceName: OculusSampleFramework
     className: HandsManager
+  - hash:
+      serializedVersion: 2
+      Hash: 1abfd1cd953a909f8d7edb031f425657
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Data.Operation.Cache
+    className: GameObjectCache
   - hash:
       serializedVersion: 2
       Hash: 4a7d2411bf4b30e4d7bb29dae648984f
@@ -1186,16 +1639,34 @@ ScriptsOnlyBuild:
     className: OVRResources
   - hash:
       serializedVersion: 2
+      Hash: a9ca0909b260232af152a6062939015d
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Data.Type.Transformation.Conversion
+    className: StringToTimeSpan
+  - hash:
+      serializedVersion: 2
       Hash: aba7b2852ef61d175dd9602e7723d5e5
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UI
     className: Mask
   - hash:
       serializedVersion: 2
+      Hash: 3088dc96f430e8acd5007df0a23ef951
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Data.Type.Transformation.Conversion
+    className: Vector2ToAngle
+  - hash:
+      serializedVersion: 2
       Hash: 9337d9b49ef69a8f6b3c9e840a9d2fe6
     assemblyName: Assembly-CSharp.dll
     namespaceName: OculusSampleFramework
     className: GrabbableCrosshair
+  - hash:
+      serializedVersion: 2
+      Hash: 0deb7040fee1261ad81dc530757b2788
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Tracking.Collision.Active
+    className: CollisionPointContainer
   - hash:
       serializedVersion: 2
       Hash: d9e5d15f791f38cd2ecd9967563f1834
@@ -1252,6 +1723,12 @@ ScriptsOnlyBuild:
     className: GazeTarget
   - hash:
       serializedVersion: 2
+      Hash: 1ef3969c3040878cf55d768e77fc2550
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Data.Operation.Extraction
+    className: Vector2ComponentExtractor
+  - hash:
+      serializedVersion: 2
       Hash: c62775f7279ea30b4981a8322d28585a
     assemblyName: Oculus.Platform.dll
     namespaceName: Oculus.Platform.Samples.SimplePlatformSample
@@ -1270,6 +1747,12 @@ ScriptsOnlyBuild:
     className: WindowsMRLoader
   - hash:
       serializedVersion: 2
+      Hash: f8e78a3b9ad72259c623087e27fa8428
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Tracking.Velocity
+    className: ComponentTrackerProxy
+  - hash:
+      serializedVersion: 2
       Hash: 9f20756fa866d9331f9096772af0b319
     assemblyName: Oculus.Spatializer.dll
     namespaceName: 
@@ -1282,10 +1765,28 @@ ScriptsOnlyBuild:
     className: VRTK_ControllerInteract_ListenerExample
   - hash:
       serializedVersion: 2
+      Hash: 0cdf1c2671eca4ee349fa4e49be90c5b
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Association
+    className: LoadedXrDeviceAssociation
+  - hash:
+      serializedVersion: 2
       Hash: 4810b3707d5fd5dc0d4e93afb64fcd4b
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: OvrAvatarSettings
+  - hash:
+      serializedVersion: 2
+      Hash: 19cb06a107df830dac6d810870b98bb3
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Tracking.Velocity
+    className: VelocityEmitter
+  - hash:
+      serializedVersion: 2
+      Hash: ae12829df65cc250cdf068ae8b53a0ed
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Pointer
+    className: PointerElement
   - hash:
       serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
@@ -1318,6 +1819,12 @@ ScriptsOnlyBuild:
     className: VRTK_ControllerTooltips_UnityEvents
   - hash:
       serializedVersion: 2
+      Hash: 32c33cf8ff76c86f64cbb1ceb894eecd
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Rule
+    className: AnyBehaviourEnabledRule
+  - hash:
+      serializedVersion: 2
       Hash: d24a63cc00e0636fa74fd2e0b3b243ae
     assemblyName: Assembly-CSharp.dll
     namespaceName: VRTK.Examples
@@ -1342,6 +1849,24 @@ ScriptsOnlyBuild:
     className: VRTK_InteractGrab_UnityEvents
   - hash:
       serializedVersion: 2
+      Hash: d7ee5abb4eda0af2f502200a323bf26e
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Tracking.Follow.Modifier.Property.Rotation
+    className: RigidbodyForceAtPosition
+  - hash:
+      serializedVersion: 2
+      Hash: 09278e642d9bbfade3242421fe2c1de8
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Haptics.Collection
+    className: HapticProcessObservableList
+  - hash:
+      serializedVersion: 2
+      Hash: 92f5760ced24c8b3de0a8563626eabfb
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Data.Type.Transformation.Aggregation
+    className: FloatMaxFinder
+  - hash:
+      serializedVersion: 2
       Hash: cc4274b586df3c02688bac01b88bd16c
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.EventSystems
@@ -1358,6 +1883,12 @@ ScriptsOnlyBuild:
     assemblyName: Oculus.Platform.dll
     namespaceName: Oculus.Platform.Samples.VrBoardGame
     className: IAPManager
+  - hash:
+      serializedVersion: 2
+      Hash: 7be0a3c9eea0c2239944e2293e6a3e8b
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Visual
+    className: MeshStateModifier
   - hash:
       serializedVersion: 2
       Hash: 0fb27be807aa299702f28ad0bcad1f46
@@ -1378,6 +1909,12 @@ ScriptsOnlyBuild:
     className: VRTK_PlayAreaCursor_UnityEvents
   - hash:
       serializedVersion: 2
+      Hash: dcb828d92622119b1be8901145dd2ca0
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Process.Moment
+    className: CompositeProcess
+  - hash:
+      serializedVersion: 2
       Hash: 5bc451093cb928b800a65f33c47556ba
     assemblyName: Assembly-CSharp.dll
     namespaceName: OculusSampleFramework
@@ -1388,6 +1925,12 @@ ScriptsOnlyBuild:
     assemblyName: Assembly-CSharp.dll
     namespaceName: VRTK.Examples
     className: OptionsMenu
+  - hash:
+      serializedVersion: 2
+      Hash: 974e22dd0d6bed3367e182264b3ee798
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: PointingGestureAction
   - hash:
       serializedVersion: 2
       Hash: 84f118e8bb01e4e536b4fe72b0493ca3
@@ -1432,10 +1975,22 @@ ScriptsOnlyBuild:
     className: SDK_SimController
   - hash:
       serializedVersion: 2
+      Hash: f03e715efc06166652b50734d144ef72
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Tracking.Velocity
+    className: VelocityTrackerProcessor
+  - hash:
+      serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
     assemblyName: Oculus.Platform.dll
     namespaceName: Oculus.Platform.Samples.VrHoops
     className: AIPlayer
+  - hash:
+      serializedVersion: 2
+      Hash: 4482a85164cb626b1a4edba7f2279dbe
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Rule
+    className: Vector3EqualsRule
   - hash:
       serializedVersion: 2
       Hash: ed703b018a44c7990cd6f5aeeaa549a8
@@ -1444,10 +1999,22 @@ ScriptsOnlyBuild:
     className: OVROverlay
   - hash:
       serializedVersion: 2
+      Hash: f838d160147e5b1182ba8b20e890cc86
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Rule
+    className: NegationRule
+  - hash:
+      serializedVersion: 2
       Hash: c3d3430df9e3ea95e3e3d587961390fb
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
     className: ControlTrack
+  - hash:
+      serializedVersion: 2
+      Hash: fe9209b4337a14bddaae9e0830c0a835
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Event
+    className: BehaviourEnabledObserver
   - hash:
       serializedVersion: 2
       Hash: 849ed1cc34faf38cd0f35aff9ecf2367
@@ -1480,6 +2047,12 @@ ScriptsOnlyBuild:
     className: OVRAutoDestroyInMRC
   - hash:
       serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Cast.Operation.Conversion
+    className: ToRaycastConverter
+  - hash:
+      serializedVersion: 2
       Hash: 80913a2dbb708e0f503739c081ba230f
     assemblyName: Assembly-CSharp.dll
     namespaceName: OculusSampleFramework
@@ -1496,6 +2069,24 @@ ScriptsOnlyBuild:
     assemblyName: Oculus.VR.dll
     namespaceName: 
     className: OVRPlatformMenu
+  - hash:
+      serializedVersion: 2
+      Hash: 1e1d1aa9607098d110e3859fb01b8803
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: OVRInputButtonAction
+  - hash:
+      serializedVersion: 2
+      Hash: 90567b355555bab91248382ae6acf251
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Tracking.CameraRig.Collection
+    className: LinkedAliasAssociationCollectionObservableList
+  - hash:
+      serializedVersion: 2
+      Hash: 97754f2053651386be971ec65c9109a9
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Tracking.Velocity
+    className: ArtificialVelocityApplierProcess
   - hash:
       serializedVersion: 2
       Hash: f6d3f53988465db91af90171954f7b5e
@@ -1552,6 +2143,12 @@ ScriptsOnlyBuild:
     className: OVRLipSyncSequence
   - hash:
       serializedVersion: 2
+      Hash: 79c8bb3c61b32415a2dcd6f76562a14b
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Tracking.Modification.Operation.Extraction
+    className: TransformPropertyApplierEventDataExtractor
+  - hash:
+      serializedVersion: 2
       Hash: 361f525e9e51617cb0ac071fa16bd4e6
     assemblyName: Assembly-CSharp.dll
     namespaceName: VRTK.Examples
@@ -1570,6 +2167,24 @@ ScriptsOnlyBuild:
     className: AnalyticsUI
   - hash:
       serializedVersion: 2
+      Hash: 6af6024ca4b2cb69cd9e64ca8daad9cd
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Rule.Collection
+    className: RuleContainerObservableList
+  - hash:
+      serializedVersion: 2
+      Hash: 265cf27ba050d55ff33a8acab4ded6c0
+    assemblyName: com.unity.multiplayer-hlapi.Runtime.dll
+    namespaceName: UnityEngine.Networking
+    className: NetworkLobbyManager
+  - hash:
+      serializedVersion: 2
+      Hash: 119391f43736672a1054200339bf7d8f
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Haptics
+    className: HapticProcessor
+  - hash:
+      serializedVersion: 2
       Hash: 0498232dd48b097128db9129acff161b
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
@@ -1580,6 +2195,18 @@ ScriptsOnlyBuild:
     assemblyName: Assembly-CSharp.dll
     namespaceName: VRTK
     className: VRTK_ControllerTrackedCollider
+  - hash:
+      serializedVersion: 2
+      Hash: 5887ef1bc706b22b773d253fd443ceef
+    assemblyName: com.unity.multiplayer-hlapi.Runtime.dll
+    namespaceName: UnityEngine.Networking
+    className: NetworkTransformVisualizer
+  - hash:
+      serializedVersion: 2
+      Hash: 04ae4d739e9f24c3c45092d4cb34fefd
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Data.Operation.Extraction
+    className: ComponentRigidbodyExtractor
   - hash:
       serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
@@ -1606,10 +2233,34 @@ ScriptsOnlyBuild:
     className: VRTK_UICanvas
   - hash:
       serializedVersion: 2
+      Hash: eaa28f8512d9da701f46530ecb66b033
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Visual
+    className: CameraColorOverlay
+  - hash:
+      serializedVersion: 2
       Hash: bb416e9a49fa1056a851e29bfaeebe51
     assemblyName: Oculus.Spatializer.dll
     namespaceName: 
     className: ONSPReflectionZone
+  - hash:
+      serializedVersion: 2
+      Hash: 0005f5ea0afca648478af05e1bc35f4b
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Data.Operation.Extraction
+    className: TransformDirectionExtractor
+  - hash:
+      serializedVersion: 2
+      Hash: 559f76b96d8ac0b1749bccb669827519
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Data.Type.Observer
+    className: GameObjectObservableProperty
+  - hash:
+      serializedVersion: 2
+      Hash: 5b3f6f1c50f87343f07304b19fd3dd3c
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Tracking.Velocity
+    className: AverageVelocityEstimator
   - hash:
       serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
@@ -1618,10 +2269,22 @@ ScriptsOnlyBuild:
     className: VRTK_CollisionTracker
   - hash:
       serializedVersion: 2
+      Hash: e9825c8709698b6ac14bcd9310da230a
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Tracking.Velocity
+    className: XRNodeVelocityEstimator
+  - hash:
+      serializedVersion: 2
       Hash: 86dd1a65dc79c9e67f704bb083137280
     assemblyName: Assembly-CSharp.dll
     namespaceName: VRTK.Examples
     className: AutoRotation
+  - hash:
+      serializedVersion: 2
+      Hash: 0bcf81e4754b93038cb84ad7962e5f3c
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Event.Proxy
+    className: FloatEventProxyEmitter
   - hash:
       serializedVersion: 2
       Hash: e7c470fc53072faef9059fb81c573abb
@@ -1634,6 +2297,12 @@ ScriptsOnlyBuild:
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: HandsActiveChecker
+  - hash:
+      serializedVersion: 2
+      Hash: 33ad31b724fa2cdb5f695a1d41d3ae05
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Data.Type.Transformation.Conversion
+    className: Vector3ToVector2
   - hash:
       serializedVersion: 2
       Hash: 2d75dd1753213123772f51e8448cd92e
@@ -1666,10 +2335,22 @@ ScriptsOnlyBuild:
     className: VRTK_SlingshotJump
   - hash:
       serializedVersion: 2
+      Hash: a523d3d15b8bf24f3bcef028cdaddab2
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Rule
+    className: FloatInRangeRule
+  - hash:
+      serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
     assemblyName: Assembly-CSharp.dll
     namespaceName: VRTK.Examples
     className: SnapDropZoneGroup_Switcher
+  - hash:
+      serializedVersion: 2
+      Hash: c8111cd8bec663cfa14aa0d74a554319
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Tracking.Velocity
+    className: VelocityMultiplier
   - hash:
       serializedVersion: 2
       Hash: b3ab2106268377ffe25dd18ac23dca28
@@ -1744,6 +2425,12 @@ ScriptsOnlyBuild:
     className: CallbackRunner
   - hash:
       serializedVersion: 2
+      Hash: 66bca5cc6a18c5298ec75235e56a84d6
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Tracking.Modification
+    className: PointNormalRotator
+  - hash:
+      serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
     assemblyName: Assembly-CSharp.dll
     namespaceName: VRTK
@@ -1768,6 +2455,12 @@ ScriptsOnlyBuild:
     className: StartCrashlytics
   - hash:
       serializedVersion: 2
+      Hash: d03858094532b28bbc9bbbccffe981ae
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Tracking.Collision.Active.Operation.Extraction
+    className: NotifierContainerExtractor
+  - hash:
+      serializedVersion: 2
       Hash: 7136ccb8970d7b5b2feefcae2f0d201d
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
@@ -1778,6 +2471,12 @@ ScriptsOnlyBuild:
     assemblyName: Assembly-CSharp.dll
     namespaceName: VRTK
     className: VRTK_ConsoleViewer
+  - hash:
+      serializedVersion: 2
+      Hash: 1158f1e2d61fa9661b5d73694f87fdc8
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Tracking.Query
+    className: ObscuranceQuery
   - hash:
       serializedVersion: 2
       Hash: fe6861b3aa11fee285fbc78ddf45bb59
@@ -1792,6 +2491,18 @@ ScriptsOnlyBuild:
     className: VRTK_Drawer
   - hash:
       serializedVersion: 2
+      Hash: 0d6c5571432ec96cb56a8afa859f89a7
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Data.Operation.Cache
+    className: FloatCache
+  - hash:
+      serializedVersion: 2
+      Hash: 3744c85041e4591d2c98b50434c9ade8
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Pointer
+    className: ObjectPointer
+  - hash:
+      serializedVersion: 2
       Hash: ae83e830e7a90c0aff918c4c2e520825
     assemblyName: Assembly-CSharp.dll
     namespaceName: VRTK
@@ -1802,6 +2513,12 @@ ScriptsOnlyBuild:
     assemblyName: Assembly-CSharp.dll
     namespaceName: VRTK.Examples
     className: VRTK_ControllerAppearance_Example
+  - hash:
+      serializedVersion: 2
+      Hash: 2d294d4206c416d3656fed09aee5ac0c
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Tracking.Follow.Modifier
+    className: FollowModifier
   - hash:
       serializedVersion: 2
       Hash: c3d3430df9e3ea95e3e3d587961390fb
@@ -1820,6 +2537,12 @@ ScriptsOnlyBuild:
     assemblyName: Assembly-CSharp.dll
     namespaceName: VRTK
     className: VRTK_InteractNearTouch
+  - hash:
+      serializedVersion: 2
+      Hash: 693c6122662d35c6cadb33f420969633
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Tracking.Follow
+    className: ObjectFollower
   - hash:
       serializedVersion: 2
       Hash: 9edf0788742c31d8eaaf32cf4feac747
@@ -1846,6 +2569,12 @@ ScriptsOnlyBuild:
     className: VRTK_AdaptiveQuality
   - hash:
       serializedVersion: 2
+      Hash: 746987c35a6e2a5c0bd1f92fe957a267
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Tracking.Follow.Modifier.Property.Position
+    className: RigidbodyVelocity
+  - hash:
+      serializedVersion: 2
       Hash: 8b8a722cc45a273176f7956864e490ef
     assemblyName: Assembly-CSharp.dll
     namespaceName: VRTK
@@ -1858,10 +2587,22 @@ ScriptsOnlyBuild:
     className: SceneLoader
   - hash:
       serializedVersion: 2
+      Hash: 5643d7e94e62753d2b78321c98b9d09e
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Tracking.Collision.Active
+    className: ActiveCollisionRegisteredConsumerContainer
+  - hash:
+      serializedVersion: 2
       Hash: 865e814fa1fa9ee6e4da69657a179488
     assemblyName: Assembly-CSharp.dll
     namespaceName: VRTK.Examples
     className: Menu_Color_Changer
+  - hash:
+      serializedVersion: 2
+      Hash: 3259c8b45235a26df87a2f84650737d3
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Event.Proxy
+    className: TransformDataProxyEmitter
   - hash:
       serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
@@ -1882,10 +2623,40 @@ ScriptsOnlyBuild:
     className: VRTK_SnapDropZone
   - hash:
       serializedVersion: 2
+      Hash: 547e6fb45a28ee6a53a430cba90d3c9a
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Association.Collection
+    className: GameObjectsAssociationObservableList
+  - hash:
+      serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
     assemblyName: Assembly-CSharp.dll
     namespaceName: VRTK
     className: SDK_UnityController
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: com.unity.multiplayer-hlapi.Runtime.dll
+    namespaceName: UnityEngine.Networking
+    className: NetworkCallbacks
+  - hash:
+      serializedVersion: 2
+      Hash: e3a8e774f8c266fdb08232717a7c140e
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Rule
+    className: NavMeshRule
+  - hash:
+      serializedVersion: 2
+      Hash: 1f2feea55bedf19d47c1619d83f0b6b4
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Visual
+    className: PointsRenderer
+  - hash:
+      serializedVersion: 2
+      Hash: 243116021b0caacfa6029cb60262fc6e
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Action
+    className: Vector2Action
   - hash:
       serializedVersion: 2
       Hash: 22dc216204f0e65ce2161bd7b6ecf06b
@@ -1918,16 +2689,34 @@ ScriptsOnlyBuild:
     className: OVROverlaySample
   - hash:
       serializedVersion: 2
+      Hash: 21e871d89bbce53c038fc75ad1b7c7f3
+    assemblyName: com.unity.multiplayer-hlapi.Runtime.dll
+    namespaceName: UnityEngine.Networking
+    className: NetworkManager
+  - hash:
+      serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
     assemblyName: Assembly-CSharp.dll
     namespaceName: VRTK
     className: SDK_OculusHeadset
   - hash:
       serializedVersion: 2
+      Hash: 92f5760ced24c8b3de0a8563626eabfb
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Data.Type.Transformation.Aggregation
+    className: FloatMedianFinder
+  - hash:
+      serializedVersion: 2
       Hash: ffbe8cdc55b8e5431621a76ea308012c
     assemblyName: Assembly-CSharp.dll
     namespaceName: VRTK.GrabAttachMechanics
     className: VRTK_CustomJointGrabAttach
+  - hash:
+      serializedVersion: 2
+      Hash: 87b68cca2d0c3c7df61670f269596e5d
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Data.Operation.Extraction
+    className: RaycastHitTextureCoordExtractor
   - hash:
       serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
@@ -1946,6 +2735,12 @@ ScriptsOnlyBuild:
     assemblyName: Assembly-CSharp.dll
     namespaceName: VRTK
     className: VRTK_IgnoreInteractTouchColliders
+  - hash:
+      serializedVersion: 2
+      Hash: 8f5b31d0774e3797aa39f9c2d7ba48e3
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Event.Proxy
+    className: SurfaceDataProxyEmitter
   - hash:
       serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
@@ -1984,10 +2779,28 @@ ScriptsOnlyBuild:
     className: OVRLipSync
   - hash:
       serializedVersion: 2
+      Hash: 892af6729b52e2a9662da6711e6ed2b0
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Data.Type.Observer
+    className: CameraObservableProperty
+  - hash:
+      serializedVersion: 2
       Hash: 0182aac3fd8bfdeff27021b9548c3a6a
     assemblyName: Assembly-CSharp.dll
     namespaceName: OculusSampleFramework
     className: ColorGrabbable
+  - hash:
+      serializedVersion: 2
+      Hash: d1d1d203e6cc0b8364ff8f7fd759243f
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Data.Collection.List
+    className: GameObjectRelationObservableList
+  - hash:
+      serializedVersion: 2
+      Hash: 661d3be649bd0600841fdb6556dba3fd
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Tracking.Collision.Active.Operation
+    className: NearestSorter
   - hash:
       serializedVersion: 2
       Hash: 6d39c48b69b486476ba524949d845693
@@ -2002,10 +2815,22 @@ ScriptsOnlyBuild:
     className: BrushController
   - hash:
       serializedVersion: 2
+      Hash: f0a7ae8780f119483f4a354a8cd921e5
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Cast
+    className: StraightLineCast
+  - hash:
+      serializedVersion: 2
       Hash: fe6296766f29f6e4ff538de9246cf8b0
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: HandMeshUI
+  - hash:
+      serializedVersion: 2
+      Hash: 2bca23b9ffe30776f859becc36d76089
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Tracking.Follow
+    className: ObjectDistanceComparator
   - hash:
       serializedVersion: 2
       Hash: b6db3b95b94ee7330fb32624232075df
@@ -2018,6 +2843,18 @@ ScriptsOnlyBuild:
     assemblyName: Assembly-CSharp.dll
     namespaceName: VRTK
     className: VRTK_DestinationPoint
+  - hash:
+      serializedVersion: 2
+      Hash: 2e2d264c2a21eeac93df65d95b099d89
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Data.Type.Observer
+    className: Vector2ObservableProperty
+  - hash:
+      serializedVersion: 2
+      Hash: f49d60df474eb34217d1a94ffa139176
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Action
+    className: AllAction
   - hash:
       serializedVersion: 2
       Hash: 45f2a4e63a8b43166e3f85c4d543f00d
@@ -2060,6 +2897,18 @@ ScriptsOnlyBuild:
     assemblyName: Assembly-CSharp.dll
     namespaceName: VRTK.Examples
     className: ExcludeTeleport
+  - hash:
+      serializedVersion: 2
+      Hash: 621e27e4cc59d23fd461b94b4b3bcf5e
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Tracking.Collision.Active.Event.Proxy
+    className: ActiveCollisionsContainerEventProxyEmitter
+  - hash:
+      serializedVersion: 2
+      Hash: 92f5760ced24c8b3de0a8563626eabfb
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Data.Type.Transformation.Aggregation
+    className: FloatMultiplier
   - hash:
       serializedVersion: 2
       Hash: ab9b3242e7f7cea8eb7d313db01cc29d
@@ -2140,6 +2989,12 @@ ScriptsOnlyBuild:
     className: SDK_FallbackController
   - hash:
       serializedVersion: 2
+      Hash: c4829c608ca179ce0f9a298d7f8f8f8a
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Event.Proxy
+    className: IntEventProxyEmitter
+  - hash:
+      serializedVersion: 2
       Hash: 1f7b0c721efb0508ffca74be965cc006
     assemblyName: Assembly-CSharp.dll
     namespaceName: VRTK
@@ -2182,10 +3037,28 @@ ScriptsOnlyBuild:
     className: TextContainer
   - hash:
       serializedVersion: 2
+      Hash: bc5017fa784ab3e286779ac6b1f8d958
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Data.Type.Transformation.Conversion
+    className: Vector2ToVector3
+  - hash:
+      serializedVersion: 2
+      Hash: 60a46c61f3ac6e9ff56522e14e868745
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Tracking.Modification
+    className: GameObjectStateMirror
+  - hash:
+      serializedVersion: 2
       Hash: 8f71d2ab3258f223c82a0616125cd43f
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: CharacterCapsule
+  - hash:
+      serializedVersion: 2
+      Hash: f49d60df474eb34217d1a94ffa139176
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Action
+    className: AnyAction
   - hash:
       serializedVersion: 2
       Hash: 96c4f721270b9fcfd4aaa14010b28949
@@ -2204,6 +3077,12 @@ ScriptsOnlyBuild:
     assemblyName: Assembly-CSharp.dll
     namespaceName: OculusSampleFramework
     className: FingerTipPokeToolView
+  - hash:
+      serializedVersion: 2
+      Hash: 109d18d3e3d14ffa6849ba1771a2a314
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: TeleporterActivation
   - hash:
       serializedVersion: 2
       Hash: 043c7e57403febdc5cb7607252a9451b
@@ -2252,6 +3131,18 @@ ScriptsOnlyBuild:
     assemblyName: Assembly-CSharp.dll
     namespaceName: OculusSampleFramework
     className: InteractableToolsCreator
+  - hash:
+      serializedVersion: 2
+      Hash: 211a16c9f221cabde993c863bf6b3806
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Tracking.Velocity
+    className: VelocityApplier
+  - hash:
+      serializedVersion: 2
+      Hash: 8d972a0360872b4eb7657c2a698d1f9d
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Rule.Collection
+    className: RulesMatcherElementObservableList
   - hash:
       serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
@@ -2314,10 +3205,22 @@ ScriptsOnlyBuild:
     className: VRTK_HeadsetFade
   - hash:
       serializedVersion: 2
+      Hash: 4a4827fc70910078a2cb5b1c64cd6499
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Haptics
+    className: AudioSourceHapticPulser
+  - hash:
+      serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
     assemblyName: Oculus.VR.dll
     namespaceName: 
     className: OVRGearVrControllerTest
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Cast.Operation.Conversion
+    className: ToLinecastConverter
   - hash:
       serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
@@ -2326,10 +3229,22 @@ ScriptsOnlyBuild:
     className: PanelMenuUISlider
   - hash:
       serializedVersion: 2
+      Hash: 4fa2401370576844b80db84d71ccacb6
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Event.Proxy
+    className: Vector3EventProxyEmitter
+  - hash:
+      serializedVersion: 2
       Hash: 82f888518833e5fa8c86e3e1a06b4a4e
     assemblyName: Assembly-CSharp.dll
     namespaceName: OVRTouchSample
     className: TouchController
+  - hash:
+      serializedVersion: 2
+      Hash: 62dcf3eb853443e0de607e5eab6f7878
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Tracking.Collision.Active
+    className: ActiveCollisionsContainer
   - hash:
       serializedVersion: 2
       Hash: ce2904edc6565bfa158540cb54a8a0e4
@@ -2338,10 +3253,28 @@ ScriptsOnlyBuild:
     className: VRTK_SpringJointGrabAttach
   - hash:
       serializedVersion: 2
+      Hash: 7485f194ff337672337869431f80cfa8
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Action.Collection
+    className: ActionRegistrarSourceObservableList
+  - hash:
+      serializedVersion: 2
+      Hash: d50c3f33d57e5b5496b3e405fc382e4b
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Rule
+    className: RulesMatcher
+  - hash:
+      serializedVersion: 2
       Hash: c1f55cd2b5e13e7cdb1138eb8f04d456
     assemblyName: Oculus.Platform.dll
     namespaceName: 
     className: GroupPresenceSample
+  - hash:
+      serializedVersion: 2
+      Hash: 39ef2ae789f506c238758dd70715f4b4
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Action
+    className: FloatAction
   - hash:
       serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
@@ -2360,6 +3293,12 @@ ScriptsOnlyBuild:
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: CustomDebugUI
+  - hash:
+      serializedVersion: 2
+      Hash: e7632b80f5c664c1ac297d08d2fac77d
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Data.Operation.Extraction
+    className: SurfaceDataCollisionPointExtractor
   - hash:
       serializedVersion: 2
       Hash: cc4274b586df3c02688bac01b88bd16c
@@ -2404,6 +3343,12 @@ ScriptsOnlyBuild:
     className: RayToolView
   - hash:
       serializedVersion: 2
+      Hash: 200dc979f38769f081a832f293c2eab7
+    assemblyName: Tilia.Locomotors.Teleporter.Unity.Runtime.dll
+    namespaceName: Tilia.Locomotors.Teleporter
+    className: TeleporterConfigurator
+  - hash:
+      serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
@@ -2416,10 +3361,40 @@ ScriptsOnlyBuild:
     className: VRTK_SnapRotateObjectControlAction
   - hash:
       serializedVersion: 2
+      Hash: 29942e253d1d1f2793dc166712d0bb35
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Data.Collection.List
+    className: UnityObjectObservableList
+  - hash:
+      serializedVersion: 2
+      Hash: 141b6f284a4e8bc6ca482dc3556f287a
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Association
+    className: GameObjectsAssociationActivator
+  - hash:
+      serializedVersion: 2
+      Hash: 92f5760ced24c8b3de0a8563626eabfb
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Data.Type.Transformation.Aggregation
+    className: FloatModeFinder
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: com.unity.multiplayer-hlapi.Runtime.dll
+    namespaceName: UnityEngine.Networking
+    className: NetworkStartPosition
+  - hash:
+      serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
     assemblyName: Oculus.Platform.dll
     namespaceName: Oculus.Platform.Samples.VrHoops
     className: LocalPlayer
+  - hash:
+      serializedVersion: 2
+      Hash: d33e1763ba5b47a41778987ccc82eecd
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Tracking.Follow.Operation.Extraction
+    className: ObjectFollowerEventDataTargetOffsetExtractor
   - hash:
       serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
@@ -2450,6 +3425,12 @@ ScriptsOnlyBuild:
     assemblyName: Assembly-CSharp.dll
     namespaceName: VRTK
     className: VRTK_UIPointer
+  - hash:
+      serializedVersion: 2
+      Hash: 58fadd19172360c659a840eb9257ab82
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Tracking.Follow.Modifier.Property.Rotation
+    className: RigidbodyAngularVelocity
   - hash:
       serializedVersion: 2
       Hash: 5eafd4ba0d143cc8778ffebf09abe163
@@ -2542,6 +3523,12 @@ ScriptsOnlyBuild:
     className: InputField
   - hash:
       serializedVersion: 2
+      Hash: 728fc54dd63a118b6cd50f7d056ded8a
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Data.Operation.Extraction
+    className: TransformPositionExtractor
+  - hash:
+      serializedVersion: 2
       Hash: ed943a7a92b210b2fcabebe6a253fb7c
     assemblyName: Assembly-CSharp.dll
     namespaceName: VRTK
@@ -2558,6 +3545,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
     className: SignalReceiver
+  - hash:
+      serializedVersion: 2
+      Hash: 78be31fccf9db6061d6b16173412fe1f
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Tracking.Query
+    className: FacingQuery
   - hash:
       serializedVersion: 2
       Hash: 8a5caebf3a44d0795435349cae94f457
@@ -2582,6 +3575,12 @@ ScriptsOnlyBuild:
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: OvrAvatarRemoteDriver
+  - hash:
+      serializedVersion: 2
+      Hash: 0d6c5571432ec96cb56a8afa859f89a7
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Data.Operation.Cache
+    className: Vector2Cache
   - hash:
       serializedVersion: 2
       Hash: 5ad4aa237d47ac2bab17bacb672edf7a
@@ -2638,6 +3637,12 @@ ScriptsOnlyBuild:
     className: Physics2DRaycaster
   - hash:
       serializedVersion: 2
+      Hash: 1a436ef80d11a2d9709085e628164001
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Tracking.Modification
+    className: TransformPropertyApplier
+  - hash:
+      serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
     assemblyName: Oculus.Platform.dll
     namespaceName: Oculus.Platform.Samples.VrHoops
@@ -2656,10 +3661,64 @@ ScriptsOnlyBuild:
     className: SDK_HyperealVRBoundaries
   - hash:
       serializedVersion: 2
+      Hash: 1785978723cf3c4fc574f107315bc077
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Data.Collection.List
+    className: SerializableTypeBehaviourObservableList
+  - hash:
+      serializedVersion: 2
+      Hash: c587871eef5e0253fee52c9bd104369e
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Tracking.Collision
+    className: CollisionTracker
+  - hash:
+      serializedVersion: 2
+      Hash: 6ee14e03af17a61e7104e4ff754feba5
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Action
+    className: ActionRegistrar
+  - hash:
+      serializedVersion: 2
+      Hash: bef4ac49581c2b588cf65c41e463f9b4
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Association
+    className: PlatformDeviceAssociation
+  - hash:
+      serializedVersion: 2
+      Hash: 6277300b4e39fedd9b2ee82ea9f7d247
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Data.Type.Transformation.Conversion
+    className: TimeSpanToFloat
+  - hash:
+      serializedVersion: 2
       Hash: fe76076d1282d42f2e77aa2da57ebff4
     assemblyName: Assembly-CSharp.dll
     namespaceName: VRTK.Controllables.ArtificialBased
     className: VRTK_ArtificialSlider
+  - hash:
+      serializedVersion: 2
+      Hash: 318c6c13a19c9fac98135ae14889de1b
+    assemblyName: com.unity.multiplayer-hlapi.Runtime.dll
+    namespaceName: UnityEngine.Networking
+    className: NetworkMigrationManager
+  - hash:
+      serializedVersion: 2
+      Hash: fb09925c9366b167c2839016d8625e31
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Data.Type.Transformation.Conversion
+    className: FloatToString
+  - hash:
+      serializedVersion: 2
+      Hash: 92f5760ced24c8b3de0a8563626eabfb
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Data.Type.Transformation.Aggregation
+    className: FloatMinFinder
+  - hash:
+      serializedVersion: 2
+      Hash: 72d38e959f76dd00b781a73b2435fe12
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Tracking.Velocity
+    className: ConstantVelocityTracker
   - hash:
       serializedVersion: 2
       Hash: 267e5c2cd1ff5c28fe12adb8740929e1
@@ -2678,6 +3737,12 @@ ScriptsOnlyBuild:
     assemblyName: Assembly-CSharp.dll
     namespaceName: VRTK.Controllables.ArtificialBased
     className: VRTK_ArtificialRotator
+  - hash:
+      serializedVersion: 2
+      Hash: b4e7db8026eb599b98398540d8028742
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Haptics
+    className: XRNodeHapticPulser
   - hash:
       serializedVersion: 2
       Hash: 8302a05adec609c4b10f8b6cc3443e4c
@@ -2824,10 +3889,22 @@ ScriptsOnlyBuild:
     className: VRTK_PlayerClimb_UnityEvents
   - hash:
       serializedVersion: 2
+      Hash: 08fb153aa1c17237d13ea8ca95616df2
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Data.Operation.Mutation
+    className: TransformPositionMutator
+  - hash:
+      serializedVersion: 2
       Hash: 80b4a5e814c455bb563e97280d811bc1
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: DebugUIBuilder
+  - hash:
+      serializedVersion: 2
+      Hash: c98b75f66fb089f264cea22a0a30c448
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Data.Type.Transformation
+    className: Vector3Restrictor
   - hash:
       serializedVersion: 2
       Hash: f85613073ccb9f28227169fd4771554c
@@ -2846,6 +3923,12 @@ ScriptsOnlyBuild:
     assemblyName: Assembly-CSharp.dll
     namespaceName: VRTK.UnityEventHelper
     className: VRTK_InteractNearTouch_UnityEvents
+  - hash:
+      serializedVersion: 2
+      Hash: 0004e6414b5a10aa71d861498c105797
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Utility
+    className: CountdownTimer
   - hash:
       serializedVersion: 2
       Hash: c3a6134c643adc24348a827ef675558e
@@ -2878,10 +3961,34 @@ ScriptsOnlyBuild:
     className: VRTK_InteractUse_UnityEvents
   - hash:
       serializedVersion: 2
+      Hash: 072ce9c723d435f341effa60512fb39c
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Tracking.Collision.Active.Operation
+    className: OrderReverser
+  - hash:
+      serializedVersion: 2
+      Hash: 4cf979ef2061790b7f65ca43b5109d55
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Tracking.Modification
+    className: GameObjectStateSwitcher
+  - hash:
+      serializedVersion: 2
       Hash: f34848eb42c07a5934f45dee154d356a
     assemblyName: Assembly-CSharp.dll
     namespaceName: VRTK.Examples
     className: VRTKExample_OptionTilePointerSelector
+  - hash:
+      serializedVersion: 2
+      Hash: 98b4f1f5b76da85845d4718b0f944378
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Tracking.CameraRig
+    className: LinkedAliasAssociationCollection
+  - hash:
+      serializedVersion: 2
+      Hash: 9c98f0cc584f19f41bb4d006ce913975
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Rule
+    className: ActiveInHierarchyRule
   - hash:
       serializedVersion: 2
       Hash: 24c74cc0d527a06113f2b967042769f0
@@ -2894,6 +4001,12 @@ ScriptsOnlyBuild:
     assemblyName: Assembly-CSharp.dll
     namespaceName: VRTK.Examples.Archery
     className: BowAim
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: com.unity.multiplayer-hlapi.Runtime.dll
+    namespaceName: UnityEngine.Networking
+    className: NetworkBehaviour
   - hash:
       serializedVersion: 2
       Hash: 349fc863c5f9c0b3f7471af2e318712a
@@ -2914,16 +4027,34 @@ ScriptsOnlyBuild:
     className: VRTK_PhysicsRotator
   - hash:
       serializedVersion: 2
+      Hash: 5449c6017388f247468bca833b616057
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Cast.Operation.Conversion
+    className: ToSphereCastConverter
+  - hash:
+      serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
     assemblyName: Assembly-CSharp.dll
     namespaceName: VRTK
     className: SDK_UnityBoundaries
   - hash:
       serializedVersion: 2
+      Hash: 54740c260f0f070411338ce940bce78f
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Data.Collection.List
+    className: GameObjectObservableList
+  - hash:
+      serializedVersion: 2
       Hash: 8001a5f7502aab37e42206da015e6914
     assemblyName: Unity.TextMeshPro.dll
     namespaceName: TMPro
     className: TextMeshProUGUI
+  - hash:
+      serializedVersion: 2
+      Hash: 80ee87cfc530b87ad8a849740c065683
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Tracking.Follow.Modifier.Property.Rotation
+    className: TransformPositionDifferenceRotation
   - hash:
       serializedVersion: 2
       Hash: 7333cfd1b6f966b6ab54d4b87202b7c2
@@ -2968,6 +4099,18 @@ ScriptsOnlyBuild:
     className: GazeTargetSpawner
   - hash:
       serializedVersion: 2
+      Hash: a7a8a2bce583d2ab753482c77c0fe6af
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Data.Type.Transformation.Conversion
+    className: FloatToVector3
+  - hash:
+      serializedVersion: 2
+      Hash: c6f61866634adbfb258590f2792e7a98
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Data.Operation
+    className: GameObjectCloner
+  - hash:
+      serializedVersion: 2
       Hash: f8438efc679de058330bd3e038df1378
     assemblyName: Oculus.Spatializer.dll
     namespaceName: 
@@ -2980,10 +4123,22 @@ ScriptsOnlyBuild:
     className: OVRPhysicsRaycaster
   - hash:
       serializedVersion: 2
+      Hash: c7a446581b7673aa421382573d6d42c6
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Rule
+    className: AllRule
+  - hash:
+      serializedVersion: 2
       Hash: f336e086360abe49a3323e5f1583c35a
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
     className: AudioTrack
+  - hash:
+      serializedVersion: 2
+      Hash: ca468c9a5228d72c15f819394fea1c33
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Cast
+    className: FixedLineCast
   - hash:
       serializedVersion: 2
       Hash: ce638e2dcac0548a4a3e456d5051c131
@@ -3016,6 +4171,18 @@ ScriptsOnlyBuild:
     className: PusherStickyToggle
   - hash:
       serializedVersion: 2
+      Hash: e90daabce256e21953534ec5ca23a970
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Pointer.Operation.Mutation
+    className: PointerElementPropertyMutator
+  - hash:
+      serializedVersion: 2
+      Hash: 671820220a850a9c744c937ee54460f8
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Data.Operation.Mutation
+    className: RigidbodyPropertyMutator
+  - hash:
+      serializedVersion: 2
       Hash: 57c603a612b823bd13950ed0772ab67d
     assemblyName: Assembly-CSharp.dll
     namespaceName: VRTK
@@ -3026,6 +4193,18 @@ ScriptsOnlyBuild:
     assemblyName: Assembly-CSharp.dll
     namespaceName: VRTK
     className: VRTK_SDKSetupSwitcher
+  - hash:
+      serializedVersion: 2
+      Hash: 87b68cca2d0c3c7df61670f269596e5d
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Data.Operation.Extraction
+    className: RaycastHitNormalExtractor
+  - hash:
+      serializedVersion: 2
+      Hash: 5f2416efb08db41937f17e6815676be8
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Data.Collection.List
+    className: CameraObservableList
   - hash:
       serializedVersion: 2
       Hash: 4f7cf6f216c7f4afd58a95b1cbeca9d3
@@ -3046,10 +4225,34 @@ ScriptsOnlyBuild:
     className: BeforeAfterTestCommandState
   - hash:
       serializedVersion: 2
+      Hash: a9e24db043d86204bbbe9e1caa6378a3
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Data.Type.Transformation.Aggregation
+    className: Vector3Multiplier
+  - hash:
+      serializedVersion: 2
+      Hash: 87b68cca2d0c3c7df61670f269596e5d
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Data.Operation.Extraction
+    className: RaycastHitTransformExtractor
+  - hash:
+      serializedVersion: 2
       Hash: 409f98dd2cebb52d9add79a164724c52
     assemblyName: Assembly-CSharp.dll
     namespaceName: VRTK
     className: VRTK_RadialMenu
+  - hash:
+      serializedVersion: 2
+      Hash: 64717f1f1c2ed1041b755754604d77f2
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Cast
+    className: PhysicsCast
+  - hash:
+      serializedVersion: 2
+      Hash: f163450b64e604cb057ab41c8a738023
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: OVRInputAxis2DAction
   - hash:
       serializedVersion: 2
       Hash: 457cf6a93b3d202f95a9adca2ae76d2c
@@ -3058,10 +4261,40 @@ ScriptsOnlyBuild:
     className: VRTK_RigidbodyFollow
   - hash:
       serializedVersion: 2
+      Hash: 747e0726e1bec109ba49208e106c41a5
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Data.Collection.Stack
+    className: GameObjectObservableStack
+  - hash:
+      serializedVersion: 2
+      Hash: 947e27bfcb0a56996b3b870ed7f5ac19
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Tracking.CameraRig.Operation.Extraction
+    className: PlayAreaDimensionsExtractor
+  - hash:
+      serializedVersion: 2
+      Hash: fbe06e5be5d3af7ba5bc78b20e4c448f
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Tracking.Follow.Operation.Extraction
+    className: ObjectDistanceComparatorEventDataExtractor
+  - hash:
+      serializedVersion: 2
+      Hash: f5191d3a52656436103885cf330f089d
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: TeleporterSelection
+  - hash:
+      serializedVersion: 2
       Hash: 621a63b18c9a5841cb1d42889d8c9cf7
     assemblyName: Assembly-CSharp.dll
     namespaceName: VRTK.Examples
     className: Remote_Beam_Controller
+  - hash:
+      serializedVersion: 2
+      Hash: ef31e481b44f16c05e602c719103ab56
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Event.Yield
+    className: WaitForFixedUpdateYieldEmitter
   - hash:
       serializedVersion: 2
       Hash: b00ce1f32326f1cd1160488ffd14965a
@@ -3100,6 +4333,12 @@ ScriptsOnlyBuild:
     className: VRTK_Pointer
   - hash:
       serializedVersion: 2
+      Hash: f355a5f797948b860e3e37cc53343064
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Tracking.Collision
+    className: CollisionIgnorer
+  - hash:
+      serializedVersion: 2
       Hash: 0c6f8e8a3aeb3d16befa50d0607f262f
     assemblyName: Assembly-CSharp.dll
     namespaceName: VRTK.Examples
@@ -3110,6 +4349,12 @@ ScriptsOnlyBuild:
     assemblyName: Assembly-CSharp.dll
     namespaceName: OculusSampleFramework
     className: PanelHMDFollower
+  - hash:
+      serializedVersion: 2
+      Hash: fdc01b43d4746a6aabc40799edd31866
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Tracking.Modification
+    className: PinchScaler
   - hash:
       serializedVersion: 2
       Hash: 8f66f50037295ca25ce8257f1c704c23
@@ -3124,16 +4369,40 @@ ScriptsOnlyBuild:
     className: VRTK_DestinationMarker_UnityEvents
   - hash:
       serializedVersion: 2
+      Hash: d03858094532b28bbc9bbbccffe981ae
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Tracking.Collision.Active.Operation.Extraction
+    className: NotifierTargetExtractor
+  - hash:
+      serializedVersion: 2
       Hash: f9321e5459e113f9b20218453b654a8f
     assemblyName: Assembly-CSharp.dll
     namespaceName: VRTK
     className: VRTK_HipTracking
   - hash:
       serializedVersion: 2
+      Hash: b83a6c8e844f07a16f9ed4ab62b52de1
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Pointer.Event.Proxy
+    className: ObjectPointerEventProxyEmitter
+  - hash:
+      serializedVersion: 2
+      Hash: adb9b155c2552cfaa92e1424e5de3adf
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Data.Type.Observer
+    className: FloatObservableProperty
+  - hash:
+      serializedVersion: 2
       Hash: b3af75dcb745b0747e0d25ab17e76196
     assemblyName: Assembly-CSharp.dll
     namespaceName: VRTK.Examples.Archery
     className: Arrow
+  - hash:
+      serializedVersion: 2
+      Hash: 13dfc60b89f02a2a674f434591f89218
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Data.Collection.List
+    className: FloatObservableList
   - hash:
       serializedVersion: 2
       Hash: 76b80dd1b65f63dfa63cf0ea8a906f3a
@@ -3178,10 +4447,28 @@ ScriptsOnlyBuild:
     className: OVRInputModule
   - hash:
       serializedVersion: 2
+      Hash: 728fc54dd63a118b6cd50f7d056ded8a
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Data.Operation.Extraction
+    className: TransformScaleExtractor
+  - hash:
+      serializedVersion: 2
       Hash: e0fd6b206f44251ddce06e242ee39fb8
     assemblyName: Oculus.VR.dll
     namespaceName: 
     className: OVRGrabber
+  - hash:
+      serializedVersion: 2
+      Hash: 5b00b26a828d9c3cb73a0d5fa3145e1a
+    assemblyName: Tilia.CameraRigs.TrackedAlias.Unity.Runtime.dll
+    namespaceName: Tilia.CameraRigs.TrackedAlias
+    className: TrackedAliasConfigurator
+  - hash:
+      serializedVersion: 2
+      Hash: bf962fd1b8ee3818e3c93ab168da4ad6
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Tracking.Follow.Event.Proxy
+    className: ObjectFollowerEventProxyEmitter
   - hash:
       serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
@@ -3196,16 +4483,70 @@ ScriptsOnlyBuild:
     className: ToggleGameObjectSlider
   - hash:
       serializedVersion: 2
+      Hash: a55ff80f0d682feb8fec30b56688edf5
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Tracking.Collision.Active.Event.Proxy
+    className: ActiveCollisionPublisherEventProxyEmitter
+  - hash:
+      serializedVersion: 2
+      Hash: 516aa998d41f606b49b7e76a6230ec5d
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Cast.Operation.Mutation
+    className: PointsCastPropertyMutator
+  - hash:
+      serializedVersion: 2
+      Hash: c92ba38efbacd62ac18032508ca36e45
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: PauseMenuLogic
+  - hash:
+      serializedVersion: 2
+      Hash: 87b68cca2d0c3c7df61670f269596e5d
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Data.Operation.Extraction
+    className: RaycastHitDistanceExtractor
+  - hash:
+      serializedVersion: 2
+      Hash: c60b09ed8cd59996a16a7d6449997ee1
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Tracking.Collision.Active.Operation
+    className: Slicer
+  - hash:
+      serializedVersion: 2
       Hash: 6edef2e3824e2c9894f97f7d00d54ce7
     assemblyName: Assembly-CSharp.dll
     namespaceName: VRTK
     className: VRTK_Door
   - hash:
       serializedVersion: 2
+      Hash: 0b92af222d9a7fd24a6ca8ac077f4344
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Tracking.Collision.Active.Operation.Extraction
+    className: PublisherContainerExtractor
+  - hash:
+      serializedVersion: 2
+      Hash: 0a664454aa53d59e6a58fe3696f957c0
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Tracking.Follow.Modifier.Property.Rotation
+    className: TransformRotation
+  - hash:
+      serializedVersion: 2
       Hash: 9f51b52d26d26580375297455e9f9447
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: HandMeshMask
+  - hash:
+      serializedVersion: 2
+      Hash: 79682cc68c398f99c533c57ae1577c70
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Data.Type.Observer
+    className: StringObservableProperty
+  - hash:
+      serializedVersion: 2
+      Hash: 1dcb82730d983b77cec736c6ef19f814
+    assemblyName: com.unity.multiplayer-hlapi.Runtime.dll
+    namespaceName: UnityEngine.Networking
+    className: NetworkDiscovery
   - hash:
       serializedVersion: 2
       Hash: 893dbdbfe611d62e230a686ea89f1efd
@@ -3250,6 +4591,12 @@ ScriptsOnlyBuild:
     className: IgnoreTeleportDummy
   - hash:
       serializedVersion: 2
+      Hash: 1b26fea0b3a7ee864c46458d1a61e800
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Tracking.Collision.Active
+    className: ActiveCollisionConsumer
+  - hash:
+      serializedVersion: 2
       Hash: a4234ce60516da86cb36b41d8f0aa734
     assemblyName: Assembly-CSharp.dll
     namespaceName: VRTK
@@ -3260,6 +4607,12 @@ ScriptsOnlyBuild:
     assemblyName: Assembly-CSharp.dll
     namespaceName: VRTK
     className: VRTK_Wheel
+  - hash:
+      serializedVersion: 2
+      Hash: 3a107e536389c087c4b1efb385dc13c2
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Data.Type.Transformation.Aggregation
+    className: Vector2Multiplier
   - hash:
       serializedVersion: 2
       Hash: 0498232dd48b097128db9129acff161b
@@ -3310,6 +4663,12 @@ ScriptsOnlyBuild:
     className: VRTK_MoveTransformGrabAttach_UnityEvents
   - hash:
       serializedVersion: 2
+      Hash: c64811138f5bf3be7ff7410f73fb7fdf
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Data.Type.Transformation.Conversion
+    className: Vector3ToFloat
+  - hash:
+      serializedVersion: 2
       Hash: 849ed1cc34faf38cd0f35aff9ecf2367
     assemblyName: Assembly-CSharp.dll
     namespaceName: VRTK.Examples
@@ -3322,10 +4681,40 @@ ScriptsOnlyBuild:
     className: VRTK_InteractObjectHighlighter
   - hash:
       serializedVersion: 2
+      Hash: e6ae40841db498b6e673877ac45ad208
+    assemblyName: com.unity.multiplayer-hlapi.Runtime.dll
+    namespaceName: UnityEngine.Networking
+    className: NetworkAnimator
+  - hash:
+      serializedVersion: 2
       Hash: e8f56157f6c5889e8d99995712ac8475
     assemblyName: Assembly-CSharp.dll
     namespaceName: VRTK.Examples
     className: ControlReactor
+  - hash:
+      serializedVersion: 2
+      Hash: 9f5f4183cf7a2d87abe5c1a24747c0b8
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Data.Operation.Extraction
+    className: TransformDataGameObjectExtractor
+  - hash:
+      serializedVersion: 2
+      Hash: 974e22dd0d6bed3367e182264b3ee798
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Action
+    className: ToggleAction
+  - hash:
+      serializedVersion: 2
+      Hash: db0dbcbf70945501e9a0445cd390f627
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Process
+    className: EventProcess
+  - hash:
+      serializedVersion: 2
+      Hash: 9b0de9433f46be18c7e1568338dcef62
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Action.Collection
+    className: ActionObservableList
   - hash:
       serializedVersion: 2
       Hash: 0206d628903d330ab486ebffa9dc4292
@@ -3364,6 +4753,12 @@ ScriptsOnlyBuild:
     className: TextMeshPro
   - hash:
       serializedVersion: 2
+      Hash: 6277300b4e39fedd9b2ee82ea9f7d247
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Data.Type.Transformation.Conversion
+    className: FloatToTimeSpan
+  - hash:
+      serializedVersion: 2
       Hash: 3165968ba45c74472d279ba04455fccb
     assemblyName: Unity.TextMeshPro.dll
     namespaceName: TMPro
@@ -3394,10 +4789,22 @@ ScriptsOnlyBuild:
     className: PassthroughProjectionSurface
   - hash:
       serializedVersion: 2
+      Hash: 87b68cca2d0c3c7df61670f269596e5d
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Data.Operation.Extraction
+    className: RaycastHitPointExtractor
+  - hash:
+      serializedVersion: 2
       Hash: c1313d723d19b50c00b55c8ce726b990
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: TeleportTargetHandlerNavMesh
+  - hash:
+      serializedVersion: 2
+      Hash: 87b68cca2d0c3c7df61670f269596e5d
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Data.Operation.Extraction
+    className: RaycastHitColliderExtractor
   - hash:
       serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
@@ -3412,10 +4819,22 @@ ScriptsOnlyBuild:
     className: LaserPointer
   - hash:
       serializedVersion: 2
+      Hash: 01e2edad89ca2a44464cb39d2472c62a
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Data.Operation.Extraction
+    className: TimeComponentExtractor
+  - hash:
+      serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
     assemblyName: UnityEngine.TestRunner.dll
     namespaceName: UnityEngine.TestTools.TestRunner.Callbacks
     className: PlayModeRunnerCallback
+  - hash:
+      serializedVersion: 2
+      Hash: 76948680ad42b8b600ddd5698c4ab563
+    assemblyName: Tilia.Locomotors.Teleporter.Unity.Runtime.dll
+    namespaceName: Tilia.Locomotors.Teleporter
+    className: TeleporterFacade
   - hash:
       serializedVersion: 2
       Hash: 60edc51f9223d08ee402b82d6a8681f0
@@ -3448,6 +4867,18 @@ ScriptsOnlyBuild:
     className: ToggleGameObject
   - hash:
       serializedVersion: 2
+      Hash: 7773be4b9de0a73c1e3127716f989e70
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Tracking.Collision.Active
+    className: ActiveCollisionPublisher
+  - hash:
+      serializedVersion: 2
+      Hash: 30674a384973ed294e8daecf5de5940e
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Tracking.Collision.Active.Event.Proxy
+    className: ActiveCollisionConsumerEventProxyEmitter
+  - hash:
+      serializedVersion: 2
       Hash: 17653b21203f576d6729f3490936652e
     assemblyName: Assembly-CSharp.dll
     namespaceName: OculusSampleFramework
@@ -3458,6 +4889,12 @@ ScriptsOnlyBuild:
     assemblyName: Assembly-CSharp.dll
     namespaceName: VRTK
     className: VRTK_NavMeshData
+  - hash:
+      serializedVersion: 2
+      Hash: 9b895dcabbc1faf095c000c32d471fd0
+    assemblyName: com.unity.multiplayer-hlapi.Runtime.dll
+    namespaceName: UnityEngine.Networking
+    className: NetworkTransformChild
   - hash:
       serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
@@ -3476,6 +4913,24 @@ ScriptsOnlyBuild:
     assemblyName: Assembly-CSharp.dll
     namespaceName: VRTK
     className: VRTK_RotateObjectControlAction
+  - hash:
+      serializedVersion: 2
+      Hash: c64811138f5bf3be7ff7410f73fb7fdf
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Data.Type.Transformation.Conversion
+    className: Vector2ToFloat
+  - hash:
+      serializedVersion: 2
+      Hash: e0ee4b3d4e27318934cc940a969d3d96
+    assemblyName: com.unity.multiplayer-hlapi.Runtime.dll
+    namespaceName: UnityEngine.Networking
+    className: NetworkManagerHUD
+  - hash:
+      serializedVersion: 2
+      Hash: 92f5760ced24c8b3de0a8563626eabfb
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Data.Type.Transformation.Aggregation
+    className: FloatAdder
   - hash:
       serializedVersion: 2
       Hash: 2c8713480afc658528751d731eed8a21
@@ -3508,10 +4963,28 @@ ScriptsOnlyBuild:
     className: EventTrigger
   - hash:
       serializedVersion: 2
+      Hash: 92f5760ced24c8b3de0a8563626eabfb
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Data.Type.Transformation.Aggregation
+    className: FloatRangeFinder
+  - hash:
+      serializedVersion: 2
       Hash: 6ba996328bcc18180b9c5910546640e7
     assemblyName: Assembly-CSharp.dll
     namespaceName: VRTK
     className: VRTK_HeadsetControllerAware
+  - hash:
+      serializedVersion: 2
+      Hash: 974e22dd0d6bed3367e182264b3ee798
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Action
+    className: BooleanAction
+  - hash:
+      serializedVersion: 2
+      Hash: a7a7d967abd615eca7d39d2624c51f71
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Rule
+    className: AnyLayerRule
   - hash:
       serializedVersion: 2
       Hash: 8649814970b42d345b89944b862453cc
@@ -3532,6 +5005,12 @@ ScriptsOnlyBuild:
     className: VRTK_BasicTeleport_UnityEvents
   - hash:
       serializedVersion: 2
+      Hash: 270c259548ad2ec1dd0eeaf8b36d351b
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Data.Type.Transformation.Conversion
+    className: FloatToBoolean
+  - hash:
+      serializedVersion: 2
       Hash: a987add8143bda2994e55c94b1f3a1c2
     assemblyName: Assembly-CSharp.dll
     namespaceName: VRTK.UnityEventHelper
@@ -3542,6 +5021,12 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.TestRunner.dll
     namespaceName: UnityEngine.TestRunner.Utils
     className: TestRunCallbackListener
+  - hash:
+      serializedVersion: 2
+      Hash: fbf8a822c9e8f400a03ffa161cc6e4f0
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Tracking.Follow.Modifier.Property.Rotation
+    className: RotateAroundAngularVelocity
   - hash:
       serializedVersion: 2
       Hash: 8ab9295d94483c961936d82d233d3df2
@@ -3574,6 +5059,12 @@ ScriptsOnlyBuild:
     className: Dropdown
   - hash:
       serializedVersion: 2
+      Hash: 728fc54dd63a118b6cd50f7d056ded8a
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Data.Operation.Extraction
+    className: TransformEulerRotationExtractor
+  - hash:
+      serializedVersion: 2
       Hash: 163c66cebee3ffd65522e6a24263575f
     assemblyName: Assembly-CSharp.dll
     namespaceName: OculusSampleFramework
@@ -3584,6 +5075,24 @@ ScriptsOnlyBuild:
     assemblyName: Assembly-CSharp.dll
     namespaceName: OculusSampleFramework
     className: WindmillController
+  - hash:
+      serializedVersion: 2
+      Hash: a9ca0909b260232af152a6062939015d
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Data.Type.Transformation.Conversion
+    className: IntegerToFloat
+  - hash:
+      serializedVersion: 2
+      Hash: 4f1213d790464fe56d3cc1126a963865
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Process.Moment.Collection
+    className: MomentProcessObservableList
+  - hash:
+      serializedVersion: 2
+      Hash: 497fd9f5485dca6ded86b9fa34efe76f
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Data.Operation.Mutation
+    className: TransformEulerRotationMutator
   - hash:
       serializedVersion: 2
       Hash: 2f6b53e8311307301c4bb3499e01af05
@@ -3622,6 +5131,12 @@ ScriptsOnlyBuild:
     className: Breakable_Cube
   - hash:
       serializedVersion: 2
+      Hash: cc2332703fd4c65d214f43ac8389d39c
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Action
+    className: Vector3Action
+  - hash:
+      serializedVersion: 2
       Hash: 515e70bb6d84e7050ababa7e6ccbb508
     assemblyName: Assembly-CSharp.dll
     namespaceName: VRTK.Examples
@@ -3638,6 +5153,12 @@ ScriptsOnlyBuild:
     assemblyName: Assembly-CSharp.dll
     namespaceName: VRTK
     className: WindowsMR_TrackedObject
+  - hash:
+      serializedVersion: 2
+      Hash: 1abfd1cd953a909f8d7edb031f425657
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Data.Operation.Cache
+    className: IntCache
   - hash:
       serializedVersion: 2
       Hash: aa88ae22474df55295327e4ee99e5a24
@@ -3658,10 +5179,22 @@ ScriptsOnlyBuild:
     className: SignalEmitter
   - hash:
       serializedVersion: 2
+      Hash: ee853cdea551598dcf20ec3e2d9812f3
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Haptics
+    className: TimedHapticProcess
+  - hash:
+      serializedVersion: 2
       Hash: cd06391f9225499fb9ea605ab668b015
     assemblyName: Oculus.Platform.dll
     namespaceName: Oculus.Platform.Samples.VrHoops
     className: VREyeRaycaster
+  - hash:
+      serializedVersion: 2
+      Hash: d4ec52c656a6fa05b601e943dd6ee816
+    assemblyName: Tilia.CameraRigs.TrackedAlias.Unity.Runtime.dll
+    namespaceName: Tilia.CameraRigs.TrackedAlias
+    className: TrackedAliasFacade
   - hash:
       serializedVersion: 2
       Hash: 849ed1cc34faf38cd0f35aff9ecf2367
@@ -3682,16 +5215,34 @@ ScriptsOnlyBuild:
     className: OVRLipSyncContextTextureFlip
   - hash:
       serializedVersion: 2
+      Hash: 369ac75bccabec8d42a4da128cec94bd
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Action
+    className: StateEmitter
+  - hash:
+      serializedVersion: 2
       Hash: 30556473955db10c973fac26dc39b7ab
     assemblyName: Assembly-CSharp.dll
     namespaceName: VRTK
     className: VRTK_DragWorld
   - hash:
       serializedVersion: 2
+      Hash: 0a0ba90a6bb2b62d2ff14dd90985002d
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: PhysicalButtonPressed
+  - hash:
+      serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
     assemblyName: Assembly-CSharp.dll
     namespaceName: VRTK
     className: SDK_SteamVRController
+  - hash:
+      serializedVersion: 2
+      Hash: 5b3f6f1c50f87343f07304b19fd3dd3c
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Tracking.Velocity
+    className: AverageVelocityEstimatorProcess
   - hash:
       serializedVersion: 2
       Hash: 61f411b987f43b67a058c6edc883e1a0
@@ -3712,10 +5263,22 @@ ScriptsOnlyBuild:
     className: TogglePointerInteraction
   - hash:
       serializedVersion: 2
+      Hash: 1b1ce80840f43d6f8ddb9651f904c6d3
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Data.Type.Transformation.Conversion
+    className: FloatToNormalizedFloat
+  - hash:
+      serializedVersion: 2
       Hash: 0fd6822f6177297bd0eb4d83cc7a9030
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UI
     className: ToggleGroup
+  - hash:
+      serializedVersion: 2
+      Hash: 691e86e442b9bb5aff10f32a05bd29af
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: OVRInputTouchAction
   - hash:
       serializedVersion: 2
       Hash: 7d45e93cfef96f71269c235df4869c47
@@ -3728,577 +5291,7 @@ ScriptsOnlyBuild:
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
     className: PlayableTrack
-  - hash:
-      serializedVersion: 2
-      Hash: 8617aadb248da95f2695ca5669494400
-    assemblyName: Mirror.dll
-    namespaceName: Mirror
-    className: TelepathyTransport
-  - hash:
-      serializedVersion: 2
-      Hash: 28f0b7dc4aa4a32304979bbc0342c3c3
-    assemblyName: Mirror.dll
-    namespaceName: Mirror
-    className: NetworkManagerHUD
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Mirror.Examples.dll
-    namespaceName: Mirror.Examples.Tanks
-    className: FaceCamera
-  - hash:
-      serializedVersion: 2
-      Hash: 0e68c7511d0bb7746e68316200e21bb0
-    assemblyName: Mirror.Components.dll
-    namespaceName: Mirror
-    className: SpatialHashingInterestManagement
-  - hash:
-      serializedVersion: 2
-      Hash: 192ca9716d03752ea1d90a78bc2daac9
-    assemblyName: Mirror.Examples.dll
-    namespaceName: Mirror.Examples.NetworkRoom
-    className: RandomColor
-  - hash:
-      serializedVersion: 2
-      Hash: 265cf1537361bce87401ba1fba27baf3
-    assemblyName: Mirror.Components.dll
-    namespaceName: Mirror.Experimental
-    className: NetworkTransform
-  - hash:
-      serializedVersion: 2
-      Hash: 6fd2bb55b3ee5edb6040a1c5bccd0e07
-    assemblyName: Mirror.Components.dll
-    namespaceName: Mirror
-    className: NetworkOwnerChecker
-  - hash:
-      serializedVersion: 2
-      Hash: b18f0d55b218ff8d17c2c7411b02c1bf
-    assemblyName: Mirror.Examples.dll
-    namespaceName: Mirror.Examples.Additive
-    className: PlayerController
-  - hash:
-      serializedVersion: 2
-      Hash: c99c89868de7ea34de6ecf7c21de2601
-    assemblyName: Mirror.dll
-    namespaceName: Mirror
-    className: NetworkManager
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Mirror.dll
-    namespaceName: Mirror
-    className: NetworkStartPosition
-  - hash:
-      serializedVersion: 2
-      Hash: 8ea27909a92fe60806557460a2594f37
-    assemblyName: Mirror.Examples.dll
-    namespaceName: Mirror.Examples.MultipleAdditiveScenes
-    className: PhysicsCollision
-  - hash:
-      serializedVersion: 2
-      Hash: 1c717f9024580154792437df7a691396
-    assemblyName: Mirror.Examples.dll
-    namespaceName: Mirror.Examples.MultipleMatch
-    className: MatchController
-  - hash:
-      serializedVersion: 2
-      Hash: 37c782056623a482d772a08897449977
-    assemblyName: Mirror.Components.dll
-    namespaceName: Mirror.Experimental
-    className: NetworkRigidbody2D
-  - hash:
-      serializedVersion: 2
-      Hash: 5da7b9e4b43d0ba75d617a81259ec141
-    assemblyName: Mirror.Examples.dll
-    namespaceName: Mirror.Examples.Chat
-    className: ChatWindow
-  - hash:
-      serializedVersion: 2
-      Hash: f3a8ccc18ad656ac8993b34a1b30984f
-    assemblyName: Mirror.Examples.dll
-    namespaceName: Mirror.Examples.NetworkRoom
-    className: NetworkRoomPlayerExt
-  - hash:
-      serializedVersion: 2
-      Hash: 07c990d7256d328edde63bb2d725548d
-    assemblyName: Mirror.Examples.dll
-    namespaceName: Mirror.Examples.Basic
-    className: BasicNetManager
-  - hash:
-      serializedVersion: 2
-      Hash: fc67f14ea89c506f4f65b0b93f858139
-    assemblyName: Mirror.Examples.dll
-    namespaceName: Mirror.Examples.MultipleMatch
-    className: PlayerGUI
-  - hash:
-      serializedVersion: 2
-      Hash: 192ca9716d03752ea1d90a78bc2daac9
-    assemblyName: Mirror.Examples.dll
-    namespaceName: Mirror.Examples.Additive
-    className: RandomColor
-  - hash:
-      serializedVersion: 2
-      Hash: cf95add559be53ae8bfdfcea86c5a18f
-    assemblyName: Mirror.dll
-    namespaceName: Mirror
-    className: MultiplexTransport
-  - hash:
-      serializedVersion: 2
-      Hash: 350731a7ac82a9c579f84df216fa3c32
-    assemblyName: Mirror.Examples.dll
-    namespaceName: Mirror.Examples.Benchmark
-    className: BenchmarkNetworkManager
-  - hash:
-      serializedVersion: 2
-      Hash: 70a7fe614ffc8d4a5ee1d04d107f3106
-    assemblyName: Mirror.Examples.dll
-    namespaceName: Mirror.Examples.Benchmark
-    className: MonsterMovement
-  - hash:
-      serializedVersion: 2
-      Hash: f5763415ffcb37f6278091eb8b77a954
-    assemblyName: SimpleWebTransport.dll
-    namespaceName: Mirror.SimpleWeb
-    className: SimpleWebTransport
-  - hash:
-      serializedVersion: 2
-      Hash: c5bf757e45517373f48138682b6cc89f
-    assemblyName: Mirror.Examples.dll
-    namespaceName: Mirror.Examples.Additive
-    className: ZoneHandler
-  - hash:
-      serializedVersion: 2
-      Hash: 051520dae738041bd35e209bbe5954b6
-    assemblyName: Mirror.Components.dll
-    namespaceName: Mirror
-    className: NetworkRoomManager
-  - hash:
-      serializedVersion: 2
-      Hash: 6848c47564fb800f007affd30b198468
-    assemblyName: Mirror.Examples.dll
-    namespaceName: Mirror.Examples.Tanks
-    className: Tank
-  - hash:
-      serializedVersion: 2
-      Hash: 9b01b1d80bd3ecf4eaca45e1a22d444e
-    assemblyName: Mirror.Components.dll
-    namespaceName: Mirror.Experimental
-    className: NetworkRigidbody
-  - hash:
-      serializedVersion: 2
-      Hash: eaa0110e06e6166c51e1d7bf2eed930c
-    assemblyName: Mirror.dll
-    namespaceName: Mirror
-    className: LatencySimulation
-  - hash:
-      serializedVersion: 2
-      Hash: b18f0d55b218ff8d17c2c7411b02c1bf
-    assemblyName: Mirror.Examples.dll
-    namespaceName: Mirror.Examples.MultipleAdditiveScenes
-    className: PlayerController
-  - hash:
-      serializedVersion: 2
-      Hash: cd85cd0021d4c0ab017ad69b7f3332b5
-    assemblyName: Mirror.Examples.dll
-    namespaceName: Mirror.Examples.MultipleMatch
-    className: CanvasController
-  - hash:
-      serializedVersion: 2
-      Hash: f84b810c764d5a270da7c7591f2be2f1
-    assemblyName: Mirror.Examples.dll
-    namespaceName: Mirror.Examples.MultipleMatch
-    className: MatchGUI
-  - hash:
-      serializedVersion: 2
-      Hash: 702330b33d6f348f76db0c974f6e02c3
-    assemblyName: Mirror.Authenticators.dll
-    namespaceName: Mirror.Authenticators
-    className: BasicAuthenticator
-  - hash:
-      serializedVersion: 2
-      Hash: e87f50864f8a979f1228e8c69bd62658
-    assemblyName: Mirror.Examples.dll
-    namespaceName: Mirror.Examples.Pong
-    className: Ball
-  - hash:
-      serializedVersion: 2
-      Hash: 6fd2bb55b3ee5edb6040a1c5bccd0e07
-    assemblyName: Mirror.Components.dll
-    namespaceName: Mirror
-    className: NetworkMatch
-  - hash:
-      serializedVersion: 2
-      Hash: 57ffcf646fc996572e2fbc3d96ee6be4
-    assemblyName: Mirror.Components.dll
-    namespaceName: Mirror.Experimental
-    className: NetworkLerpRigidbody
-  - hash:
-      serializedVersion: 2
-      Hash: b18f0d55b218ff8d17c2c7411b02c1bf
-    assemblyName: Mirror.Examples.dll
-    namespaceName: Mirror.Examples.NetworkRoom
-    className: PlayerController
-  - hash:
-      serializedVersion: 2
-      Hash: ff4753395d726a7aadce9c48dcaf99d6
-    assemblyName: Mirror.Examples.dll
-    namespaceName: Mirror.Examples.NetworkRoom
-    className: Reward
-  - hash:
-      serializedVersion: 2
-      Hash: 460f1bc7ddb5a5325403b8276116aa4d
-    assemblyName: Mirror.Components.dll
-    namespaceName: Mirror
-    className: NetworkAnimator
-  - hash:
-      serializedVersion: 2
-      Hash: 192ca9716d03752ea1d90a78bc2daac9
-    assemblyName: Mirror.Examples.dll
-    namespaceName: Mirror.Examples.MultipleAdditiveScenes
-    className: RandomColor
-  - hash:
-      serializedVersion: 2
-      Hash: b26c6f4c6312e2952bbe7d0df1ea026e
-    assemblyName: Mirror.Components.dll
-    namespaceName: Mirror
-    className: NetworkPingDisplay
-  - hash:
-      serializedVersion: 2
-      Hash: 4b8d1a790fa644eecb82b853d71c2e8c
-    assemblyName: Mirror.Examples.dll
-    namespaceName: Mirror.Examples.Chat
-    className: ChatNetworkManager
-  - hash:
-      serializedVersion: 2
-      Hash: 26d5c4d3aa5e668e2a134fd27c936004
-    assemblyName: Mirror.Examples.dll
-    namespaceName: Mirror.Examples.MultipleMatch
-    className: CellGUI
-  - hash:
-      serializedVersion: 2
-      Hash: 6fd2bb55b3ee5edb6040a1c5bccd0e07
-    assemblyName: Mirror.Components.dll
-    namespaceName: Mirror
-    className: NetworkMatchChecker
-  - hash:
-      serializedVersion: 2
-      Hash: 144f39e785cd2926af56aa422f7e8948
-    assemblyName: Mirror.Components.dll
-    namespaceName: Mirror
-    className: NetworkSceneChecker
-  - hash:
-      serializedVersion: 2
-      Hash: f3a8ccc18ad656ac8993b34a1b30984f
-    assemblyName: Mirror.Components.dll
-    namespaceName: Mirror
-    className: NetworkRoomPlayer
-  - hash:
-      serializedVersion: 2
-      Hash: 3df4eaf55d1d5aa96d6bdb28cd9ae75f
-    assemblyName: Mirror.Examples.dll
-    namespaceName: Mirror.Examples.Additive
-    className: AdditiveNetworkManager
-  - hash:
-      serializedVersion: 2
-      Hash: 3fe74dd3b211760c4ed03510eafabc55
-    assemblyName: Mirror.Examples.dll
-    namespaceName: Mirror.Examples.MultipleMatch
-    className: RoomGUI
-  - hash:
-      serializedVersion: 2
-      Hash: 31641d3fb597a24176aba6c9db9d92b0
-    assemblyName: Mirror.Examples.dll
-    namespaceName: Mirror.Examples.Basic
-    className: Player
-  - hash:
-      serializedVersion: 2
-      Hash: f3a8ccc18ad656ac8993b34a1b30984f
-    assemblyName: Mirror.Components.dll
-    namespaceName: Mirror
-    className: NetworkLobbyPlayer
-  - hash:
-      serializedVersion: 2
-      Hash: 91835d5ad99155431c21b3b548706002
-    assemblyName: Mirror.Authenticators.dll
-    namespaceName: Mirror.Authenticators
-    className: TimeoutAuthenticator
-  - hash:
-      serializedVersion: 2
-      Hash: 55f8c6238de35a22ccf4e5ffe39aa1ac
-    assemblyName: Mirror.Examples.dll
-    namespaceName: Mirror.Examples.RigidbodyPhysics
-    className: AddForce
-  - hash:
-      serializedVersion: 2
-      Hash: f61c040f6d2615f5633257d6ead0921d
-    assemblyName: Mirror.Components.dll
-    namespaceName: Mirror
-    className: DistanceInterestManagement
-  - hash:
-      serializedVersion: 2
-      Hash: 9e12720e9f1df1639263519e77f2c4d7
-    assemblyName: Mirror.Components.dll
-    namespaceName: Mirror.Experimental
-    className: NetworkTransformChild
-  - hash:
-      serializedVersion: 2
-      Hash: d4b3288045820b714c198ad83c870175
-    assemblyName: Mirror.Examples.dll
-    namespaceName: Mirror.Examples.Pong
-    className: NetworkManagerPong
-  - hash:
-      serializedVersion: 2
-      Hash: 8d2823fb9781cff4a282ea646b67a97d
-    assemblyName: Mirror.Examples.dll
-    namespaceName: Mirror.Examples.MultipleMatch
-    className: MatchNetworkManager
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Mirror.Components.dll
-    namespaceName: Mirror
-    className: MatchInterestManagement
-  - hash:
-      serializedVersion: 2
-      Hash: 156c06d8fc35f7818163dc6443d12cd1
-    assemblyName: Mirror.Examples.dll
-    namespaceName: Mirror.Examples.NetworkRoom
-    className: NetworkRoomManagerExt
-  - hash:
-      serializedVersion: 2
-      Hash: ad425eb6c32a6f6977115fef236ef55f
-    assemblyName: Mirror.Examples.dll
-    namespaceName: Mirror.Examples.Additive
-    className: ShootingTankBehaviour
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Mirror.Components.dll
-    namespaceName: Mirror
-    className: SceneInterestManagement
-  - hash:
-      serializedVersion: 2
-      Hash: c56a9426da8f5d94d45fd88dc881ef1b
-    assemblyName: Mirror.Examples.dll
-    namespaceName: Mirror.Examples.Benchmark
-    className: PlayerMovement
-  - hash:
-      serializedVersion: 2
-      Hash: 69501abcda51721514ce989f617b052f
-    assemblyName: Mirror.Examples.dll
-    namespaceName: Mirror.Examples.Basic
-    className: PlayerUI
-  - hash:
-      serializedVersion: 2
-      Hash: fa657c3ec40e8c152d1d7938b1a10cd9
-    assemblyName: Mirror.dll
-    namespaceName: Mirror
-    className: NetworkIdentity
-  - hash:
-      serializedVersion: 2
-      Hash: 306f6c6830d6725abf0598650905dcd4
-    assemblyName: Mirror.Components.dll
-    namespaceName: Mirror
-    className: GUIConsole
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Mirror.Examples.dll
-    namespaceName: Mirror.Examples.MultipleAdditiveScenes
-    className: PhysicsSimulator
-  - hash:
-      serializedVersion: 2
-      Hash: 681b5f9be6f57e5a7b20908e503986d3
-    assemblyName: Mirror.Components.dll
-    namespaceName: Mirror.Discovery
-    className: NetworkDiscoveryHUD
-  - hash:
-      serializedVersion: 2
-      Hash: 051520dae738041bd35e209bbe5954b6
-    assemblyName: Mirror.Components.dll
-    namespaceName: Mirror
-    className: NetworkLobbyManager
-  - hash:
-      serializedVersion: 2
-      Hash: 9b5a106d716e10dbf0635b1180cc5e67
-    assemblyName: Mirror.Examples.dll
-    namespaceName: Mirror.Examples.Chat
-    className: Player
-  - hash:
-      serializedVersion: 2
-      Hash: e1be6cb5fb432e26f64fcb687a018983
-    assemblyName: Mirror.Components.dll
-    namespaceName: Mirror
-    className: NetworkTransform
-  - hash:
-      serializedVersion: 2
-      Hash: e87f50864f8a979f1228e8c69bd62658
-    assemblyName: Mirror.Examples.dll
-    namespaceName: Mirror.Examples.Pong
-    className: Player
-  - hash:
-      serializedVersion: 2
-      Hash: 513ea6583623759462835159ae32470f
-    assemblyName: Mirror.Examples.dll
-    namespaceName: Mirror.Examples.MultipleAdditiveScenes
-    className: MultiSceneNetManager
-  - hash:
-      serializedVersion: 2
-      Hash: 4cc71a9be9ce5d7402a784f596a204bb
-    assemblyName: Mirror.Components.dll
-    namespaceName: Mirror.Discovery
-    className: NetworkDiscovery
-  - hash:
-      serializedVersion: 2
-      Hash: 41c9825cd53cff5bfe5d9f873c704b08
-    assemblyName: Mirror.Components.dll
-    namespaceName: Mirror
-    className: NetworkTransformChild
-  - hash:
-      serializedVersion: 2
-      Hash: 1e0c784ff68e6df57d641ad43622504f
-    assemblyName: Mirror.Components.dll
-    namespaceName: Mirror
-    className: NetworkProximityChecker
-  - hash:
-      serializedVersion: 2
-      Hash: 3f71d9d53af34ea64cb743fef736aaa8
-    assemblyName: Mirror.Components.dll
-    namespaceName: Mirror
-    className: DistanceInterestManagementCustomRange
-  - hash:
-      serializedVersion: 2
-      Hash: 88e3b86c3ab08e02b94869c8fc5ce863
-    assemblyName: Mirror.Examples.dll
-    namespaceName: Mirror.Examples.NetworkRoom
-    className: PlayerScore
-  - hash:
-      serializedVersion: 2
-      Hash: e4fb2671f4e7782c0481d74d32ad6df2
-    assemblyName: Mirror.Examples.dll
-    namespaceName: Mirror.Examples.Tanks
-    className: Projectile
-  - hash:
-      serializedVersion: 2
-      Hash: ff4753395d726a7aadce9c48dcaf99d6
-    assemblyName: Mirror.Examples.dll
-    namespaceName: Mirror.Examples.MultipleAdditiveScenes
-    className: Reward
-  - hash:
-      serializedVersion: 2
-      Hash: 5fdc3c691001157e6a51b430df6e5f8c
-    assemblyName: Mirror.Examples.dll
-    namespaceName: Mirror.Examples.MultipleAdditiveScenes
-    className: PlayerScore
-  - hash:
-      serializedVersion: 2
-      Hash: 3ff6f790ae47fae80bc5c9c6db5d66bf
-    assemblyName: Mirror.dll
-    namespaceName: kcp2k
-    className: KcpTransport
-  - hash:
-      serializedVersion: 2
-      Hash: 5bd9a19c7b5f76c563418e28f48a561b
-    assemblyName: com.unity.multiplayer-hlapi.Runtime.dll
-    namespaceName: UnityEngine.Networking
-    className: NetworkLobbyPlayer
-  - hash:
-      serializedVersion: 2
-      Hash: eafb77726b67b7571818a7210a3ce11e
-    assemblyName: com.unity.multiplayer-hlapi.Runtime.dll
-    namespaceName: UnityEngine.Networking
-    className: NetworkIdentity
-  - hash:
-      serializedVersion: 2
-      Hash: ad9173d3a69d99153f38ed4b62226129
-    assemblyName: com.unity.multiplayer-hlapi.Runtime.dll
-    namespaceName: UnityEngine.Networking
-    className: NetworkTransform
-  - hash:
-      serializedVersion: 2
-      Hash: 3f0b469d844365c00a63de0437c9b29e
-    assemblyName: com.unity.multiplayer-hlapi.Runtime.dll
-    namespaceName: UnityEngine.Networking
-    className: NetworkProximityChecker
-  - hash:
-      serializedVersion: 2
-      Hash: 265cf27ba050d55ff33a8acab4ded6c0
-    assemblyName: com.unity.multiplayer-hlapi.Runtime.dll
-    namespaceName: UnityEngine.Networking
-    className: NetworkLobbyManager
-  - hash:
-      serializedVersion: 2
-      Hash: 5887ef1bc706b22b773d253fd443ceef
-    assemblyName: com.unity.multiplayer-hlapi.Runtime.dll
-    namespaceName: UnityEngine.Networking
-    className: NetworkTransformVisualizer
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: com.unity.multiplayer-hlapi.Runtime.dll
-    namespaceName: UnityEngine.Networking
-    className: NetworkCallbacks
-  - hash:
-      serializedVersion: 2
-      Hash: 21e871d89bbce53c038fc75ad1b7c7f3
-    assemblyName: com.unity.multiplayer-hlapi.Runtime.dll
-    namespaceName: UnityEngine.Networking
-    className: NetworkManager
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: com.unity.multiplayer-hlapi.Runtime.dll
-    namespaceName: UnityEngine.Networking
-    className: NetworkStartPosition
-  - hash:
-      serializedVersion: 2
-      Hash: 318c6c13a19c9fac98135ae14889de1b
-    assemblyName: com.unity.multiplayer-hlapi.Runtime.dll
-    namespaceName: UnityEngine.Networking
-    className: NetworkMigrationManager
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: com.unity.multiplayer-hlapi.Runtime.dll
-    namespaceName: UnityEngine.Networking
-    className: NetworkBehaviour
-  - hash:
-      serializedVersion: 2
-      Hash: 1dcb82730d983b77cec736c6ef19f814
-    assemblyName: com.unity.multiplayer-hlapi.Runtime.dll
-    namespaceName: UnityEngine.Networking
-    className: NetworkDiscovery
-  - hash:
-      serializedVersion: 2
-      Hash: e6ae40841db498b6e673877ac45ad208
-    assemblyName: com.unity.multiplayer-hlapi.Runtime.dll
-    namespaceName: UnityEngine.Networking
-    className: NetworkAnimator
-  - hash:
-      serializedVersion: 2
-      Hash: 9b895dcabbc1faf095c000c32d471fd0
-    assemblyName: com.unity.multiplayer-hlapi.Runtime.dll
-    namespaceName: UnityEngine.Networking
-    className: NetworkTransformChild
-  - hash:
-      serializedVersion: 2
-      Hash: e0ee4b3d4e27318934cc940a969d3d96
-    assemblyName: com.unity.multiplayer-hlapi.Runtime.dll
-    namespaceName: UnityEngine.Networking
-    className: NetworkManagerHUD
-  - hash:
-      serializedVersion: 2
-      Hash: 6fd2bb55b3ee5edb6040a1c5bccd0e07
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: PlatformDecider
-  - hash:
-      serializedVersion: 2
-      Hash: c56a9426da8f5d94d45fd88dc881ef1b
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: PCPlayerController
   platform: 13
   scenePathNames:
-  - Assets/Scenes/SampleScene.unity
+  - Assets/Scenes/VR Project 1.unity
   playerPath: /Users/Trevorcardoza/Desktop/VR Practice Project.apk
