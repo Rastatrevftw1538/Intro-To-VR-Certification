@@ -84,7 +84,7 @@
             android:value="portrait|landscape" />
         <meta-data
             android:name="unity.build-id"
-            android:value="3c512736-dcbf-4685-ad2a-9c168108f111" />
+            android:value="f8dad28e-13b7-4c13-8314-1ba57adc5755" />
         <meta-data
             android:name="com.oculus.supportedDevices"
             android:value="quest|quest2" />
