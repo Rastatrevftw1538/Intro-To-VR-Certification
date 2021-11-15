@@ -12069,6 +12069,16 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* Application_get_companyName_mA96C2B
 	String_t* retVal = _il2cpp_icall_func();
 	return retVal;
 }
+// System.String UnityEngine.Application::get_cloudProjectId()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* Application_get_cloudProjectId_m1371260E47D49048AE53E2495CF9B51F1EECCAB2 (const RuntimeMethod* method)
+{
+	typedef String_t* (*Application_get_cloudProjectId_m1371260E47D49048AE53E2495CF9B51F1EECCAB2_ftn) ();
+	static Application_get_cloudProjectId_m1371260E47D49048AE53E2495CF9B51F1EECCAB2_ftn _il2cpp_icall_func;
+	if (!_il2cpp_icall_func)
+	_il2cpp_icall_func = (Application_get_cloudProjectId_m1371260E47D49048AE53E2495CF9B51F1EECCAB2_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.Application::get_cloudProjectId()");
+	String_t* retVal = _il2cpp_icall_func();
+	return retVal;
+}
 // System.Void UnityEngine.Application::SetLogCallbackDefined(System.Boolean)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Application_SetLogCallbackDefined_mC1FBF1745A2EDE55B290DC4C392A7F991F5039A8 (bool ___defined0, const RuntimeMethod* method)
 {
@@ -13761,6 +13771,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float AsyncOperation_get_progress_m27F7D885AF
 	_il2cpp_icall_func = (AsyncOperation_get_progress_m27F7D885AF1A989B993199181DE70D7B0F1E3984_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.AsyncOperation::get_progress()");
 	float retVal = _il2cpp_icall_func(__this);
 	return retVal;
+}
+// System.Void UnityEngine.AsyncOperation::set_allowSceneActivation(System.Boolean)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AsyncOperation_set_allowSceneActivation_m297E3269310864DE1110ED51C7E2E302B32185C9 (AsyncOperation_t304C51ABED8AE734CC8DDDFE13013D8D5A44641D * __this, bool ___value0, const RuntimeMethod* method)
+{
+	typedef void (*AsyncOperation_set_allowSceneActivation_m297E3269310864DE1110ED51C7E2E302B32185C9_ftn) (AsyncOperation_t304C51ABED8AE734CC8DDDFE13013D8D5A44641D *, bool);
+	static AsyncOperation_set_allowSceneActivation_m297E3269310864DE1110ED51C7E2E302B32185C9_ftn _il2cpp_icall_func;
+	if (!_il2cpp_icall_func)
+	_il2cpp_icall_func = (AsyncOperation_set_allowSceneActivation_m297E3269310864DE1110ED51C7E2E302B32185C9_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.AsyncOperation::set_allowSceneActivation(System.Boolean)");
+	_il2cpp_icall_func(__this, ___value0);
 }
 // System.Void UnityEngine.AsyncOperation::Finalize()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AsyncOperation_Finalize_m36607FEC5F5766510DD0B14440CD9775CF1C23C2 (AsyncOperation_t304C51ABED8AE734CC8DDDFE13013D8D5A44641D * __this, const RuntimeMethod* method)

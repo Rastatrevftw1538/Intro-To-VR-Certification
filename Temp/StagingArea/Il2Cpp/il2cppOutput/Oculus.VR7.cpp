@@ -17897,7 +17897,7 @@ IL2CPP_EXTERN_C inline IL2CPP_METHOD_ATTR KeyValuePair_2_t23481547E419E16E3B96A3
 // System.Boolean System.Collections.Generic.Dictionary`2/Enumerator<System.Object,System.Object>::MoveNext()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Enumerator_MoveNext_m9B9FB07EC2C1D82E921C9316A4E0901C933BBF6C_gshared (Enumerator_tED23DFBF3911229086C71CCE7A54D56F5FFB34CB * __this, const RuntimeMethod* method);
 // !0 System.Collections.Generic.KeyValuePair`2<System.Object,System.Object>::get_Key()
-IL2CPP_EXTERN_C inline IL2CPP_METHOD_ATTR RuntimeObject * KeyValuePair_2_get_Key_m9D4E9BCBAB1BE560871A0889C851FC22A09975F4_gshared_inline (KeyValuePair_2_t23481547E419E16E3B96A303578C1EB685C99EEE * __this, const RuntimeMethod* method);
+IL2CPP_EXTERN_C inline IL2CPP_METHOD_ATTR RuntimeObject * KeyValuePair_2_get_Key_m3AA5875E6F038F027D9B80929300B746525F9D65_gshared_inline (KeyValuePair_2_t23481547E419E16E3B96A303578C1EB685C99EEE * __this, const RuntimeMethod* method);
 
 // System.Void System.Object::.ctor()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Object__ctor_m925ECA5E85CA100E3FB86A4F9E15C120E9A184C0 (RuntimeObject * __this, const RuntimeMethod* method);
@@ -18802,7 +18802,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void KeyEnumerator__ctor_mB341FFA8F3E36A2663F
 // !0 System.Collections.Generic.KeyValuePair`2<System.String,OVRSimpleJSON.JSONNode>::get_Key()
 inline String_t* KeyValuePair_2_get_Key_m92C2B9B27C036A34C16E0197F7E2FBC5B73B0FBA_inline (KeyValuePair_2_tF5F9C223B46EB26B7ACBF52B70FF51839E20BCEE * __this, const RuntimeMethod* method)
 {
-	return ((  String_t* (*) (KeyValuePair_2_tF5F9C223B46EB26B7ACBF52B70FF51839E20BCEE *, const RuntimeMethod*))KeyValuePair_2_get_Key_m9D4E9BCBAB1BE560871A0889C851FC22A09975F4_gshared_inline)(__this, method);
+	return ((  String_t* (*) (KeyValuePair_2_tF5F9C223B46EB26B7ACBF52B70FF51839E20BCEE *, const RuntimeMethod*))KeyValuePair_2_get_Key_m3AA5875E6F038F027D9B80929300B746525F9D65_gshared_inline)(__this, method);
 }
 // System.String OVRSimpleJSON.JSONNode/KeyEnumerator::get_Current()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* KeyEnumerator_get_Current_m0070CFDA79C67097DC93DBFA160B11E2A0218178 (KeyEnumerator_t00670D010150C5AA9A53DAF4B1BCA9A52F49093F * __this, const RuntimeMethod* method);
@@ -42808,7 +42808,7 @@ IL2CPP_EXTERN_C inline IL2CPP_METHOD_ATTR KeyValuePair_2_t23481547E419E16E3B96A3
 		return L_0;
 	}
 }
-IL2CPP_EXTERN_C inline IL2CPP_METHOD_ATTR RuntimeObject * KeyValuePair_2_get_Key_m9D4E9BCBAB1BE560871A0889C851FC22A09975F4_gshared_inline (KeyValuePair_2_t23481547E419E16E3B96A303578C1EB685C99EEE * __this, const RuntimeMethod* method)
+IL2CPP_EXTERN_C inline IL2CPP_METHOD_ATTR RuntimeObject * KeyValuePair_2_get_Key_m3AA5875E6F038F027D9B80929300B746525F9D65_gshared_inline (KeyValuePair_2_t23481547E419E16E3B96A303578C1EB685C99EEE * __this, const RuntimeMethod* method)
 {
 	{
 		RuntimeObject * L_0 = (RuntimeObject *)__this->get_key_0();

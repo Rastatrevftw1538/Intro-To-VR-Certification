@@ -329,7 +329,7 @@ struct List_1_tF6D739A0BB197A99C58914E674C1972F0C12DA6B;
 // System.Collections.Generic.List`1<OvrAvatarRenderComponent>
 struct List_1_t74133F05C2C2DF6C169F30C94FB8A74230703FCB;
 // System.Collections.Generic.List`1<System.Byte[]>
-struct List_1_t8BE041DC5257EA95B6376B45901D0D957BCF7CEC;
+struct List_1_t4AB280456F4DE770AC993DE9A7C8C563A6311531;
 // System.Collections.Generic.List`1<System.Int32>
 struct List_1_tE1526161A558A17A39A8B69D8EEF3801393B6226;
 // System.Collections.Generic.List`1<System.Object>
@@ -6226,7 +6226,7 @@ public:
 	// System.Collections.Generic.List`1<OvrAvatarDriver_PoseFrame> OvrAvatarPacket::frames
 	List_1_tF6D739A0BB197A99C58914E674C1972F0C12DA6B * ___frames_2;
 	// System.Collections.Generic.List`1<System.Byte[]> OvrAvatarPacket::encodedAudioPackets
-	List_1_t8BE041DC5257EA95B6376B45901D0D957BCF7CEC * ___encodedAudioPackets_3;
+	List_1_t4AB280456F4DE770AC993DE9A7C8C563A6311531 * ___encodedAudioPackets_3;
 
 public:
 	inline static int32_t get_offset_of_ovrNativePacket_0() { return static_cast<int32_t>(offsetof(OvrAvatarPacket_tD72296EB8330F868FD8F21C12230E4F21DCA60B8, ___ovrNativePacket_0)); }
@@ -6256,9 +6256,9 @@ public:
 	}
 
 	inline static int32_t get_offset_of_encodedAudioPackets_3() { return static_cast<int32_t>(offsetof(OvrAvatarPacket_tD72296EB8330F868FD8F21C12230E4F21DCA60B8, ___encodedAudioPackets_3)); }
-	inline List_1_t8BE041DC5257EA95B6376B45901D0D957BCF7CEC * get_encodedAudioPackets_3() const { return ___encodedAudioPackets_3; }
-	inline List_1_t8BE041DC5257EA95B6376B45901D0D957BCF7CEC ** get_address_of_encodedAudioPackets_3() { return &___encodedAudioPackets_3; }
-	inline void set_encodedAudioPackets_3(List_1_t8BE041DC5257EA95B6376B45901D0D957BCF7CEC * value)
+	inline List_1_t4AB280456F4DE770AC993DE9A7C8C563A6311531 * get_encodedAudioPackets_3() const { return ___encodedAudioPackets_3; }
+	inline List_1_t4AB280456F4DE770AC993DE9A7C8C563A6311531 ** get_address_of_encodedAudioPackets_3() { return &___encodedAudioPackets_3; }
+	inline void set_encodedAudioPackets_3(List_1_t4AB280456F4DE770AC993DE9A7C8C563A6311531 * value)
 	{
 		___encodedAudioPackets_3 = value;
 		Il2CppCodeGenWriteBarrier((void**)(&___encodedAudioPackets_3), (void*)value);

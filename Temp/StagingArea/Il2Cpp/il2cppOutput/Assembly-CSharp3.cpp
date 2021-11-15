@@ -354,7 +354,7 @@ struct BooleanU5BU5D_t192C7579715690E25BD5EFED47F3E0FC9DCB2040;
 // System.Byte[]
 struct ByteU5BU5D_tD06FDBE8142446525DF1C40351D523A228373821;
 // System.Byte[][]
-struct ByteU5BU5DU5BU5D_tD1CB918775FFB351821F10AC338FECDDE22DEEC7;
+struct ByteU5BU5DU5BU5D_t1DE3927D87FD236507BFE9CA7E3EEA348C53E0E1;
 // System.Char[]
 struct CharU5BU5D_t4CC6ABF0AD71BEC97E3C2F1E9C5677E46D3A75C2;
 // System.Collections.Generic.Dictionary`2/Entry<System.Int32,OvrAvatarTextureCopyManager/TextureSet>[]
@@ -478,7 +478,7 @@ struct List_1_t74133F05C2C2DF6C169F30C94FB8A74230703FCB;
 // System.Collections.Generic.List`1<RemoteLoopbackManager/PacketLatencyPair>
 struct List_1_tD7551FAD2BA5E1902C2D0BC0329DC31A975D48E3;
 // System.Collections.Generic.List`1<System.Byte[]>
-struct List_1_t8BE041DC5257EA95B6376B45901D0D957BCF7CEC;
+struct List_1_t4AB280456F4DE770AC993DE9A7C8C563A6311531;
 // System.Collections.Generic.List`1<System.Int32>
 struct List_1_tE1526161A558A17A39A8B69D8EEF3801393B6226;
 // System.Collections.Generic.List`1<System.Object>
@@ -819,8 +819,8 @@ IL2CPP_EXTERN_C RuntimeClass* IntPtr_t_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* LaunchType_tC117FE9AAA54750CECDED1BBAC7D57B2FCACB4AC_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* LinkedList_1_t380BF329A4D2725F7E17D643E3951D1EBB298416_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* LinkedList_1_tD0F055CD18500414411BC08E2A8AD1A534F42DFE_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* List_1_t4AB280456F4DE770AC993DE9A7C8C563A6311531_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* List_1_t8980FA0E6CB3848F706C43D859930435C34BCC37_il2cpp_TypeInfo_var;
-IL2CPP_EXTERN_C RuntimeClass* List_1_t8BE041DC5257EA95B6376B45901D0D957BCF7CEC_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* List_1_tBF0014F1896CE8E8983C235CDF2C00B1FBEE2CDC_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* List_1_tD7551FAD2BA5E1902C2D0BC0329DC31A975D48E3_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* List_1_tE1526161A558A17A39A8B69D8EEF3801393B6226_il2cpp_TypeInfo_var;
@@ -1091,14 +1091,15 @@ IL2CPP_EXTERN_C const RuntimeMethod* List_1_Add_m50C0D1F69B2EF31137658E2F052EBBA
 IL2CPP_EXTERN_C const RuntimeMethod* List_1_Add_m8A2474E0CCE307C30B89E8E0554040716978983E_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* List_1_Add_mB14710B1B2B4CDD445D577C9B2BB4CCB03213E4E_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* List_1_Add_mBA32496E8DDFC08B2F6B6C421EA7436988E4A7CE_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* List_1_Add_mCC9D38BB3CBE3F2E67EDF3390D36ABFAD293468E_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* List_1_Add_mD9F028AEE5C43737BEB50A8DAA8CA939CE314002_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* List_1_Add_mE0959AE7E9ADD722D69EBF2AFFD51890CBC2EFEA_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* List_1_Clear_m8E7A9E8CF891528845C4B071CB8166DDB1A384B8_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* List_1_GetEnumerator_m3E7042AE58561530C10A47E4F39B8368CFCB693B_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* List_1_GetEnumerator_m648284040ECC710040C8DE7B08CC0795512F92F7_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* List_1_GetEnumerator_mEBD1E989888329CC9FDEC53462D25C2299D1481C_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* List_1_Remove_m369DBFFEBB963F77D8DDA5D86E524581A20B0889_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* List_1_ToArray_m88791B9062762F4E67F8D4233708EF1BF3D50386_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* List_1__ctor_m52FC81AB50BD21B6BFA16546E3AF9C94611D9811_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* List_1__ctor_m61C801149485F4F45F4C47684970DB468B8B98A7_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* List_1__ctor_m6834ABFBD98D5EFE53A4BD01EA25BC516F24B171_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* List_1__ctor_m79CF943D432EDFAFE672E3DFFC07579F74C70BA7_RuntimeMethod_var;
@@ -1107,15 +1108,14 @@ IL2CPP_EXTERN_C const RuntimeMethod* List_1__ctor_m99E2FCE78478CE19D17F9B5FF0BF8
 IL2CPP_EXTERN_C const RuntimeMethod* List_1__ctor_mA6527BACC786C9B8BD657E412DF12054E9872318_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* List_1__ctor_mA7F9F92F641CEECFD9D8CFDC667568A05FFD27B4_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* List_1__ctor_mC28A634FCC8EB0E171E34B132883C97C088084B0_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* List_1__ctor_mC54F10B651527EC4D32066F9868E8C0C811C4547_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* List_1__ctor_mCCB717053EDBC77EAEE7365A6680566F0D93B029_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* List_1_get_Count_m0AEC7165BCDA1870BB35D5B1BE47F1F0EAE89C76_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* List_1_get_Count_m2E29D30C43F78ABB30F6C7881652C11852FD4D6F_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* List_1_get_Count_m33F3D253B6A2E2F62D2A55EF0FDA17CB793AF2F4_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* List_1_get_Count_m60AE24FF9D8000083F8EE65662CAA6EE46ADA29A_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* List_1_get_Count_m708E45110998AFADE7D79E22F7A7677A1956BB49_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* List_1_get_Count_mF6430EFE4729719EE87A25D3C209A58A1E7E141C_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* List_1_get_Count_mFFEAD92970D22AEB3727542F7271F9E9767465CD_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* List_1_get_Item_m39F572EC4BC86AE1EC298F07A9BE699FC3669A11_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* List_1_get_Item_m2BE218005C01E5A3FE3CD353F077053DD13B0476_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* List_1_get_Item_m55272522C9AF91DB8EB7C0F31DA17881A98880C8_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* List_1_get_Item_m837CF97CE81F51A842CCCC37F8AB7640A3DC6CB2_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* List_1_get_Item_m84157D99B1CB5B927005A1CDA5DE31F5B37D0464_RuntimeMethod_var;
@@ -3433,11 +3433,11 @@ public:
 
 
 // System.Collections.Generic.List`1<System.Byte[]>
-struct  List_1_t8BE041DC5257EA95B6376B45901D0D957BCF7CEC  : public RuntimeObject
+struct  List_1_t4AB280456F4DE770AC993DE9A7C8C563A6311531  : public RuntimeObject
 {
 public:
 	// T[] System.Collections.Generic.List`1::_items
-	ByteU5BU5DU5BU5D_tD1CB918775FFB351821F10AC338FECDDE22DEEC7* ____items_1;
+	ByteU5BU5DU5BU5D_t1DE3927D87FD236507BFE9CA7E3EEA348C53E0E1* ____items_1;
 	// System.Int32 System.Collections.Generic.List`1::_size
 	int32_t ____size_2;
 	// System.Int32 System.Collections.Generic.List`1::_version
@@ -3446,16 +3446,16 @@ public:
 	RuntimeObject * ____syncRoot_4;
 
 public:
-	inline static int32_t get_offset_of__items_1() { return static_cast<int32_t>(offsetof(List_1_t8BE041DC5257EA95B6376B45901D0D957BCF7CEC, ____items_1)); }
-	inline ByteU5BU5DU5BU5D_tD1CB918775FFB351821F10AC338FECDDE22DEEC7* get__items_1() const { return ____items_1; }
-	inline ByteU5BU5DU5BU5D_tD1CB918775FFB351821F10AC338FECDDE22DEEC7** get_address_of__items_1() { return &____items_1; }
-	inline void set__items_1(ByteU5BU5DU5BU5D_tD1CB918775FFB351821F10AC338FECDDE22DEEC7* value)
+	inline static int32_t get_offset_of__items_1() { return static_cast<int32_t>(offsetof(List_1_t4AB280456F4DE770AC993DE9A7C8C563A6311531, ____items_1)); }
+	inline ByteU5BU5DU5BU5D_t1DE3927D87FD236507BFE9CA7E3EEA348C53E0E1* get__items_1() const { return ____items_1; }
+	inline ByteU5BU5DU5BU5D_t1DE3927D87FD236507BFE9CA7E3EEA348C53E0E1** get_address_of__items_1() { return &____items_1; }
+	inline void set__items_1(ByteU5BU5DU5BU5D_t1DE3927D87FD236507BFE9CA7E3EEA348C53E0E1* value)
 	{
 		____items_1 = value;
 		Il2CppCodeGenWriteBarrier((void**)(&____items_1), (void*)value);
 	}
 
-	inline static int32_t get_offset_of__size_2() { return static_cast<int32_t>(offsetof(List_1_t8BE041DC5257EA95B6376B45901D0D957BCF7CEC, ____size_2)); }
+	inline static int32_t get_offset_of__size_2() { return static_cast<int32_t>(offsetof(List_1_t4AB280456F4DE770AC993DE9A7C8C563A6311531, ____size_2)); }
 	inline int32_t get__size_2() const { return ____size_2; }
 	inline int32_t* get_address_of__size_2() { return &____size_2; }
 	inline void set__size_2(int32_t value)
@@ -3463,7 +3463,7 @@ public:
 		____size_2 = value;
 	}
 
-	inline static int32_t get_offset_of__version_3() { return static_cast<int32_t>(offsetof(List_1_t8BE041DC5257EA95B6376B45901D0D957BCF7CEC, ____version_3)); }
+	inline static int32_t get_offset_of__version_3() { return static_cast<int32_t>(offsetof(List_1_t4AB280456F4DE770AC993DE9A7C8C563A6311531, ____version_3)); }
 	inline int32_t get__version_3() const { return ____version_3; }
 	inline int32_t* get_address_of__version_3() { return &____version_3; }
 	inline void set__version_3(int32_t value)
@@ -3471,7 +3471,7 @@ public:
 		____version_3 = value;
 	}
 
-	inline static int32_t get_offset_of__syncRoot_4() { return static_cast<int32_t>(offsetof(List_1_t8BE041DC5257EA95B6376B45901D0D957BCF7CEC, ____syncRoot_4)); }
+	inline static int32_t get_offset_of__syncRoot_4() { return static_cast<int32_t>(offsetof(List_1_t4AB280456F4DE770AC993DE9A7C8C563A6311531, ____syncRoot_4)); }
 	inline RuntimeObject * get__syncRoot_4() const { return ____syncRoot_4; }
 	inline RuntimeObject ** get_address_of__syncRoot_4() { return &____syncRoot_4; }
 	inline void set__syncRoot_4(RuntimeObject * value)
@@ -3481,17 +3481,17 @@ public:
 	}
 };
 
-struct List_1_t8BE041DC5257EA95B6376B45901D0D957BCF7CEC_StaticFields
+struct List_1_t4AB280456F4DE770AC993DE9A7C8C563A6311531_StaticFields
 {
 public:
 	// T[] System.Collections.Generic.List`1::_emptyArray
-	ByteU5BU5DU5BU5D_tD1CB918775FFB351821F10AC338FECDDE22DEEC7* ____emptyArray_5;
+	ByteU5BU5DU5BU5D_t1DE3927D87FD236507BFE9CA7E3EEA348C53E0E1* ____emptyArray_5;
 
 public:
-	inline static int32_t get_offset_of__emptyArray_5() { return static_cast<int32_t>(offsetof(List_1_t8BE041DC5257EA95B6376B45901D0D957BCF7CEC_StaticFields, ____emptyArray_5)); }
-	inline ByteU5BU5DU5BU5D_tD1CB918775FFB351821F10AC338FECDDE22DEEC7* get__emptyArray_5() const { return ____emptyArray_5; }
-	inline ByteU5BU5DU5BU5D_tD1CB918775FFB351821F10AC338FECDDE22DEEC7** get_address_of__emptyArray_5() { return &____emptyArray_5; }
-	inline void set__emptyArray_5(ByteU5BU5DU5BU5D_tD1CB918775FFB351821F10AC338FECDDE22DEEC7* value)
+	inline static int32_t get_offset_of__emptyArray_5() { return static_cast<int32_t>(offsetof(List_1_t4AB280456F4DE770AC993DE9A7C8C563A6311531_StaticFields, ____emptyArray_5)); }
+	inline ByteU5BU5DU5BU5D_t1DE3927D87FD236507BFE9CA7E3EEA348C53E0E1* get__emptyArray_5() const { return ____emptyArray_5; }
+	inline ByteU5BU5DU5BU5D_t1DE3927D87FD236507BFE9CA7E3EEA348C53E0E1** get_address_of__emptyArray_5() { return &____emptyArray_5; }
+	inline void set__emptyArray_5(ByteU5BU5DU5BU5D_t1DE3927D87FD236507BFE9CA7E3EEA348C53E0E1* value)
 	{
 		____emptyArray_5 = value;
 		Il2CppCodeGenWriteBarrier((void**)(&____emptyArray_5), (void*)value);
@@ -7555,7 +7555,7 @@ public:
 	// System.Collections.Generic.List`1<OvrAvatarDriver_PoseFrame> OvrAvatarPacket::frames
 	List_1_tF6D739A0BB197A99C58914E674C1972F0C12DA6B * ___frames_2;
 	// System.Collections.Generic.List`1<System.Byte[]> OvrAvatarPacket::encodedAudioPackets
-	List_1_t8BE041DC5257EA95B6376B45901D0D957BCF7CEC * ___encodedAudioPackets_3;
+	List_1_t4AB280456F4DE770AC993DE9A7C8C563A6311531 * ___encodedAudioPackets_3;
 
 public:
 	inline static int32_t get_offset_of_ovrNativePacket_0() { return static_cast<int32_t>(offsetof(OvrAvatarPacket_tD72296EB8330F868FD8F21C12230E4F21DCA60B8, ___ovrNativePacket_0)); }
@@ -7585,9 +7585,9 @@ public:
 	}
 
 	inline static int32_t get_offset_of_encodedAudioPackets_3() { return static_cast<int32_t>(offsetof(OvrAvatarPacket_tD72296EB8330F868FD8F21C12230E4F21DCA60B8, ___encodedAudioPackets_3)); }
-	inline List_1_t8BE041DC5257EA95B6376B45901D0D957BCF7CEC * get_encodedAudioPackets_3() const { return ___encodedAudioPackets_3; }
-	inline List_1_t8BE041DC5257EA95B6376B45901D0D957BCF7CEC ** get_address_of_encodedAudioPackets_3() { return &___encodedAudioPackets_3; }
-	inline void set_encodedAudioPackets_3(List_1_t8BE041DC5257EA95B6376B45901D0D957BCF7CEC * value)
+	inline List_1_t4AB280456F4DE770AC993DE9A7C8C563A6311531 * get_encodedAudioPackets_3() const { return ___encodedAudioPackets_3; }
+	inline List_1_t4AB280456F4DE770AC993DE9A7C8C563A6311531 ** get_address_of_encodedAudioPackets_3() { return &___encodedAudioPackets_3; }
+	inline void set_encodedAudioPackets_3(List_1_t4AB280456F4DE770AC993DE9A7C8C563A6311531 * value)
 	{
 		___encodedAudioPackets_3 = value;
 		Il2CppCodeGenWriteBarrier((void**)(&___encodedAudioPackets_3), (void*)value);
@@ -20727,9 +20727,9 @@ inline void List_1__ctor_m99E2FCE78478CE19D17F9B5FF0BF89F92C165DC7 (List_1_tF6D7
 	((  void (*) (List_1_tF6D739A0BB197A99C58914E674C1972F0C12DA6B *, const RuntimeMethod*))List_1__ctor_m99E2FCE78478CE19D17F9B5FF0BF89F92C165DC7_gshared)(__this, method);
 }
 // System.Void System.Collections.Generic.List`1<System.Byte[]>::.ctor()
-inline void List_1__ctor_mC54F10B651527EC4D32066F9868E8C0C811C4547 (List_1_t8BE041DC5257EA95B6376B45901D0D957BCF7CEC * __this, const RuntimeMethod* method)
+inline void List_1__ctor_m52FC81AB50BD21B6BFA16546E3AF9C94611D9811 (List_1_t4AB280456F4DE770AC993DE9A7C8C563A6311531 * __this, const RuntimeMethod* method)
 {
-	((  void (*) (List_1_t8BE041DC5257EA95B6376B45901D0D957BCF7CEC *, const RuntimeMethod*))List_1__ctor_mC832F1AC0F814BAEB19175F5D7972A7507508BC3_gshared)(__this, method);
+	((  void (*) (List_1_t4AB280456F4DE770AC993DE9A7C8C563A6311531 *, const RuntimeMethod*))List_1__ctor_mC832F1AC0F814BAEB19175F5D7972A7507508BC3_gshared)(__this, method);
 }
 // System.Void System.Collections.Generic.List`1<System.Single>::Add(!0)
 inline void List_1_Add_mB14710B1B2B4CDD445D577C9B2BB4CCB03213E4E (List_1_t8980FA0E6CB3848F706C43D859930435C34BCC37 * __this, float ___item0, const RuntimeMethod* method)
@@ -20760,30 +20760,30 @@ inline void List_1__ctor_mCCB717053EDBC77EAEE7365A6680566F0D93B029 (List_1_tF6D7
 // OvrAvatarDriver/PoseFrame BinaryReaderExtensions::ReadPoseFrame(System.IO.BinaryReader)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR PoseFrame_t5F17F387C791DA75A2779787BD55BBBB102DE358  BinaryReaderExtensions_ReadPoseFrame_m1ACB6AD05DA20A963BCCDEB08F0C15BAF163BA4F (BinaryReader_t7467E057B24C42E81B1C3E5C60288BB4B1718969 * ___reader0, const RuntimeMethod* method);
 // System.Void System.Collections.Generic.List`1<System.Byte[]>::.ctor(System.Int32)
-inline void List_1__ctor_mC28A634FCC8EB0E171E34B132883C97C088084B0 (List_1_t8BE041DC5257EA95B6376B45901D0D957BCF7CEC * __this, int32_t ___capacity0, const RuntimeMethod* method)
+inline void List_1__ctor_mC28A634FCC8EB0E171E34B132883C97C088084B0 (List_1_t4AB280456F4DE770AC993DE9A7C8C563A6311531 * __this, int32_t ___capacity0, const RuntimeMethod* method)
 {
-	((  void (*) (List_1_t8BE041DC5257EA95B6376B45901D0D957BCF7CEC *, int32_t, const RuntimeMethod*))List_1__ctor_mEE468B81D8E7C140F567D10FF7F5894A50EEEA57_gshared)(__this, ___capacity0, method);
+	((  void (*) (List_1_t4AB280456F4DE770AC993DE9A7C8C563A6311531 *, int32_t, const RuntimeMethod*))List_1__ctor_mEE468B81D8E7C140F567D10FF7F5894A50EEEA57_gshared)(__this, ___capacity0, method);
 }
 // System.Void System.Collections.Generic.List`1<System.Byte[]>::Add(!0)
-inline void List_1_Add_mE0959AE7E9ADD722D69EBF2AFFD51890CBC2EFEA (List_1_t8BE041DC5257EA95B6376B45901D0D957BCF7CEC * __this, ByteU5BU5D_tD06FDBE8142446525DF1C40351D523A228373821* ___item0, const RuntimeMethod* method)
+inline void List_1_Add_mCC9D38BB3CBE3F2E67EDF3390D36ABFAD293468E (List_1_t4AB280456F4DE770AC993DE9A7C8C563A6311531 * __this, ByteU5BU5D_tD06FDBE8142446525DF1C40351D523A228373821* ___item0, const RuntimeMethod* method)
 {
-	((  void (*) (List_1_t8BE041DC5257EA95B6376B45901D0D957BCF7CEC *, ByteU5BU5D_tD06FDBE8142446525DF1C40351D523A228373821*, const RuntimeMethod*))List_1_Add_m6930161974C7504C80F52EC379EF012387D43138_gshared)(__this, ___item0, method);
+	((  void (*) (List_1_t4AB280456F4DE770AC993DE9A7C8C563A6311531 *, ByteU5BU5D_tD06FDBE8142446525DF1C40351D523A228373821*, const RuntimeMethod*))List_1_Add_m6930161974C7504C80F52EC379EF012387D43138_gshared)(__this, ___item0, method);
 }
 // System.Void OvrAvatarPacket::.ctor(System.Collections.Generic.List`1<System.Single>,System.Collections.Generic.List`1<OvrAvatarDriver/PoseFrame>,System.Collections.Generic.List`1<System.Byte[]>)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OvrAvatarPacket__ctor_mD138C1F403FCDBEEAD1D467529C13B8E1ADDF4B4 (OvrAvatarPacket_tD72296EB8330F868FD8F21C12230E4F21DCA60B8 * __this, List_1_t8980FA0E6CB3848F706C43D859930435C34BCC37 * ___frameTimes0, List_1_tF6D739A0BB197A99C58914E674C1972F0C12DA6B * ___frames1, List_1_t8BE041DC5257EA95B6376B45901D0D957BCF7CEC * ___audioPackets2, const RuntimeMethod* method);
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OvrAvatarPacket__ctor_mD138C1F403FCDBEEAD1D467529C13B8E1ADDF4B4 (OvrAvatarPacket_tD72296EB8330F868FD8F21C12230E4F21DCA60B8 * __this, List_1_t8980FA0E6CB3848F706C43D859930435C34BCC37 * ___frameTimes0, List_1_tF6D739A0BB197A99C58914E674C1972F0C12DA6B * ___frames1, List_1_t4AB280456F4DE770AC993DE9A7C8C563A6311531 * ___audioPackets2, const RuntimeMethod* method);
 // System.Void System.IO.BinaryWriter::.ctor(System.IO.Stream)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BinaryWriter__ctor_m2E92F4E5096905E2E7487E003AB7B3CC5C5EC185 (BinaryWriter_t1B8E78B6CACFBFB57BF140FB4DECE19AFD249CC3 * __this, Stream_tFC50657DD5AAB87770987F9179D934A51D99D5E7 * ___output0, const RuntimeMethod* method);
 // System.Void BinaryWriterExtensions::Write(System.IO.BinaryWriter,OvrAvatarDriver/PoseFrame)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BinaryWriterExtensions_Write_m86669FFB27A0C238C8D9DCC554029512321B6983 (BinaryWriter_t1B8E78B6CACFBFB57BF140FB4DECE19AFD249CC3 * ___writer0, PoseFrame_t5F17F387C791DA75A2779787BD55BBBB102DE358  ___frame1, const RuntimeMethod* method);
 // System.Int32 System.Collections.Generic.List`1<System.Byte[]>::get_Count()
-inline int32_t List_1_get_Count_mF6430EFE4729719EE87A25D3C209A58A1E7E141C_inline (List_1_t8BE041DC5257EA95B6376B45901D0D957BCF7CEC * __this, const RuntimeMethod* method)
+inline int32_t List_1_get_Count_m60AE24FF9D8000083F8EE65662CAA6EE46ADA29A_inline (List_1_t4AB280456F4DE770AC993DE9A7C8C563A6311531 * __this, const RuntimeMethod* method)
 {
-	return ((  int32_t (*) (List_1_t8BE041DC5257EA95B6376B45901D0D957BCF7CEC *, const RuntimeMethod*))List_1_get_Count_m507C9149FF7F83AAC72C29091E745D557DA47D22_gshared_inline)(__this, method);
+	return ((  int32_t (*) (List_1_t4AB280456F4DE770AC993DE9A7C8C563A6311531 *, const RuntimeMethod*))List_1_get_Count_m507C9149FF7F83AAC72C29091E745D557DA47D22_gshared_inline)(__this, method);
 }
 // !0 System.Collections.Generic.List`1<System.Byte[]>::get_Item(System.Int32)
-inline ByteU5BU5D_tD06FDBE8142446525DF1C40351D523A228373821* List_1_get_Item_m39F572EC4BC86AE1EC298F07A9BE699FC3669A11_inline (List_1_t8BE041DC5257EA95B6376B45901D0D957BCF7CEC * __this, int32_t ___index0, const RuntimeMethod* method)
+inline ByteU5BU5D_tD06FDBE8142446525DF1C40351D523A228373821* List_1_get_Item_m2BE218005C01E5A3FE3CD353F077053DD13B0476_inline (List_1_t4AB280456F4DE770AC993DE9A7C8C563A6311531 * __this, int32_t ___index0, const RuntimeMethod* method)
 {
-	return ((  ByteU5BU5D_tD06FDBE8142446525DF1C40351D523A228373821* (*) (List_1_t8BE041DC5257EA95B6376B45901D0D957BCF7CEC *, int32_t, const RuntimeMethod*))List_1_get_Item_mFDB8AD680C600072736579BBF5F38F7416396588_gshared_inline)(__this, ___index0, method);
+	return ((  ByteU5BU5D_tD06FDBE8142446525DF1C40351D523A228373821* (*) (List_1_t4AB280456F4DE770AC993DE9A7C8C563A6311531 *, int32_t, const RuntimeMethod*))List_1_get_Item_mFDB8AD680C600072736579BBF5F38F7416396588_gshared_inline)(__this, ___index0, method);
 }
 // System.Void System.Collections.Generic.Queue`1<OvrAvatarPacket>::Enqueue(!0)
 inline void Queue_1_Enqueue_m7080BD2A835E06E140DF46D7BD2DE7CEDD9BD33E (Queue_1_t34482D48DCD21FD7F7858A6652640DB112B47B39 * __this, OvrAvatarPacket_tD72296EB8330F868FD8F21C12230E4F21DCA60B8 * ___item0, const RuntimeMethod* method)
@@ -23295,8 +23295,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OvrAvatarPacket__ctor_m7977E44CE7305F4CD
 		List_1__ctor_m99E2FCE78478CE19D17F9B5FF0BF89F92C165DC7(L_1, /*hidden argument*/List_1__ctor_m99E2FCE78478CE19D17F9B5FF0BF89F92C165DC7_RuntimeMethod_var);
 		__this->set_frames_2(L_1);
 		// List<byte[]> encodedAudioPackets = new List<byte[]>();
-		List_1_t8BE041DC5257EA95B6376B45901D0D957BCF7CEC * L_2 = (List_1_t8BE041DC5257EA95B6376B45901D0D957BCF7CEC *)il2cpp_codegen_object_new(List_1_t8BE041DC5257EA95B6376B45901D0D957BCF7CEC_il2cpp_TypeInfo_var);
-		List_1__ctor_mC54F10B651527EC4D32066F9868E8C0C811C4547(L_2, /*hidden argument*/List_1__ctor_mC54F10B651527EC4D32066F9868E8C0C811C4547_RuntimeMethod_var);
+		List_1_t4AB280456F4DE770AC993DE9A7C8C563A6311531 * L_2 = (List_1_t4AB280456F4DE770AC993DE9A7C8C563A6311531 *)il2cpp_codegen_object_new(List_1_t4AB280456F4DE770AC993DE9A7C8C563A6311531_il2cpp_TypeInfo_var);
+		List_1__ctor_m52FC81AB50BD21B6BFA16546E3AF9C94611D9811(L_2, /*hidden argument*/List_1__ctor_m52FC81AB50BD21B6BFA16546E3AF9C94611D9811_RuntimeMethod_var);
 		__this->set_encodedAudioPackets_3(L_2);
 		// public OvrAvatarPacket()
 		Object__ctor_m925ECA5E85CA100E3FB86A4F9E15C120E9A184C0(__this, /*hidden argument*/NULL);
@@ -23325,8 +23325,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OvrAvatarPacket__ctor_m2E5ED0FE7F84940BE
 		List_1__ctor_m99E2FCE78478CE19D17F9B5FF0BF89F92C165DC7(L_1, /*hidden argument*/List_1__ctor_m99E2FCE78478CE19D17F9B5FF0BF89F92C165DC7_RuntimeMethod_var);
 		__this->set_frames_2(L_1);
 		// List<byte[]> encodedAudioPackets = new List<byte[]>();
-		List_1_t8BE041DC5257EA95B6376B45901D0D957BCF7CEC * L_2 = (List_1_t8BE041DC5257EA95B6376B45901D0D957BCF7CEC *)il2cpp_codegen_object_new(List_1_t8BE041DC5257EA95B6376B45901D0D957BCF7CEC_il2cpp_TypeInfo_var);
-		List_1__ctor_mC54F10B651527EC4D32066F9868E8C0C811C4547(L_2, /*hidden argument*/List_1__ctor_mC54F10B651527EC4D32066F9868E8C0C811C4547_RuntimeMethod_var);
+		List_1_t4AB280456F4DE770AC993DE9A7C8C563A6311531 * L_2 = (List_1_t4AB280456F4DE770AC993DE9A7C8C563A6311531 *)il2cpp_codegen_object_new(List_1_t4AB280456F4DE770AC993DE9A7C8C563A6311531_il2cpp_TypeInfo_var);
+		List_1__ctor_m52FC81AB50BD21B6BFA16546E3AF9C94611D9811(L_2, /*hidden argument*/List_1__ctor_m52FC81AB50BD21B6BFA16546E3AF9C94611D9811_RuntimeMethod_var);
 		__this->set_encodedAudioPackets_3(L_2);
 		// public OvrAvatarPacket(OvrAvatarDriver.PoseFrame initialPose)
 		Object__ctor_m925ECA5E85CA100E3FB86A4F9E15C120E9A184C0(__this, /*hidden argument*/NULL);
@@ -23344,7 +23344,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OvrAvatarPacket__ctor_m2E5ED0FE7F84940BE
 	}
 }
 // System.Void OvrAvatarPacket::.ctor(System.Collections.Generic.List`1<System.Single>,System.Collections.Generic.List`1<OvrAvatarDriver_PoseFrame>,System.Collections.Generic.List`1<System.Byte[]>)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OvrAvatarPacket__ctor_mD138C1F403FCDBEEAD1D467529C13B8E1ADDF4B4 (OvrAvatarPacket_tD72296EB8330F868FD8F21C12230E4F21DCA60B8 * __this, List_1_t8980FA0E6CB3848F706C43D859930435C34BCC37 * ___frameTimes0, List_1_tF6D739A0BB197A99C58914E674C1972F0C12DA6B * ___frames1, List_1_t8BE041DC5257EA95B6376B45901D0D957BCF7CEC * ___audioPackets2, const RuntimeMethod* method)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OvrAvatarPacket__ctor_mD138C1F403FCDBEEAD1D467529C13B8E1ADDF4B4 (OvrAvatarPacket_tD72296EB8330F868FD8F21C12230E4F21DCA60B8 * __this, List_1_t8980FA0E6CB3848F706C43D859930435C34BCC37 * ___frameTimes0, List_1_tF6D739A0BB197A99C58914E674C1972F0C12DA6B * ___frames1, List_1_t4AB280456F4DE770AC993DE9A7C8C563A6311531 * ___audioPackets2, const RuntimeMethod* method)
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -23364,8 +23364,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OvrAvatarPacket__ctor_mD138C1F403FCDBEEA
 		List_1__ctor_m99E2FCE78478CE19D17F9B5FF0BF89F92C165DC7(L_1, /*hidden argument*/List_1__ctor_m99E2FCE78478CE19D17F9B5FF0BF89F92C165DC7_RuntimeMethod_var);
 		__this->set_frames_2(L_1);
 		// List<byte[]> encodedAudioPackets = new List<byte[]>();
-		List_1_t8BE041DC5257EA95B6376B45901D0D957BCF7CEC * L_2 = (List_1_t8BE041DC5257EA95B6376B45901D0D957BCF7CEC *)il2cpp_codegen_object_new(List_1_t8BE041DC5257EA95B6376B45901D0D957BCF7CEC_il2cpp_TypeInfo_var);
-		List_1__ctor_mC54F10B651527EC4D32066F9868E8C0C811C4547(L_2, /*hidden argument*/List_1__ctor_mC54F10B651527EC4D32066F9868E8C0C811C4547_RuntimeMethod_var);
+		List_1_t4AB280456F4DE770AC993DE9A7C8C563A6311531 * L_2 = (List_1_t4AB280456F4DE770AC993DE9A7C8C563A6311531 *)il2cpp_codegen_object_new(List_1_t4AB280456F4DE770AC993DE9A7C8C563A6311531_il2cpp_TypeInfo_var);
+		List_1__ctor_m52FC81AB50BD21B6BFA16546E3AF9C94611D9811(L_2, /*hidden argument*/List_1__ctor_m52FC81AB50BD21B6BFA16546E3AF9C94611D9811_RuntimeMethod_var);
 		__this->set_encodedAudioPackets_3(L_2);
 		// OvrAvatarPacket(List<float> frameTimes, List<OvrAvatarDriver.PoseFrame> frames, List<byte[]> audioPackets)
 		Object__ctor_m925ECA5E85CA100E3FB86A4F9E15C120E9A184C0(__this, /*hidden argument*/NULL);
@@ -23558,7 +23558,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR OvrAvatarPacket_tD72296EB8330F868FD8F21C12230
 	List_1_t8980FA0E6CB3848F706C43D859930435C34BCC37 * V_2 = NULL;
 	List_1_tF6D739A0BB197A99C58914E674C1972F0C12DA6B * V_3 = NULL;
 	int32_t V_4 = 0;
-	List_1_t8BE041DC5257EA95B6376B45901D0D957BCF7CEC * V_5 = NULL;
+	List_1_t4AB280456F4DE770AC993DE9A7C8C563A6311531 * V_5 = NULL;
 	int32_t V_6 = 0;
 	bool V_7 = false;
 	int32_t V_8 = 0;
@@ -23659,7 +23659,7 @@ IL_005c:
 		V_4 = L_23;
 		// List<byte[]> audioPackets = new List<byte[]>(audioPacketCount);
 		int32_t L_24 = V_4;
-		List_1_t8BE041DC5257EA95B6376B45901D0D957BCF7CEC * L_25 = (List_1_t8BE041DC5257EA95B6376B45901D0D957BCF7CEC *)il2cpp_codegen_object_new(List_1_t8BE041DC5257EA95B6376B45901D0D957BCF7CEC_il2cpp_TypeInfo_var);
+		List_1_t4AB280456F4DE770AC993DE9A7C8C563A6311531 * L_25 = (List_1_t4AB280456F4DE770AC993DE9A7C8C563A6311531 *)il2cpp_codegen_object_new(List_1_t4AB280456F4DE770AC993DE9A7C8C563A6311531_il2cpp_TypeInfo_var);
 		List_1__ctor_mC28A634FCC8EB0E171E34B132883C97C088084B0(L_25, L_24, /*hidden argument*/List_1__ctor_mC28A634FCC8EB0E171E34B132883C97C088084B0_RuntimeMethod_var);
 		V_5 = L_25;
 		// for (int i = 0; i < audioPacketCount; ++i)
@@ -23681,10 +23681,10 @@ IL_007d:
 		ByteU5BU5D_tD06FDBE8142446525DF1C40351D523A228373821* L_30 = VirtFuncInvoker1< ByteU5BU5D_tD06FDBE8142446525DF1C40351D523A228373821*, int32_t >::Invoke(25 /* System.Byte[] System.IO.BinaryReader::ReadBytes(System.Int32) */, L_28, L_29);
 		V_12 = L_30;
 		// audioPackets.Add(audioPacket);
-		List_1_t8BE041DC5257EA95B6376B45901D0D957BCF7CEC * L_31 = V_5;
+		List_1_t4AB280456F4DE770AC993DE9A7C8C563A6311531 * L_31 = V_5;
 		ByteU5BU5D_tD06FDBE8142446525DF1C40351D523A228373821* L_32 = V_12;
 		NullCheck(L_31);
-		List_1_Add_mE0959AE7E9ADD722D69EBF2AFFD51890CBC2EFEA(L_31, L_32, /*hidden argument*/List_1_Add_mE0959AE7E9ADD722D69EBF2AFFD51890CBC2EFEA_RuntimeMethod_var);
+		List_1_Add_mCC9D38BB3CBE3F2E67EDF3390D36ABFAD293468E(L_31, L_32, /*hidden argument*/List_1_Add_mCC9D38BB3CBE3F2E67EDF3390D36ABFAD293468E_RuntimeMethod_var);
 		// for (int i = 0; i < audioPacketCount; ++i)
 		int32_t L_33 = V_10;
 		V_10 = ((int32_t)il2cpp_codegen_add((int32_t)L_33, (int32_t)1));
@@ -23706,7 +23706,7 @@ IL_00a1:
 		// return new OvrAvatarPacket(frameTimes, frames, audioPackets);
 		List_1_t8980FA0E6CB3848F706C43D859930435C34BCC37 * L_37 = V_2;
 		List_1_tF6D739A0BB197A99C58914E674C1972F0C12DA6B * L_38 = V_3;
-		List_1_t8BE041DC5257EA95B6376B45901D0D957BCF7CEC * L_39 = V_5;
+		List_1_t4AB280456F4DE770AC993DE9A7C8C563A6311531 * L_39 = V_5;
 		OvrAvatarPacket_tD72296EB8330F868FD8F21C12230E4F21DCA60B8 * L_40 = (OvrAvatarPacket_tD72296EB8330F868FD8F21C12230E4F21DCA60B8 *)il2cpp_codegen_object_new(OvrAvatarPacket_tD72296EB8330F868FD8F21C12230E4F21DCA60B8_il2cpp_TypeInfo_var);
 		OvrAvatarPacket__ctor_mD138C1F403FCDBEEAD1D467529C13B8E1ADDF4B4(L_40, L_37, L_38, L_39, /*hidden argument*/NULL);
 		V_14 = L_40;
@@ -23826,9 +23826,9 @@ IL_0068:
 	}
 	{
 		// int audioPacketCount = encodedAudioPackets.Count;
-		List_1_t8BE041DC5257EA95B6376B45901D0D957BCF7CEC * L_23 = __this->get_encodedAudioPackets_3();
+		List_1_t4AB280456F4DE770AC993DE9A7C8C563A6311531 * L_23 = __this->get_encodedAudioPackets_3();
 		NullCheck(L_23);
-		int32_t L_24 = List_1_get_Count_mF6430EFE4729719EE87A25D3C209A58A1E7E141C_inline(L_23, /*hidden argument*/List_1_get_Count_mF6430EFE4729719EE87A25D3C209A58A1E7E141C_RuntimeMethod_var);
+		int32_t L_24 = List_1_get_Count_m60AE24FF9D8000083F8EE65662CAA6EE46ADA29A_inline(L_23, /*hidden argument*/List_1_get_Count_m60AE24FF9D8000083F8EE65662CAA6EE46ADA29A_RuntimeMethod_var);
 		V_2 = L_24;
 		// writer.Write(audioPacketCount);
 		BinaryWriter_t1B8E78B6CACFBFB57BF140FB4DECE19AFD249CC3 * L_25 = V_0;
@@ -23843,10 +23843,10 @@ IL_0068:
 IL_008c:
 	{
 		// byte[] packet = encodedAudioPackets[i];
-		List_1_t8BE041DC5257EA95B6376B45901D0D957BCF7CEC * L_27 = __this->get_encodedAudioPackets_3();
+		List_1_t4AB280456F4DE770AC993DE9A7C8C563A6311531 * L_27 = __this->get_encodedAudioPackets_3();
 		int32_t L_28 = V_8;
 		NullCheck(L_27);
-		ByteU5BU5D_tD06FDBE8142446525DF1C40351D523A228373821* L_29 = List_1_get_Item_m39F572EC4BC86AE1EC298F07A9BE699FC3669A11_inline(L_27, L_28, /*hidden argument*/List_1_get_Item_m39F572EC4BC86AE1EC298F07A9BE699FC3669A11_RuntimeMethod_var);
+		ByteU5BU5D_tD06FDBE8142446525DF1C40351D523A228373821* L_29 = List_1_get_Item_m2BE218005C01E5A3FE3CD353F077053DD13B0476_inline(L_27, L_28, /*hidden argument*/List_1_get_Item_m2BE218005C01E5A3FE3CD353F077053DD13B0476_RuntimeMethod_var);
 		V_9 = L_29;
 		// writer.Write(packet.Length);
 		BinaryWriter_t1B8E78B6CACFBFB57BF140FB4DECE19AFD249CC3 * L_30 = V_0;

@@ -272,7 +272,7 @@ struct Dictionary_2_t959714088D7BA7C8DA3A9982AAC68EE93304762F;
 // System.Collections.Generic.Dictionary`2<System.Int32Enum,System.Nullable`1<System.Int32Enum>>
 struct Dictionary_2_tE70D77BE616C2C081AACDFE8EA51E4A9266859DC;
 // System.Collections.Generic.Dictionary`2<System.Object,System.Int32Enum>
-struct Dictionary_2_t899A6299685786A0537853AF9A047216638EF2F3;
+struct Dictionary_2_t15935BA59D5EDF22B5075E957C7C05DEE12E3B57;
 // System.Collections.Generic.Dictionary`2<System.String,System.Object>
 struct Dictionary_2_t9140A71329927AE4FD0F3CF4D4D66668EBE151EA;
 // System.Collections.Generic.Dictionary`2<System.String,UnityEngine.KeyCode>
@@ -12666,9 +12666,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ObjectU5BU5D_t3C9242B5C88A48B2A5BD9FDA6CD0024
 // UnityEngine.GameObject VRTK.VRTK_SharedMethods::FindEvenInactiveGameObject<System.Object>(System.String,System.Boolean)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR GameObject_tBD1244AD56B4E59AAD76E5E7C9282EC5CE434F0F * VRTK_SharedMethods_FindEvenInactiveGameObject_TisRuntimeObject_mDBE5AB6D086D63C89349F30300526789F7090FCF_gshared (String_t* ___gameObjectName0, bool ___searchAllScenes1, const RuntimeMethod* method);
 // System.Void System.Collections.Generic.Dictionary`2<System.Object,System.Int32Enum>::.ctor()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Dictionary_2__ctor_mCF53FFE9450EA152E143AB28DD393811B592896D_gshared (Dictionary_2_t899A6299685786A0537853AF9A047216638EF2F3 * __this, const RuntimeMethod* method);
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Dictionary_2__ctor_m1C8D9B685C8406F92F3C063FCA11D9AB5F56493E_gshared (Dictionary_2_t15935BA59D5EDF22B5075E957C7C05DEE12E3B57 * __this, const RuntimeMethod* method);
 // System.Void System.Collections.Generic.Dictionary`2<System.Object,System.Int32Enum>::Add(!0,!1)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Dictionary_2_Add_m7CE34CB1C040306838F9D5B40DBB6157E76E1E86_gshared (Dictionary_2_t899A6299685786A0537853AF9A047216638EF2F3 * __this, RuntimeObject * ___key0, int32_t ___value1, const RuntimeMethod* method);
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Dictionary_2_Add_m7CE34CB1C040306838F9D5B40DBB6157E76E1E86_gshared (Dictionary_2_t15935BA59D5EDF22B5075E957C7C05DEE12E3B57 * __this, RuntimeObject * ___key0, int32_t ___value1, const RuntimeMethod* method);
 // !!0[] UnityEngine.Component::GetComponentsInChildren<System.Object>(System.Boolean)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ObjectU5BU5D_t3C9242B5C88A48B2A5BD9FDA6CD0024E792AF08A* Component_GetComponentsInChildren_TisRuntimeObject_m9D0AD195AE130230B226737CAC6C6DAEC4B78ED8_gshared (Component_t05064EF382ABCAF4B8C94F8A350EA85184C26621 * __this, bool ___includeInactive0, const RuntimeMethod* method);
 // System.Void System.Func`2<System.Int32Enum,System.Object>::.ctor(System.Object,System.IntPtr)
@@ -12678,7 +12678,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject * Func_2_Invoke_mAF2FE040387D29
 // !!0[] System.Array::Empty<System.Char>()
 IL2CPP_EXTERN_C inline IL2CPP_METHOD_ATTR CharU5BU5D_t4CC6ABF0AD71BEC97E3C2F1E9C5677E46D3A75C2* Array_Empty_TisChar_tBF22D9FC341BE970735250BB6FF1A4A92BBA58B9_mB69B3E7C1276AE609F2B9FA977634893619F966D_gshared_inline (const RuntimeMethod* method);
 // TValue VRTK.VRTK_SharedMethods::GetDictionaryValue<System.Object,System.Int32Enum>(System.Collections.Generic.Dictionary`2<TKey,TValue>,TKey,TValue,System.Boolean)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t VRTK_SharedMethods_GetDictionaryValue_TisRuntimeObject_TisInt32Enum_t6312CE4586C17FE2E2E513D2E7655B574F10FDCD_m59A952FA0006D05CFB64A700EE077FDEF1A9F80C_gshared (Dictionary_2_t899A6299685786A0537853AF9A047216638EF2F3 * ___dictionary0, RuntimeObject * ___key1, int32_t ___defaultValue2, bool ___setMissingKey3, const RuntimeMethod* method);
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t VRTK_SharedMethods_GetDictionaryValue_TisRuntimeObject_TisInt32Enum_t6312CE4586C17FE2E2E513D2E7655B574F10FDCD_m59A952FA0006D05CFB64A700EE077FDEF1A9F80C_gshared (Dictionary_2_t15935BA59D5EDF22B5075E957C7C05DEE12E3B57 * ___dictionary0, RuntimeObject * ___key1, int32_t ___defaultValue2, bool ___setMissingKey3, const RuntimeMethod* method);
 // !!0 UnityEngine.Component::GetComponentInChildren<System.Object>()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject * Component_GetComponentInChildren_TisRuntimeObject_m2094C39A775FDD39B5FB9B5A77E988F3482DC46B_gshared (Component_t05064EF382ABCAF4B8C94F8A350EA85184C26621 * __this, const RuntimeMethod* method);
 // TValue VRTK.VRTK_SharedMethods::GetDictionaryValue<System.Int32Enum,System.Nullable`1<System.Int32Enum>>(System.Collections.Generic.Dictionary`2<TKey,TValue>,TKey,TValue,System.Boolean)
@@ -13022,7 +13022,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR SDK_BaseController_t382536E15E60E1EDC223C0D06
 // System.Void System.Collections.Generic.Dictionary`2<System.String,UnityEngine.KeyCode>::.ctor()
 inline void Dictionary_2__ctor_m9BA9C780EA901CFA14F3254931446D13EEAD359A (Dictionary_2_t2AC8B6CF6E4FB43C0678B803128B366C3CD88FFD * __this, const RuntimeMethod* method)
 {
-	((  void (*) (Dictionary_2_t2AC8B6CF6E4FB43C0678B803128B366C3CD88FFD *, const RuntimeMethod*))Dictionary_2__ctor_mCF53FFE9450EA152E143AB28DD393811B592896D_gshared)(__this, method);
+	((  void (*) (Dictionary_2_t2AC8B6CF6E4FB43C0678B803128B366C3CD88FFD *, const RuntimeMethod*))Dictionary_2__ctor_m1C8D9B685C8406F92F3C063FCA11D9AB5F56493E_gshared)(__this, method);
 }
 // System.Void System.Collections.Generic.Dictionary`2<System.String,UnityEngine.KeyCode>::Add(!0,!1)
 inline void Dictionary_2_Add_m97B38EFA16972CCA3DB8250F5CA263C81A3121A9 (Dictionary_2_t2AC8B6CF6E4FB43C0678B803128B366C3CD88FFD * __this, String_t* ___key0, int32_t ___value1, const RuntimeMethod* method)

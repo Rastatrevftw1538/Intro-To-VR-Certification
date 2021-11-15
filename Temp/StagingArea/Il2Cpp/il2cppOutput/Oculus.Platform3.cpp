@@ -480,7 +480,7 @@ struct KeyCollection_t7D8EA40393C57D7955CA4DABE58477EAFE165B4C;
 // System.Collections.Generic.Dictionary`2/ValueCollection<System.Int32,Oculus.Platform.Samples.VrHoops.P2PNetworkBall>
 struct ValueCollection_tD0AC6C4A765B81E15CE46215ADE81481CC35D67D;
 // System.Collections.Generic.Dictionary`2/ValueCollection<System.Int32,System.Object>
-struct ValueCollection_tC8FF485FE99AA6E0AE36BE79A5BF0673FDEDDB12;
+struct ValueCollection_t4F0931CDBEC78250B6593DE976E46E2179187225;
 // System.Collections.Generic.Dictionary`2/ValueCollection<System.UInt64,Oculus.Platform.Models.User>
 struct ValueCollection_t4579835F1A89543180F3350420B9473C49DFD636;
 // System.Collections.Generic.Dictionary`2/ValueCollection<System.UInt64,Oculus.Platform.Samples.VrHoops.P2PManager/RemotePlayerData>
@@ -8833,9 +8833,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Dictionary_2_set_Item_mF9A6FBE4006C89D15
 // System.Boolean System.Collections.Generic.Dictionary`2<System.Int32,System.Object>::Remove(!0)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Dictionary_2_Remove_m2204D6D532702FD13AB2A9AD8DB538E4E8FB1913_gshared (Dictionary_2_t03608389BB57475AA3F4B2B79D176A27807BC884 * __this, int32_t ___key0, const RuntimeMethod* method);
 // System.Collections.Generic.Dictionary`2/ValueCollection<!0,!1> System.Collections.Generic.Dictionary`2<System.Int32,System.Object>::get_Values()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ValueCollection_tC8FF485FE99AA6E0AE36BE79A5BF0673FDEDDB12 * Dictionary_2_get_Values_m64F057D77C82404A3FFDECAE7B4F1FEA871D88DF_gshared (Dictionary_2_t03608389BB57475AA3F4B2B79D176A27807BC884 * __this, const RuntimeMethod* method);
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ValueCollection_t4F0931CDBEC78250B6593DE976E46E2179187225 * Dictionary_2_get_Values_m64F057D77C82404A3FFDECAE7B4F1FEA871D88DF_gshared (Dictionary_2_t03608389BB57475AA3F4B2B79D176A27807BC884 * __this, const RuntimeMethod* method);
 // System.Collections.Generic.Dictionary`2/ValueCollection/Enumerator<!0,!1> System.Collections.Generic.Dictionary`2/ValueCollection<System.Int32,System.Object>::GetEnumerator()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Enumerator_tDDB96E6B07B75C58A9D02033BE058D98FED1070B  ValueCollection_GetEnumerator_m1C244A7E5F1DC178E95203EDA6534B4A5520D5A4_gshared (ValueCollection_tC8FF485FE99AA6E0AE36BE79A5BF0673FDEDDB12 * __this, const RuntimeMethod* method);
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Enumerator_tDDB96E6B07B75C58A9D02033BE058D98FED1070B  ValueCollection_GetEnumerator_m1C244A7E5F1DC178E95203EDA6534B4A5520D5A4_gshared (ValueCollection_t4F0931CDBEC78250B6593DE976E46E2179187225 * __this, const RuntimeMethod* method);
 // !1 System.Collections.Generic.Dictionary`2/ValueCollection/Enumerator<System.Int32,System.Object>::get_Current()
 IL2CPP_EXTERN_C inline IL2CPP_METHOD_ATTR RuntimeObject * Enumerator_get_Current_mD1A752D17DF497577BA84B4203B85714F3794590_gshared_inline (Enumerator_tDDB96E6B07B75C58A9D02033BE058D98FED1070B * __this, const RuntimeMethod* method);
 // System.Boolean System.Collections.Generic.Dictionary`2/ValueCollection/Enumerator<System.Int32,System.Object>::MoveNext()

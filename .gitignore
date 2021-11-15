@@ -5,3 +5,5 @@ Library/il2cpp_android_arm64-v8a/il2cpp_cache/linkresult_A0969D55A09945ABA51815A
 Vertical Slice - Unity Package/Vertical Slice - Unity Package/EscapeRoom_VS.unitypackage
 *.so
 *Temp/
+*.meta
+

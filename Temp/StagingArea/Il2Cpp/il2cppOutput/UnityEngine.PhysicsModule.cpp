@@ -1907,6 +1907,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CapsuleCollider_get_center_Injected_mCD2
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CapsuleCollider_set_center_Injected_mE6B65C8E5FC795B8C3E1666FB675897F3139AFB3 (CapsuleCollider_t5FD15B9E7BEEC4FFA8A2071E9FD2B8DEB3A826D1 * __this, Vector3_tDCF05E21F632FE2BA260C06E0D10CA81513E6720 * ___value0, const RuntimeMethod* method);
 // UnityEngine.CollisionFlags UnityEngine.CharacterController::Move_Injected(UnityEngine.Vector3&)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CharacterController_Move_Injected_m729AD52E288CE0BF810D548AF6F9309EEB56A551 (CharacterController_t0ED98F461DBB7AC5B189C190153D83D5888BF93E * __this, Vector3_tDCF05E21F632FE2BA260C06E0D10CA81513E6720 * ___motion0, const RuntimeMethod* method);
+// System.Void UnityEngine.CharacterController::get_velocity_Injected(UnityEngine.Vector3&)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CharacterController_get_velocity_Injected_m0E49CB063AAA4E43CBBF4F422E5E4CAABAFCA3A8 (CharacterController_t0ED98F461DBB7AC5B189C190153D83D5888BF93E * __this, Vector3_tDCF05E21F632FE2BA260C06E0D10CA81513E6720 * ___ret0, const RuntimeMethod* method);
 // System.Void UnityEngine.CharacterController::get_center_Injected(UnityEngine.Vector3&)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CharacterController_get_center_Injected_m9C6D74959FA2165C808F544FA55F8D3D20526DBE (CharacterController_t0ED98F461DBB7AC5B189C190153D83D5888BF93E * __this, Vector3_tDCF05E21F632FE2BA260C06E0D10CA81513E6720 * ___ret0, const RuntimeMethod* method);
 // System.Void UnityEngine.Collider::ClosestPoint_Injected(UnityEngine.Vector3&,UnityEngine.Vector3&)
@@ -2417,6 +2419,17 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CharacterController_Move_m31D77B4E934
 		return L_0;
 	}
 }
+// UnityEngine.Vector3 UnityEngine.CharacterController::get_velocity()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3_tDCF05E21F632FE2BA260C06E0D10CA81513E6720  CharacterController_get_velocity_m735C4159CF165335A5C51E2B059952601F8CA0CD (CharacterController_t0ED98F461DBB7AC5B189C190153D83D5888BF93E * __this, const RuntimeMethod* method)
+{
+	Vector3_tDCF05E21F632FE2BA260C06E0D10CA81513E6720  V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	{
+		CharacterController_get_velocity_Injected_m0E49CB063AAA4E43CBBF4F422E5E4CAABAFCA3A8(__this, (Vector3_tDCF05E21F632FE2BA260C06E0D10CA81513E6720 *)(&V_0), /*hidden argument*/NULL);
+		Vector3_tDCF05E21F632FE2BA260C06E0D10CA81513E6720  L_0 = V_0;
+		return L_0;
+	}
+}
 // System.Boolean UnityEngine.CharacterController::get_isGrounded()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool CharacterController_get_isGrounded_m5BB5A50DD5942ED9AEF9F3A97CF52913591E077B (CharacterController_t0ED98F461DBB7AC5B189C190153D83D5888BF93E * __this, const RuntimeMethod* method)
 {
@@ -2477,6 +2490,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CharacterController_Move_Injected_m72
 	_il2cpp_icall_func = (CharacterController_Move_Injected_m729AD52E288CE0BF810D548AF6F9309EEB56A551_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.CharacterController::Move_Injected(UnityEngine.Vector3&)");
 	int32_t retVal = _il2cpp_icall_func(__this, ___motion0);
 	return retVal;
+}
+// System.Void UnityEngine.CharacterController::get_velocity_Injected(UnityEngine.Vector3&)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CharacterController_get_velocity_Injected_m0E49CB063AAA4E43CBBF4F422E5E4CAABAFCA3A8 (CharacterController_t0ED98F461DBB7AC5B189C190153D83D5888BF93E * __this, Vector3_tDCF05E21F632FE2BA260C06E0D10CA81513E6720 * ___ret0, const RuntimeMethod* method)
+{
+	typedef void (*CharacterController_get_velocity_Injected_m0E49CB063AAA4E43CBBF4F422E5E4CAABAFCA3A8_ftn) (CharacterController_t0ED98F461DBB7AC5B189C190153D83D5888BF93E *, Vector3_tDCF05E21F632FE2BA260C06E0D10CA81513E6720 *);
+	static CharacterController_get_velocity_Injected_m0E49CB063AAA4E43CBBF4F422E5E4CAABAFCA3A8_ftn _il2cpp_icall_func;
+	if (!_il2cpp_icall_func)
+	_il2cpp_icall_func = (CharacterController_get_velocity_Injected_m0E49CB063AAA4E43CBBF4F422E5E4CAABAFCA3A8_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.CharacterController::get_velocity_Injected(UnityEngine.Vector3&)");
+	_il2cpp_icall_func(__this, ___ret0);
 }
 // System.Void UnityEngine.CharacterController::get_center_Injected(UnityEngine.Vector3&)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CharacterController_get_center_Injected_m9C6D74959FA2165C808F544FA55F8D3D20526DBE (CharacterController_t0ED98F461DBB7AC5B189C190153D83D5888BF93E * __this, Vector3_tDCF05E21F632FE2BA260C06E0D10CA81513E6720 * ___ret0, const RuntimeMethod* method)
