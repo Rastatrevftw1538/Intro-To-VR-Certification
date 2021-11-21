@@ -1602,8 +1602,8 @@ static const Il2CppRGCTXDefinition s_rgctxValues[39] =
 	{ (Il2CppRGCTXDataType)1, 22797 },
 	{ (Il2CppRGCTXDataType)2, 22797 },
 	{ (Il2CppRGCTXDataType)3, 26287 },
-	{ (Il2CppRGCTXDataType)1, 32642 },
-	{ (Il2CppRGCTXDataType)1, 32643 },
+	{ (Il2CppRGCTXDataType)1, 32644 },
+	{ (Il2CppRGCTXDataType)1, 32645 },
 };
 extern const Il2CppCodeGenModule g_UnityEngine_AndroidJNIModuleCodeGenModule;
 const Il2CppCodeGenModule g_UnityEngine_AndroidJNIModuleCodeGenModule = 

@@ -694,6 +694,13 @@
             "usedInScenes": []
         },
         {
+            "managedAssemblyName": "Assembly-CSharp.dll",
+            "nativeClass": "",
+            "fullManagedTypeName": "rotationFindeyMoveyScripty",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
             "managedAssemblyName": "Oculus.Platform.dll",
             "nativeClass": "",
             "fullManagedTypeName": "Oculus.Platform.PlatformSettings",

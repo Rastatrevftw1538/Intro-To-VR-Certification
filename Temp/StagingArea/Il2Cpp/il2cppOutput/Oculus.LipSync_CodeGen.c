@@ -532,7 +532,7 @@ static const Il2CppTokenRangePair s_rgctxIndices[1] =
 static const Il2CppRGCTXDefinition s_rgctxValues[2] = 
 {
 	{ (Il2CppRGCTXDataType)3, 26537 },
-	{ (Il2CppRGCTXDataType)2, 32681 },
+	{ (Il2CppRGCTXDataType)2, 32683 },
 };
 extern const Il2CppCodeGenModule g_Oculus_LipSyncCodeGenModule;
 const Il2CppCodeGenModule g_Oculus_LipSyncCodeGenModule = 

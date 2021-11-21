@@ -74,6 +74,7 @@
 		<type fullname="TeleportTransitionInstant" preserve="nothing"/>
 		<type fullname="TeleportTransitionWarp" preserve="nothing"/>
 		<type fullname="VRTK.VRTK_Logger" preserve="nothing"/>
+		<type fullname="rotationFindeyMoveyScripty" preserve="nothing"/>
 	</assembly>
 	<assembly fullname="Oculus.Platform">
 		<type fullname="Oculus.Platform.PlatformSettings" preserve="nothing"/>

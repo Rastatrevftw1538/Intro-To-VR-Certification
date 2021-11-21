@@ -1,5 +1,5 @@
 #Internal package file, do not edit.
-#Sat Nov 13 17:47:32 PST 2021
+#Sat Nov 20 17:23:42 PST 2021
 5.base=/Users/Trevorcardoza/Documents/GitHub/VR Project/Temp/gradleOut/launcher/build/intermediates/merged_assets/debug/out
 22.path=bin/Data/data.unity3d
 32.set=ASSET
