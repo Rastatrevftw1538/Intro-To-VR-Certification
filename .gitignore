@@ -14,3 +14,4 @@ Library/il2cpp_android_arm64-v8a/il2cpp_cache/
 Library/PackageCache/com.unity.collab-proxy@1.2.16/.npmignore
 Library/PackageCache/
 Library/ShaderCache/
+*.meta
