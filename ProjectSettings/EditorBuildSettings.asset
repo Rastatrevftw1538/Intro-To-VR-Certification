@@ -4,7 +4,13 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/Bae_ScriptedMotion.unity
+    guid: af413a1505ab52d4781f5cf9187a7854
+  - enabled: 1
+    path: Assets/Scenes/Trevor_SteeringMotion.unity
+    guid: 3f7fccea73a32423d8e89da6007d5985
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: bfa1182bd221b4ca89619141f66f1260,
       type: 2}

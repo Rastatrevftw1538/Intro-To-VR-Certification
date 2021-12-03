@@ -20,7 +20,7 @@ public class rotationFindeyMoveyScripty : MonoBehaviour
 	void FixedUpdate()
 	{
 		rotationInput = Input.GetAxis("Horizontal") + OVRInput.Get(OVRInput.Axis2D.SecondaryThumbstick).x;
-		if (Input.GetKey(KeyCode.JoystickButton0)||OVRInput.GetUp(OVRInput.Button.SecondaryIndexTrigger))
+		if ((Input.GetAxis("Xbox Right Trigger") > 0 )|| OVRInput.GetUp(OVRInput.Button.SecondaryIndexTrigger))
 		{
 		print(Mathf.Clamp(-1 * Hand.transform.rotation.x, -0.07f, 0.07f));
 			Player.transform.position += new Vector3(Mathf.Clamp(-1*Hand.transform.rotation.z, -0.07f, 0.07f), 0, Mathf.Clamp(-1*Hand.transform.rotation.x, -0.07f, 0.07f));
