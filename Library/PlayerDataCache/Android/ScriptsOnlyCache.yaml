@@ -23,7 +23,6 @@ ScriptsOnlyBuild:
     - TeleportTransitionInstant
     - TeleportTransitionWarp
     - VRTK.VRTK_Logger
-    - rotationFindeyMoveyScripty
     Oculus.Platform.dll:
     - Oculus.Platform.PlatformSettings
     Oculus.Spatializer.dll:
@@ -56,10 +55,8 @@ ScriptsOnlyBuild:
     UnityEditor.Graphs.dll:
     - UnityEditor.Graphs.AnimationBlendTree.Graph
     - UnityEditor.Graphs.AnimationBlendTree.GraphGUI
-    - UnityEditor.Graphs.AnimationStateMachine.AnyStateNode
     - UnityEditor.Graphs.AnimationStateMachine.Graph
     - UnityEditor.Graphs.AnimationStateMachine.GraphGUI
-    - UnityEditor.Graphs.AnimationStateMachine.StateNode
     - UnityEditor.Graphs.AnimatorControllerTool
     UnityEditor.TestRunner.dll:
     - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
@@ -160,81 +157,79 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 13176}
     - Class: 114
-      Script: {instanceID: 13240}
+      Script: {instanceID: 13260}
     - Class: 114
-      Script: {instanceID: 13262}
+      Script: {instanceID: 13410}
     - Class: 114
-      Script: {instanceID: 13412}
+      Script: {instanceID: 13516}
     - Class: 114
-      Script: {instanceID: 13518}
+      Script: {instanceID: 13618}
     - Class: 114
-      Script: {instanceID: 13620}
+      Script: {instanceID: 13662}
     - Class: 114
-      Script: {instanceID: 13664}
+      Script: {instanceID: 13694}
     - Class: 114
-      Script: {instanceID: 13696}
+      Script: {instanceID: 13724}
     - Class: 114
-      Script: {instanceID: 13726}
+      Script: {instanceID: 13940}
     - Class: 114
-      Script: {instanceID: 13942}
+      Script: {instanceID: 14026}
     - Class: 114
-      Script: {instanceID: 14028}
+      Script: {instanceID: 14168}
     - Class: 114
-      Script: {instanceID: 14170}
+      Script: {instanceID: 14200}
     - Class: 114
-      Script: {instanceID: 14202}
+      Script: {instanceID: 14278}
     - Class: 114
-      Script: {instanceID: 14280}
+      Script: {instanceID: 14472}
     - Class: 114
-      Script: {instanceID: 14474}
+      Script: {instanceID: 14498}
     - Class: 114
-      Script: {instanceID: 14500}
+      Script: {instanceID: 14640}
     - Class: 114
-      Script: {instanceID: 14642}
+      Script: {instanceID: 14682}
     - Class: 114
-      Script: {instanceID: 14684}
+      Script: {instanceID: 14758}
     - Class: 114
-      Script: {instanceID: 14760}
+      Script: {instanceID: 14802}
     - Class: 114
-      Script: {instanceID: 14804}
+      Script: {instanceID: 15004}
     - Class: 114
-      Script: {instanceID: 15006}
+      Script: {instanceID: 15080}
     - Class: 114
-      Script: {instanceID: 15082}
+      Script: {instanceID: 15252}
     - Class: 114
-      Script: {instanceID: 15254}
+      Script: {instanceID: 15284}
     - Class: 114
-      Script: {instanceID: 15286}
+      Script: {instanceID: 15644}
     - Class: 114
-      Script: {instanceID: 15646}
+      Script: {instanceID: 15848}
     - Class: 114
-      Script: {instanceID: 15850}
+      Script: {instanceID: 15870}
     - Class: 114
-      Script: {instanceID: 15872}
+      Script: {instanceID: 15956}
     - Class: 114
-      Script: {instanceID: 15958}
+      Script: {instanceID: 16228}
     - Class: 114
-      Script: {instanceID: 16230}
+      Script: {instanceID: 16344}
     - Class: 114
-      Script: {instanceID: 16346}
+      Script: {instanceID: 16364}
     - Class: 114
-      Script: {instanceID: 16366}
+      Script: {instanceID: 16398}
     - Class: 114
-      Script: {instanceID: 16400}
+      Script: {instanceID: 16456}
     - Class: 114
-      Script: {instanceID: 16458}
+      Script: {instanceID: 16904}
     - Class: 114
-      Script: {instanceID: 16906}
+      Script: {instanceID: 16978}
     - Class: 114
-      Script: {instanceID: 16980}
+      Script: {instanceID: 17040}
     - Class: 114
-      Script: {instanceID: 17042}
+      Script: {instanceID: 17190}
     - Class: 114
-      Script: {instanceID: 17192}
+      Script: {instanceID: 17206}
     - Class: 114
-      Script: {instanceID: 17208}
-    - Class: 114
-      Script: {instanceID: 17308}
+      Script: {instanceID: 17306}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 120
@@ -1854,12 +1849,6 @@ ScriptsOnlyBuild:
     assemblyName: Assembly-CSharp.dll
     namespaceName: VRTK.Examples
     className: VRTK_ControllerInteract_ListenerExample
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: rotationFindeyMoveyScripty
   - hash:
       serializedVersion: 2
       Hash: 0cdf1c2671eca4ee349fa4e49be90c5b
