@@ -843,6 +843,22 @@
       <Project>{48404F9A-5F78-6E5E-CB87-98E3FCB64005}</Project>
       <Name>Oculus.LipSync.Editor</Name>
     </ProjectReference>
+    <ProjectReference Include="Tilia.Indicators.ObjectPointers.Unity.Runtime.csproj">
+      <Project>{CDC9EF7B-EE54-9642-1058-8A43CBCC545A}</Project>
+      <Name>Tilia.Indicators.ObjectPointers.Unity.Runtime</Name>
+    </ProjectReference>
+    <ProjectReference Include="Tilia.Indicators.ObjectPointers.Unity.Editor.csproj">
+      <Project>{F38CB512-2264-55E9-A623-D36D4CA72823}</Project>
+      <Name>Tilia.Indicators.ObjectPointers.Unity.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Tilia.CameraRigs.SpatialSimulator.Unity.Runtime.csproj">
+      <Project>{EA1E26BE-5FB4-1E33-B6DE-F750205545A6}</Project>
+      <Name>Tilia.CameraRigs.SpatialSimulator.Unity.Runtime</Name>
+    </ProjectReference>
+    <ProjectReference Include="Tilia.CameraRigs.SpatialSimulator.Unity.Editor.csproj">
+      <Project>{453B8340-335B-5EFF-DBBB-9F465A541369}</Project>
+      <Name>Tilia.CameraRigs.SpatialSimulator.Unity.Editor</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="GenerateTargetFrameworkMonikerAttribute" />

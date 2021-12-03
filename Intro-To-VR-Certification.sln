@@ -13,6 +13,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Oculus.LipSync", "Oculus.Li
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Oculus.AudioManager", "Oculus.AudioManager.csproj", "{6EBC121F-6D11-8D6F-9739-7E542301A62E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tilia.Indicators.ObjectPointers.Unity.Runtime", "Tilia.Indicators.ObjectPointers.Unity.Runtime.csproj", "{CDC9EF7B-EE54-9642-1058-8A43CBCC545A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tilia.CameraRigs.SpatialSimulator.Unity.Runtime", "Tilia.CameraRigs.SpatialSimulator.Unity.Runtime.csproj", "{EA1E26BE-5FB4-1E33-B6DE-F750205545A6}"
+EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp-Editor", "Assembly-CSharp-Editor.csproj", "{54DC7030-29FD-D497-FA11-5FA5920F2216}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Oculus.AudioManager.Audio.Editor", "Oculus.AudioManager.Audio.Editor.csproj", "{B7B36117-174B-F34A-62D8-4AE288FDD1DE}"
@@ -28,6 +32,10 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Oculus.LipSync.Editor", "Oculus.LipSync.Editor.csproj", "{48404F9A-5F78-6E5E-CB87-98E3FCB64005}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Oculus.AudioManager.Utils.Editor", "Oculus.AudioManager.Utils.Editor.csproj", "{63A9E733-0C46-E0D5-7A84-39D080644CFB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tilia.Indicators.ObjectPointers.Unity.Editor", "Tilia.Indicators.ObjectPointers.Unity.Editor.csproj", "{F38CB512-2264-55E9-A623-D36D4CA72823}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tilia.CameraRigs.SpatialSimulator.Unity.Editor", "Tilia.CameraRigs.SpatialSimulator.Unity.Editor.csproj", "{453B8340-335B-5EFF-DBBB-9F465A541369}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -59,6 +67,14 @@ Global
 		{6EBC121F-6D11-8D6F-9739-7E542301A62E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6EBC121F-6D11-8D6F-9739-7E542301A62E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6EBC121F-6D11-8D6F-9739-7E542301A62E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CDC9EF7B-EE54-9642-1058-8A43CBCC545A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CDC9EF7B-EE54-9642-1058-8A43CBCC545A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CDC9EF7B-EE54-9642-1058-8A43CBCC545A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CDC9EF7B-EE54-9642-1058-8A43CBCC545A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EA1E26BE-5FB4-1E33-B6DE-F750205545A6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EA1E26BE-5FB4-1E33-B6DE-F750205545A6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EA1E26BE-5FB4-1E33-B6DE-F750205545A6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EA1E26BE-5FB4-1E33-B6DE-F750205545A6}.Release|Any CPU.Build.0 = Release|Any CPU
 		{54DC7030-29FD-D497-FA11-5FA5920F2216}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{54DC7030-29FD-D497-FA11-5FA5920F2216}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{54DC7030-29FD-D497-FA11-5FA5920F2216}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -91,6 +107,14 @@ Global
 		{63A9E733-0C46-E0D5-7A84-39D080644CFB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{63A9E733-0C46-E0D5-7A84-39D080644CFB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{63A9E733-0C46-E0D5-7A84-39D080644CFB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F38CB512-2264-55E9-A623-D36D4CA72823}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F38CB512-2264-55E9-A623-D36D4CA72823}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F38CB512-2264-55E9-A623-D36D4CA72823}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F38CB512-2264-55E9-A623-D36D4CA72823}.Release|Any CPU.Build.0 = Release|Any CPU
+		{453B8340-335B-5EFF-DBBB-9F465A541369}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{453B8340-335B-5EFF-DBBB-9F465A541369}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{453B8340-335B-5EFF-DBBB-9F465A541369}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{453B8340-335B-5EFF-DBBB-9F465A541369}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

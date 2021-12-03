@@ -228,7 +228,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 62e31c09d9d2b70498a1ab039c327840, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  SceneToLoad: Bae_ScriptedMotion
+  SceneToLoad: Trevor_TeleportationMotion
 --- !u!4 &577324094
 Transform:
   m_ObjectHideFlags: 0

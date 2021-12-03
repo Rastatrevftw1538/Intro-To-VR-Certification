@@ -595,6 +595,7 @@
     <None Include="Assets\Oculus\Avatar\Resources\Materials\AvatarSurfaceShaderSelfOccluding.shader" />
     <None Include="Assets\Oculus\SampleFramework\Core\HandsInteraction\Shaders\OculusSampleAlphaHandOutline.shader" />
     <None Include="Assets\VRTK\Source\Scripts\Internal\Shaders\VRTK_TunnelEffect.shader" />
+    <None Include="Assets\Tilia.CameraRigs.SpatialSimulator.Unity-master\FodyWeavers.xml" />
     <None Include="Assets\Oculus\SampleFramework\Usage\Passthrough\Materials\GlowEffect.shader" />
     <None Include="Assets\VRTK\Source\Scripts\Internal\Shaders\VRTK_OutlineBasic.shader" />
     <None Include="Assets\ScriptTemplates\55-Mirror__Network Room Player-NewNetworkRoomPlayer.cs.txt" />
@@ -609,6 +610,7 @@
     <None Include="Assets\Oculus\SampleFramework\Core\Video\Plugins\Android\Audio360\ThirdPartyNotices.txt" />
     <None Include="Assets\ScriptTemplates\54-Mirror__Network Room Manager-NewNetworkRoomManager.cs.txt" />
     <None Include="Assets\Oculus\SampleFramework\Usage\OVROverlayCanvas\Shaders\UI Prerendered.shader" />
+    <None Include="Assets\Tilia.Indicators.ObjectPointers.Unity-master\FodyWeavers.xml" />
     <None Include="Assets\Oculus\Avatar\Samples\CrossPlatform\Readme.txt" />
     <None Include="Assets\Oculus\Avatar\Resources\Materials\AvatarSurfaceShaderPBS.shader" />
     <None Include="Assets\Oculus\SampleFramework\Core\CustomHands\Materials\Hands_Transparent.shader" />
@@ -1329,6 +1331,22 @@
     <ProjectReference Include="Oculus.LipSync.Editor.csproj">
       <Project>{48404F9A-5F78-6E5E-CB87-98E3FCB64005}</Project>
       <Name>Oculus.LipSync.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Tilia.Indicators.ObjectPointers.Unity.Runtime.csproj">
+      <Project>{CDC9EF7B-EE54-9642-1058-8A43CBCC545A}</Project>
+      <Name>Tilia.Indicators.ObjectPointers.Unity.Runtime</Name>
+    </ProjectReference>
+    <ProjectReference Include="Tilia.Indicators.ObjectPointers.Unity.Editor.csproj">
+      <Project>{F38CB512-2264-55E9-A623-D36D4CA72823}</Project>
+      <Name>Tilia.Indicators.ObjectPointers.Unity.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Tilia.CameraRigs.SpatialSimulator.Unity.Runtime.csproj">
+      <Project>{EA1E26BE-5FB4-1E33-B6DE-F750205545A6}</Project>
+      <Name>Tilia.CameraRigs.SpatialSimulator.Unity.Runtime</Name>
+    </ProjectReference>
+    <ProjectReference Include="Tilia.CameraRigs.SpatialSimulator.Unity.Editor.csproj">
+      <Project>{453B8340-335B-5EFF-DBBB-9F465A541369}</Project>
+      <Name>Tilia.CameraRigs.SpatialSimulator.Unity.Editor</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
