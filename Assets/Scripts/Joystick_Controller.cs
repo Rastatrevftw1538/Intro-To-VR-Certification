@@ -33,7 +33,7 @@ public class Joystick_Controller : MonoBehaviour
 		}
 		if (rotationInput != 0)
 		{
-			rotationValue += rotationInput * 0.5f;
+			rotationValue += rotationInput * 0.75f;
 			print(rotationValue);
 			Player.transform.rotation = Quaternion.Euler(new Vector3(0, rotationValue, 0));
 		}
