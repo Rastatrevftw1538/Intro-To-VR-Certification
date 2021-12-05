@@ -16,12 +16,12 @@ public class SceneChangerTrevor : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKeyUp(KeyCode.JoystickButton0) || OVRInput.GetUp(OVRInput.Button.One))
+        if (Input.GetKeyUp(KeyCode.Space) || Input.GetKeyUp(KeyCode.JoystickButton0) || OVRInput.GetUp(OVRInput.Button.One))
         {
             //print(sceneIndex);
             print(SceneToLoad);
             SceneManager.LoadScene(SceneToLoad);
-            SceneManager.MoveGameObjectToScene(this.gameObject, SceneManager.GetSceneByName(SceneToLoad));
+            //SceneManager.MoveGameObjectToScene(this.gameObject, SceneManager.GetSceneByName(SceneToLoad));
 
         }
     }
