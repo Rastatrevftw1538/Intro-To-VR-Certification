@@ -21,9 +21,9 @@ public class Joystick_Controller : MonoBehaviour
 	// Update is called once per frame
 	void Update()
 	{
-		rotationInput = Input.GetAxis("Xbox Right Joystick Horizontal") + OVRInput.Get(OVRInput.Axis2D.PrimaryThumbstick).x;
-		movementInputx = Input.GetAxis("Horizontal") + OVRInput.Get(OVRInput.Axis2D.SecondaryThumbstick).x;
-		movementInputy = Input.GetAxis("Vertical") + OVRInput.Get(OVRInput.Axis2D.SecondaryThumbstick).y;
+		rotationInput = Input.GetAxis("Xbox Right Joystick Horizontal") + OVRInput.Get(OVRInput.Axis2D.PrimaryThumbstick, OVRInput.Controller.RTouch).x;
+		movementInputx = Input.GetAxis("Horizontal") + OVRInput.Get(OVRInput.Axis2D.PrimaryThumbstick, OVRInput.Controller.LTouch).x;
+		movementInputy = Input.GetAxis("Vertical") + OVRInput.Get(OVRInput.Axis2D.PrimaryThumbstick, OVRInput.Controller.LTouch).y;
 		if (movementInputx != 0 || movementInputy != 0)
 		{
 			print("X Movement: "+Mathf.Clamp(-1 * movementInputx, -0.07f, 0.07f));

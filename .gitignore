@@ -16,3 +16,8 @@ Library/PackageCache/com.unity.collab-proxy@1.2.16/.npmignore
 Library/PackageCache/
 Library/ShaderCache/
 *.meta
+Library/ArtifactDB
+*.dll
+*.pdb
+*.log
+Library/SourceAssetDB
