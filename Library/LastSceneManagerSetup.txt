@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/Scenes/Project 1/Trevor_AvatarMovement.unity
+- path: Assets/Scenes/Final Project/Final Project Thing.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0

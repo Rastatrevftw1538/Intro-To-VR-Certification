@@ -21,3 +21,4 @@ Library/ArtifactDB
 *.pdb
 *.log
 Library/SourceAssetDB
+Library/ArtifactDB
