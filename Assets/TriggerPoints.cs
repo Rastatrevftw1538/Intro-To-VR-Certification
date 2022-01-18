@@ -4,24 +4,10 @@ using UnityEngine;
 
 public class TriggerPoints : MonoBehaviour
 {
-    //private GameObject Drone;
-    // Start is called before the first frame update
-    void Start()
-    {
-
-        //Drone = GameObject.FindWithTag("Drone");
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
     public void OnTriggerEnter(Collider other)
     {
 
-        if (other.tag == "Drone")
+        if (other.tag == "Points")
         {
             Debug.Log("Score!" + " " + other.name);
             other.GetComponent<Joystick_Controller>().EnteredLoop = true;

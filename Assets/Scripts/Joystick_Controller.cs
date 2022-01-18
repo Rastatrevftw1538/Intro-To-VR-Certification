@@ -37,5 +37,15 @@ public class Joystick_Controller : MonoBehaviour
 			Player.transform.Translate(playerMovement,Space.Self);
 		}
 	}
-   
+	public void OnTriggerEnter(Collider other)
+	{
+
+		if (other.tag == "Points")
+		{
+			Debug.Log("Score!" + " " + other.name);
+			this.GetComponent<Joystick_Controller>().EnteredLoop = true;
+			this.GetComponent<Joystick_Controller>().LoopEntered = other.gameObject;
+
+		}
+	}
 }
