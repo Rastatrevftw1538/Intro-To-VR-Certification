@@ -16,7 +16,6 @@ public class GameManager : MonoBehaviour
         pointUI.text = "0";
         DroneControls = Drone.GetComponent<Joystick_Controller>();
     }
-
     // Update is called once per frame
     void Update()
     {
