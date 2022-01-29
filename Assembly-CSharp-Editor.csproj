@@ -669,6 +669,9 @@
  <Reference Include="Unity.Timeline.Editor">
  <HintPath>C:/Users/duckt/Documents/GitHub/Intro-To-VR-Certification/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
  </Reference>
+ <Reference Include="Unity.TerrainTools">
+ <HintPath>C:/Users/duckt/Documents/GitHub/Intro-To-VR-Certification/Library/ScriptAssemblies/Unity.TerrainTools.dll</HintPath>
+ </Reference>
  <Reference Include="Tilia.Locomotors.Teleporter.Unity.Editor">
  <HintPath>C:/Users/duckt/Documents/GitHub/Intro-To-VR-Certification/Library/ScriptAssemblies/Tilia.Locomotors.Teleporter.Unity.Editor.dll</HintPath>
  </Reference>
@@ -762,6 +765,9 @@
  <Reference Include="Unity.XR.WindowsMixedReality">
  <HintPath>C:/Users/duckt/Documents/GitHub/Intro-To-VR-Certification/Library/ScriptAssemblies/Unity.XR.WindowsMixedReality.dll</HintPath>
  </Reference>
+ <Reference Include="Unity.TerrainTools.Editor">
+ <HintPath>C:/Users/duckt/Documents/GitHub/Intro-To-VR-Certification/Library/ScriptAssemblies/Unity.TerrainTools.Editor.dll</HintPath>
+ </Reference>
  <Reference Include="UnityEditor.XR.LegacyInputHelpers">
  <HintPath>C:/Users/duckt/Documents/GitHub/Intro-To-VR-Certification/Library/ScriptAssemblies/UnityEditor.XR.LegacyInputHelpers.dll</HintPath>
  </Reference>
@@ -770,12 +776,6 @@
  </Reference>
  <Reference Include="com.unity.multiplayer-hlapi.Runtime">
  <HintPath>C:/Users/duckt/Documents/GitHub/Intro-To-VR-Certification/Library/ScriptAssemblies/com.unity.multiplayer-hlapi.Runtime.dll</HintPath>
- </Reference>
- <Reference Include="Unity.TerrainTools">
- <HintPath>C:/Users/duckt/Documents/GitHub/Intro-To-VR-Certification/Library/ScriptAssemblies/Unity.TerrainTools.dll</HintPath>
- </Reference>
- <Reference Include="Unity.TerrainTools.Editor">
- <HintPath>C:/Users/duckt/Documents/GitHub/Intro-To-VR-Certification/Library/ScriptAssemblies/Unity.TerrainTools.Editor.dll</HintPath>
  </Reference>
   </ItemGroup>
   <ItemGroup>
