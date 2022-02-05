@@ -6,28 +6,22 @@ public class ConveyorBelt : MonoBehaviour
 {
     public GameObject belt;
     public Transform pointToGoTo;
-    public Transform endpoint;
-    public Transform endpoint2;
+    public List<Transform> endpoints = new List<Transform>();
+    private int currentPointIndex = 0;
     public float speed;
 
     private void Start()
     {
-        pointToGoTo.position = endpoint.position;
+        pointToGoTo.position = endpoints[0].position;
         
     }
 
     private void OnTriggerStay(Collider other)
     {
-        if (Vector3.Distance(other.gameObject.transform.position, pointToGoTo.position) <= 1)
+        if (Vector3.Distance(other.gameObject.transform.position, pointToGoTo.position) <= 2)
         {
-            if (Vector3.Distance(other.gameObject.transform.position, endpoint.position) <= 1)
-            {
-                pointToGoTo.position = endpoint2.position;
-            }
-            else if (Vector3.Distance(other.gameObject.transform.position, endpoint2.position) <= 1)
-            {
-                pointToGoTo.position = endpoint.position;
-            }
+            currentPointIndex += 1;
+            pointToGoTo.position = endpoints[currentPointIndex].position;
         }
         other.transform.position = Vector3.MoveTowards(other.transform.position, pointToGoTo.position, speed * Time.deltaTime);
     }
