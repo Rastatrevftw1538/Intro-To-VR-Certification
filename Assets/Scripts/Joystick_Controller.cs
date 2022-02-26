@@ -33,19 +33,8 @@ public class Joystick_Controller : MonoBehaviour
 			//print("X Movement: "+Mathf.Clamp(-1 * movementInputx, -0.07f, 0.07f));
 			//print("Y Movement: "+Mathf.Clamp(-1 * movementInputy, -0.07f, 0.07f));
 			//print("Z Movement: " + Mathf.Clamp(-1 * upDownInput, -0.07f, 0.07f));
-			var playerMovement = new Vector3(-(Mathf.Clamp(movementInputx, -0.07f, 0.07f)) ,-(Mathf.Clamp(upDownInput, -0.07f, 0.07f)), -(Mathf.Clamp(movementInputy, -0.07f, 0.07f)));
+			var playerMovement = new Vector3(-(Mathf.Clamp(movementInputx, -0.05f, 0.05f)) ,-(Mathf.Clamp(upDownInput, -0.05f, 0.05f)), -(Mathf.Clamp(movementInputy, -0.05f, 0.05f)));
 			Player.transform.Translate(playerMovement,Space.Self);
-		}
-	}
-	public void OnTriggerEnter(Collider other)
-	{
-
-		if (other.tag == "Points")
-		{
-			Debug.Log("Score!" + " " + other.name);
-			this.GetComponent<Joystick_Controller>().EnteredLoop = true;
-			this.GetComponent<Joystick_Controller>().LoopEntered = other.gameObject;
-
 		}
 	}
 }

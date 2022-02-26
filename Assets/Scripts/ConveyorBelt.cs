@@ -18,6 +18,7 @@ public class ConveyorBelt : MonoBehaviour
 
     private void OnTriggerStay(Collider other)
     {
+        print(other.name);
         if (Vector3.Distance(other.gameObject.transform.position, pointToGoTo.position) <= 2)
         {
             currentPointIndex += 1;
